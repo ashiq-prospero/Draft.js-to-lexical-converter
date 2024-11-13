@@ -1,0 +1,14 @@
+{
+  "name": "draft-to-lexical",
+  "version": "1.0.0",
+  "main": "converter.js",
+  "scripts": {
+    "start": "node converter.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "lexical": "^0.20.0"
+  }
+}

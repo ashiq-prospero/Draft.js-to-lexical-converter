@@ -1,0 +1,291 @@
+{
+  "blocks": [{
+      "key": "6f9ro",
+      "text": "t-bold t-italic u-underline t-code t-bold-italic, t-bold-italic-underline, t-bold-underline, t-bold-code",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [{
+          "offset": 0,
+          "length": 6,
+          "style": "BOLD"
+        },
+        {
+          "offset": 35,
+          "length": 13,
+          "style": "BOLD"
+        },
+        {
+          "offset": 50,
+          "length": 23,
+          "style": "BOLD"
+        },
+        {
+          "offset": 75,
+          "length": 16,
+          "style": "BOLD"
+        },
+        {
+          "offset": 93,
+          "length": 11,
+          "style": "BOLD"
+        },
+        {
+          "offset": 7,
+          "length": 8,
+          "style": "ITALIC"
+        },
+        {
+          "offset": 35,
+          "length": 13,
+          "style": "ITALIC"
+        },
+        {
+          "offset": 50,
+          "length": 23,
+          "style": "ITALIC"
+        },
+        {
+          "offset": 93,
+          "length": 11,
+          "style": "ITALIC"
+        },
+        {
+          "offset": 16,
+          "length": 11,
+          "style": "UNDERLINE"
+        },
+        {
+          "offset": 50,
+          "length": 23,
+          "style": "UNDERLINE"
+        },
+        {
+          "offset": 75,
+          "length": 16,
+          "style": "UNDERLINE"
+        },
+        {
+          "offset": 28,
+          "length": 6,
+          "style": "CODE"
+        },
+        {
+          "offset": 93,
+          "length": 11,
+          "style": "CODE"
+        }
+      ],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "dts6o",
+      "text": "t-Link t-bold-link t-italic-link u-underline-link t-link-color-bold",
+      "type": "",
+      "depth": 0,
+      "inlineStyleRanges": [{
+          "offset": 7,
+          "length": 11,
+          "style": "BOLD"
+        },
+        {
+          "offset": 50,
+          "length": 17,
+          "style": "BOLD"
+        },
+        {
+          "offset": 19,
+          "length": 13,
+          "style": "ITALIC"
+        },
+        {
+          "offset": 33,
+          "length": 16,
+          "style": "UNDERLINE"
+        },
+        {
+          "offset": 50,
+          "length": 17,
+          "style": "rgba(47, 243, 129, 1)"
+        }
+      ],
+      "entityRanges": [{
+          "offset": 0,
+          "length": 6,
+          "key": 0
+        },
+        {
+          "offset": 7,
+          "length": 11,
+          "key": 1
+        },
+        {
+          "offset": 19,
+          "length": 13,
+          "key": 2
+        },
+        {
+          "offset": 33,
+          "length": 16,
+          "key": 3
+        },
+        {
+          "offset": 50,
+          "length": 17,
+          "key": 4
+        }
+      ],
+      "data": {}
+    },
+    {
+      "key": "5j20",
+      "text": "t-color t-background, t-color-background, t-color-background-bold-italic",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [{
+          "offset": 0,
+          "length": 7,
+          "style": "rgba(193, 30, 30, 1)"
+        },
+        {
+          "offset": 8,
+          "length": 12,
+          "style": "bg-rgba(255, 241, 56, 1)"
+        },
+        {
+          "offset": 22,
+          "length": 18,
+          "style": "bg-rgba(98, 25, 241, 1)"
+        },
+        {
+          "offset": 22,
+          "length": 18,
+          "style": "rgba(246, 80, 251, 1)"
+        },
+        {
+          "offset": 42,
+          "length": 30,
+          "style": "rgba(76, 246, 236, 1)"
+        },
+        {
+          "offset": 42,
+          "length": 30,
+          "style": "BOLD"
+        },
+        {
+          "offset": 42,
+          "length": 30,
+          "style": "ITALIC"
+        },
+        {
+          "offset": 42,
+          "length": 30,
+          "style": "bg-rgba(74, 104, 236, 1)"
+        }
+      ],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "8bare",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "c8iij",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "csu66",
+      "text": " ",
+      "type": "atomic",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [{
+        "offset": 0,
+        "length": 1,
+        "key": 5
+      }],
+      "data": {}
+    },
+    {
+      "key": "p6du",
+      "text": "",
+      "type": "unstyled",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    }
+  ],
+  "entityMap": {
+    "0": {
+      "type": "LINK",
+      "mutability": "MUTABLE",
+      "data": {
+        "href": "https://playground.lexical.dev/",
+        "rel": "noreferrer",
+        "url": "https://playground.lexical.dev/"
+      }
+    },
+    "1": {
+      "type": "LINK",
+      "mutability": "MUTABLE",
+      "data": {
+        "href": "https://playground.lexical.dev/",
+        "rel": "noreferrer",
+        "url": "https://playground.lexical.dev/"
+      }
+    },
+    "2": {
+      "type": "LINK",
+      "mutability": "MUTABLE",
+      "data": {
+        "href": "https://playground.lexical.dev/",
+        "rel": "noreferrer",
+        "url": "https://playground.lexical.dev/"
+      }
+    },
+    "3": {
+      "type": "LINK",
+      "mutability": "MUTABLE",
+      "data": {
+        "href": "https://playground.lexical.dev/",
+        "rel": "noreferrer",
+        "url": "https://playground.lexical.dev/"
+      }
+    },
+    "4": {
+      "type": "LINK",
+      "mutability": "MUTABLE",
+      "data": {
+        "href": "https://playground.lexical.dev/",
+        "rel": "noreferrer",
+        "url": "https://playground.lexical.dev/"
+      }
+    },
+    "5": {
+      "type": "html",
+      "mutability": "IMMUTABLE",
+      "data": {
+        "htmlCode": "HTML codes are not wrapping into next line in mult iple column layouts.\n\n\nHTMLcodesarenotwrappingintonextlineinmultiplcolumnlayouts",
+        "config": {
+          "editable": true,
+          "size": {
+            "width": 530,
+            "height": 309
+          }
+        }
+      }
+    }
+  }
+}
