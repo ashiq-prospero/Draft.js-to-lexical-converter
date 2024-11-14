@@ -1,9 +1,8 @@
 const fs = require("fs");
 const path = require("path");
-const fonts = require("./fonts");
 
 // Load Draft.js JSON data from a file
-const draftFilePath = path.join(__dirname, "draft-alignment.json");
+const draftFilePath = path.join(__dirname, "draft.json");
 
 let draftContentJSON;
 try {
@@ -45,9 +44,8 @@ const getStyle = (style) => {
     return `background-color: ${lowerStyle.slice(3)};`;
   if (lowerStyle.startsWith("rgba")) return `color: ${lowerStyle};`;
   if (lowerStyle.endsWith("px")) return `font-size: ${lowerStyle};`;
-  if (lowerStyle === "georgia") return `font-family: ${lowerStyle};`;
- //fonts
-  
+  if (lowerStyle === 'georgia') return `font-family: ${lowerStyle};`;
+    
   return lowerStyle;
 };
 
@@ -243,39 +241,7 @@ function addSegment(segments, text, styles, linkKey, entityMap) {
 //   };
 // }
 
-// Map alignment types from Draft.js to Lexical
-const mapAlignment = (blockType) => {
-  if (blockType.includes("align-left")) return "left";
-  if (blockType.includes("align-right")) return "right";
-  if (blockType.includes("align-center")) return "center";
-  if (blockType.includes("align-justify")) return "justify";
-
-  return "";
-};
-
-// Map direction types from Draft.js to Lexical
-const mapDirection = (blockType) => {
-  if (blockType.includes("direction-rtl")) return "rtl";
-  if (blockType.includes("direction-ltr")) return "ltr";
-  return null;
-};
-
-const mapIntent = (blockType) => {
-  if (blockType.includes("intent-left")) {
-    const intent = parseInt(blockType.replace(/^\D+/g, ""));
-    if (!isNaN(intent)) {
-      return intent;
-    }
-  }
-  return null;
-};
-
 function convertBlockToLexical(block, entityMap) {
-  const type = block.type.startsWith("header") ? "heading" : "paragraph";
-  const format = mapAlignment(block.type);
-  const direction = mapDirection(block.type);
-  const indent = mapIntent(block.type);
-
   if (block.type === "atomic" && block.entityRanges.length > 0) {
     const entityKey = block.entityRanges[0].key;
     const entity = entityMap[entityKey];
@@ -284,6 +250,7 @@ function convertBlockToLexical(block, entityMap) {
     }
   }
 
+  const type = block.type.startsWith("header") ? "heading" : "paragraph";
   const textNodes = mergeInlineStyles(
     block.text,
     block.inlineStyleRanges,
@@ -291,25 +258,16 @@ function convertBlockToLexical(block, entityMap) {
     entityMap
   );
 
-  const data = {
+  return {
     children: textNodes,
+    direction: "ltr",
+    format: "",
+    indent: 0,
     type,
     version: 1,
     textFormat: 1,
     textStyle: "",
   };
-
-  if (format) {
-    data.format = format;
-  }
-  if (direction) {
-    data.direction = direction;
-  }
-  if (indent) {
-    data.indent = indent;
-  }
-
-  return data;
 }
 
 // Main function to convert Draft.js JSON to Lexical JSON and wrap in `editorState`

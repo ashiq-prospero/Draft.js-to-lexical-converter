@@ -1,6 +1,5 @@
 const fs = require("fs");
 const path = require("path");
-const fonts = require("./fonts");
 
 // Load Draft.js JSON data from a file
 const draftFilePath = path.join(__dirname, "draft-alignment.json");
@@ -46,8 +45,7 @@ const getStyle = (style) => {
   if (lowerStyle.startsWith("rgba")) return `color: ${lowerStyle};`;
   if (lowerStyle.endsWith("px")) return `font-size: ${lowerStyle};`;
   if (lowerStyle === "georgia") return `font-family: ${lowerStyle};`;
- //fonts
-  
+
   return lowerStyle;
 };
 
@@ -257,24 +255,13 @@ const mapAlignment = (blockType) => {
 const mapDirection = (blockType) => {
   if (blockType.includes("direction-rtl")) return "rtl";
   if (blockType.includes("direction-ltr")) return "ltr";
-  return null;
-};
-
-const mapIntent = (blockType) => {
-  if (blockType.includes("intent-left")) {
-    const intent = parseInt(blockType.replace(/^\D+/g, ""));
-    if (!isNaN(intent)) {
-      return intent;
-    }
-  }
-  return null;
+  return null; // Default to null if no direction specified
 };
 
 function convertBlockToLexical(block, entityMap) {
   const type = block.type.startsWith("header") ? "heading" : "paragraph";
-  const format = mapAlignment(block.type);
-  const direction = mapDirection(block.type);
-  const indent = mapIntent(block.type);
+  const format = mapAlignment(block.type); // Determine alignment format
+  const direction = mapDirection(block.type); // Determine direction
 
   if (block.type === "atomic" && block.entityRanges.length > 0) {
     const entityKey = block.entityRanges[0].key;
@@ -293,20 +280,16 @@ function convertBlockToLexical(block, entityMap) {
 
   const data = {
     children: textNodes,
+    format: format,
+    indent: 0,
     type,
     version: 1,
     textFormat: 1,
     textStyle: "",
   };
 
-  if (format) {
-    data.format = format;
-  }
   if (direction) {
     data.direction = direction;
-  }
-  if (indent) {
-    data.indent = indent;
   }
 
   return data;

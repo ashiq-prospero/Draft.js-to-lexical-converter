@@ -1,0 +1,59 @@
+{
+    "blocks": [{
+            "key": "2o1ct",
+            "text": "tabled",
+            "type": "unstyled",
+            "depth": 0,
+            "inlineStyleRanges": [],
+            "entityRanges": [],
+            "data": {}
+        },
+        {
+            "key": "5cdr7",
+            "text": " ",
+            "type": "atomic",
+            "depth": 0,
+            "inlineStyleRanges": [],
+            "entityRanges": [{
+                "offset": 0,
+                "length": 1,
+                "key": 0
+            }],
+            "data": {}
+        },
+        {
+            "key": "2545e",
+            "text": "",
+            "type": "unstyled",
+            "depth": 0,
+            "inlineStyleRanges": [],
+            "entityRanges": [],
+            "data": {}
+        }
+    ],
+    "entityMap": {
+        "0": {
+            "type": "table",
+            "mutability": "MUTABLE",
+            "data": {
+                "data": [{
+                        "1": "11",
+                        "2": "12",
+                        "3": "13",
+                        "id": 1
+                    },
+                    {
+                        "1": "21",
+                        "2": "22",
+                        "3": "23",
+                        "id": 2
+                    }
+                ],
+                "config": {
+                    "topRowColor": "#244be9",
+                    "rowColor": "#fd7b7b"
+                }
+            }
+        }
+    }
+}
