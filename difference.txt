@@ -1,75 +1,3 @@
----------------
-
-underline
-actual 8,
-output 4,
-
----------------
-
-strikethrough
-actual 4,
-output : style : strikethrough,
-
----------------
-
-strike-bold
-actual 5,
-output 1 + style : strikethrough,
-
----------------
-
-strike-italic
-actual 6,
-output 2, style : strikethrough,
-
-----------------
-
-strike-underline
-actual 12,
-output 4 , style : strikethrough,
-
-----------------
-
-strike-bold-underline
-actual 13,
-output 5 , style : strikethrough,
-
-------
-
-bold-italic-underline
-actual 11,
-output 7,
-
-----------------
-
-code
-actual 16
-output 8
-
-----------------
-
-bold-code
-actual 19
-output 11
-
-----------------
-
-bold-underline
-actual 9
-output 5
-
-----------------
-
-code
-actual 16
-output 8
-
-----------------
-
-code-bold
-actual 19
-output 11
-
 
 ----------
 
@@ -88,6 +16,8 @@ direction
 intent
     left
     right
+quote
+line height - conversion is done, editor changes required to handle style
 
 custom
     color
@@ -98,15 +28,30 @@ custom
     font weight
     font family
 
-
-quote
 list 
-    dot
-    hyphen
-    tick
-    number
-    alphabet
+    number - ok, handle with css
+    alphabet- ok, handle with css, (className item-alpha)
+    dot - ok, 
+    tick - ok, add tick with css, (className item-check)
+    hyphen - ok, add tick with css, (className item-hyphen)
 
-line height
+    list + font-size  - ok
+    list + color  - ok
+    list + color + background - ok
+    list + link - ok
+    list + link + bold - ok
+    link + bold - ok
+    link + italic - ok
+    link + underline - ok
 
-
+whats next
+    divider
+    form
+    image
+    gallery
+    video
+    price module
+    html
+    goal module
+    variable
+    testimonial

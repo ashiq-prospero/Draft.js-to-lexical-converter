@@ -7,8 +7,5 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "lexical": "^0.20.0"
-  }
+  "description": ""
 }

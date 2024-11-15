@@ -128,6 +128,215 @@
       "entityRanges": [],
       "data": {}
     },
+
+
+    {
+			"key": "aa9a0",
+			"text": "alignment-left",
+			"type": "unstyled",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		},
+		{
+			"key": "ft3v",
+			"text": "alignment-right",
+			"type": "editor-align-right     ",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		},
+		{
+			"key": "2tkhd",
+			"text": "alignment-center",
+			"type": "editor-align-center     ",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		},
+		{
+			"key": "2eeba",
+			"text": "alignment justify jys ti fy text on editor to make it look evenalignment justify jys ti fy text on editor to make it look evenalignment justify jys ti fy text on editor to make it look evenalignment justify jys ti fy text on editor to make it look evenalignment justify jys ti fy text on editor to make it look even",
+			"type": "editor-align-justify     ",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		},
+        {
+            "key": "fdrfg",
+            "text": "direction ltr",
+            "type": "  editor-direction-rtl   ",
+            "depth": 0,
+            "inlineStyleRanges": [],
+            "entityRanges": [],
+            "data": {}
+        },
+        {
+            "key": "9dq22",
+            "text": "direction rtl",
+            "type": "  editor-direction-ltr   ",
+            "depth": 0,
+            "inlineStyleRanges": [],
+            "entityRanges": [],
+            "data": {}
+        },
+		{
+			"key": "a48uj",
+			"text": "hello intent 1",
+			"type": "    intent-left-1 ",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		},
+		{
+			"key": "2kim0",
+			"text": "hello intent 2",
+			"type": "    intent-left-2 ",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		},
+		{
+			"key": "9bf3u",
+			"text": "this is quote",
+			"type": "blockquote",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		},
+		{
+			"key": "f3pto",
+			"text": "line height 2 cess by working together with your team in order to reach your goal by the deadline you set.",
+			"type": "   line-height__2-0  ",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		},
+		{
+			"key": "2g9j9",
+			"text": "line height 3 (only this word) cess by working together with your team in order to reach your goal by the deadline you set. by working together with your team in order to reach your goal by the deadline you set.",
+			"type": "   line-height__1-2  ",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		},
+    {
+      "key": "eelu9",
+      "text": "list item 1",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "69oi4",
+      "text": "list item 2",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "1dvdc",
+      "text": "item 2.1",
+      "type": "unordered-list-item",
+      "depth": 1,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "3vpmu",
+      "text": "item 2.2",
+      "type": "unordered-list-item",
+      "depth": 1,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "bhhkv",
+      "text": "item 3",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "8ime9",
+      "text": "item 3.1",
+      "type": "unordered-list-item",
+      "depth": 1,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "5a58n",
+      "text": "item 3.1.1",
+      "type": "unordered-list-item",
+      "depth": 2,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "ahtso",
+      "text": "item 3.1.1.1",
+      "type": "unordered-list-item",
+      "depth": 3,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "esck6",
+      "text": "item 3.1.1.1.1",
+      "type": "unordered-list-item",
+      "depth": 4,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "dkbun",
+      "text": "item 3.1.1.1.2",
+      "type": "unordered-list-item",
+      "depth": 4,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "91v55",
+      "text": "item 3.2",
+      "type": "unordered-list-item",
+      "depth": 1,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
+    {
+      "key": "6nscr",
+      "text": "item 4",
+      "type": "unordered-list-item",
+      "depth": 0,
+      "inlineStyleRanges": [],
+      "entityRanges": [],
+      "data": {}
+    },
     {
       "key": "dts6o",
       "text": "t-Link t-bold-link t-italic-link u-underline-link u-strike-link t-link-color-bold",
