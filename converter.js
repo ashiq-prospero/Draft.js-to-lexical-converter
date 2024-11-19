@@ -4,12 +4,19 @@ const {
   convertTableEntityToLexical,
   convertListToLexical,
 } = require("./entityConverter");
-const { mergeInlineStyles } = require("./helper");
-
-
+const {
+  mergeInlineStyles,
+  shortenKeys,
+  expandKeys,
+  mapBlockTypeToLexical,
+  mapBlockTypeToFormat,
+  mapBlockTypeToDirection,
+  mapBlockTypeToIntent,
+  extractLineHeight,
+} = require("./helper");
 
 // Load Draft.js JSON data from a file
-const draftFilePath = path.join(__dirname, "draft.json");
+const draftFilePath = path.join(__dirname, "./json/draft.json");
 
 let draftContentJSON;
 try {
@@ -17,43 +24,6 @@ try {
 } catch (error) {
   console.error("Error reading or parsing draft.json:", error);
   process.exit(1);
-}
-
-// Maps Draft.js block type to Lexical block type
-const mapBlockTypeToLexical = (blockType) => {
-  if (blockType === "blockquote") return "quote";
-  if (blockType.startsWith("header")) return "heading";
-  return "paragraph";
-};
-
-// Maps alignment from Draft.js block type to Lexical format
-const mapBlockTypeToFormat = (blockType) => {
-  if (blockType.includes("align-left")) return "left";
-  if (blockType.includes("align-right")) return "right";
-  if (blockType.includes("align-center")) return "center";
-  if (blockType.includes("align-justify")) return "justify";
-  return "";
-};
-
-// Maps direction from Draft.js block type to Lexical
-const mapBlockTypeToDirection = (blockType) => {
-  if (blockType.includes("direction-rtl")) return "rtl";
-  if (blockType.includes("direction-ltr")) return "ltr";
-  return null;
-};
-
-// Extracts indent level from Draft.js block type
-const mapBlockTypeToIntent = (blockType) => {
-  const match = blockType.match(/intent-left-(\d+)/);
-  return match ? parseInt(match[1], 10) : null;
-};
-
-function extractLineHeight(blockType) {
-  const match = blockType.match(/line-height__([\d-]+)/);
-  if (match) {
-    return match[1].replace("-", ".");
-  }
-  return null;
 }
 
 function convertBlockToLexical(block, entityMap) {
@@ -66,8 +36,49 @@ function convertBlockToLexical(block, entityMap) {
   if (block.type === "atomic" && block.entityRanges.length > 0) {
     const entityKey = block.entityRanges[0].key;
     const entity = entityMap[entityKey];
-    if (entity && entity.type === "table") {
-      return convertTableEntityToLexical(entity.data);
+
+    if (entity?.type) {
+      if (entity.type === "table") {
+        return convertTableEntityToLexical(entity.data);
+      } else if (entity.type === "divider") {
+        return {
+          type: "horizontalrule",
+        };
+      }
+      //  else if (entity.type === "html") {
+      //   return {
+      //     type: entity.type,
+      //     data: entity.data.htmlCode,
+      //     config: entity.data.config,
+      //   };
+      // } else if (entity.type === "TOKEN") {
+      //   // why are we storing json as string instead of object
+      //   return {
+      //     type: entity.type,
+      //     data: entity.data.texcontent,
+      //   };
+      // } else if (entity.type === "media") {
+      //   return {
+      //     type: entity.type,
+      //     data: entity.data,
+      //   };
+      // } else if (entity.type === "image") {
+      //   return {
+      //     type: entity.type,
+      //     data: entity.data.src,
+      //     config: entity.data.config,
+      //   };
+      // } else if (["form", "gallery", "testimonial"].includes(entity.type)) {
+      //   return {
+      //     type: entity.type,
+      //     data: entity.data.data,
+      //     config: entity.data.config,
+      //   };
+      // }
+
+      return {
+        type: "horizontalrule",
+      };
     }
   }
 
@@ -76,21 +87,18 @@ function convertBlockToLexical(block, entityMap) {
     return convertListToLexical(block, entityMap, direction);
   }
 
-  const textNodes = mergeInlineStyles(
-    block.text,
-    block.inlineStyleRanges,
-    block.entityRanges,
-    entityMap
-  );
-
   const data = {
-    children: textNodes,
-    type,
-    version: 1,
-    textFormat: 1,
-    textStyle: "",
+    children: mergeInlineStyles(
+      block.text,
+      block.inlineStyleRanges,
+      block.entityRanges,
+      entityMap
+    ),
   };
 
+  if (type) {
+    data.type = type;
+  }
   if (format) {
     data.format = format;
   }
@@ -109,17 +117,17 @@ function convertBlockToLexical(block, entityMap) {
   return data;
 }
 
-
-
-
 // main function to convert Draft.js JSON to Lexical JSON and wrap in `editorState`
 function convertDraftToLexical(draftContent) {
   const root = {
     type: "root",
-    direction: "ltr",
-    format: "",
-    indent: 0,
-    version: 1,
+
+    defaults: {
+      direction: "ltr",
+      format: "",
+      indent: 0,
+      version: 1,
+    },
     children: [],
   };
 
@@ -153,13 +161,9 @@ function convertDraftToLexical(draftContent) {
         const newList = {
           type: "list",
           listType,
-          version: 1,
-          children: [listItem],
-          direction: "ltr",
-          format: "",
-          indent: 0,
           start: 1,
           tag: listType === "bullet" ? "ul" : "ol",
+          children: [listItem],
         };
 
         if (listStack.length === 0) {
@@ -205,5 +209,25 @@ function convertDraftToLexical(draftContent) {
 }
 
 // convert and output the result
-const lexicalJSON = convertDraftToLexical(draftContentJSON);
-console.log("Lexical JSON Output:", JSON.stringify(lexicalJSON));
+let jsonData = convertDraftToLexical(draftContentJSON);
+jsonData = shortenKeys(jsonData);
+jsonData = expandKeys(jsonData);
+// console.log("Lexical JSON Output:", JSON.stringify(lexicalJSON));
+console.log("Lexical JSON Output:", JSON.stringify(jsonData));
+
+/*
+To optimize the JSON:
+1 - remove editorState
+
+2. Shorten Keys: Replace verbose keys with shorter ones
+  f = format
+  i = indent
+  v = version
+  c = children
+  t = text
+  s = style
+
+3. Remove Defaults: Strip out fields that match the global defaults.
+4. Compress Text: Use libraries like lz-string to compress text nodes.
+
+*/

@@ -18,31 +18,17 @@ function convertTableEntityToLexical(tableData) {
       .filter(([key]) => key !== "id")
       .map(([_, cellText], cellIndex) => ({
         type: "tablecell",
-        version: 1,
-        indent: 0,
-        direction: null,
-        format: "",
         colSpan: 1,
         rowSpan: 1,
         backgroundColor: rowIndex === 0 ? topRowColor : rowColor,
         headerState: rowIndex === 0 ? 3 : 0, // 3 for header, 0 for regular cell
         children: [
           {
-            type: "paragraph",
-            version: 1,
-            indent: 0,
-            direction: null,
-            format: "",
-            textFormat: 0,
-            textStyle: "",
             children: [
               {
                 type: "text",
                 version: 1,
                 text: cellText,
-                format: 0,
-                style: "",
-                detail: 0,
                 mode: "normal",
               },
             ],
@@ -53,10 +39,6 @@ function convertTableEntityToLexical(tableData) {
 
   return {
     type: "table",
-    version: 1,
-    indent: 0,
-    direction: null,
-    format: "",
     colWidths: Array(Object.keys(rows[0]).length - 1).fill(92), // Set column width for each column (minus the "id" column)
     children: tableRows,
   };
@@ -66,15 +48,12 @@ function convertListToLexical(block, entityMap, direction) {
   const listType = block.type === "unordered-list-item" ? "bullet" : "number";
   const listItem = {
     type: "listitem",
-    version: 1,
     children: mergeInlineStyles(
       block.text,
       block.inlineStyleRanges,
       block.entityRanges,
       entityMap
     ),
-    direction,
-    value: 1,
   };
 
   if (block?.data?.className) {

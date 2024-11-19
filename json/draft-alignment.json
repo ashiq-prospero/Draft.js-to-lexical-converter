@@ -1,0 +1,376 @@
+{
+	"blocks": [{
+			"key": "fg66c",
+			"text": "End of table",
+			"type": "unstyled",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		},
+		{
+			"key": "dbm0q",
+			"text": " ",
+			"type": "atomic",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [{
+				"offset": 0,
+				"length": 1,
+				"key": 0
+			}],
+			"data": {}
+		},
+		{
+			"key": "a4p75",
+			"text": "text after divider",
+			"type": "unstyled",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		},
+		{
+			"key": "3jk6j",
+			"text": "",
+			"type": "unstyled",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		},
+		{
+			"key": "c9uvs",
+			"text": " ",
+			"type": "atomic",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [{
+				"offset": 0,
+				"length": 1,
+				"key": 1
+			}],
+			"data": {}
+		},
+		{
+			"key": "5lqr5",
+			"text": "",
+			"type": "atomic",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		},
+		{
+			"key": "69gn8",
+			"text": " ",
+			"type": "atomic",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [{
+				"offset": 0,
+				"length": 1,
+				"key": 2
+			}],
+			"data": {}
+		},
+		{
+			"key": "6v1qm",
+			"text": "",
+			"type": "unstyled",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		},
+		{
+			"key": "eerer",
+			"text": " ",
+			"type": "atomic",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [{
+				"offset": 0,
+				"length": 1,
+				"key": 3
+			}],
+			"data": {}
+		},
+		{
+			"key": "bk0id",
+			"text": "",
+			"type": "unstyled",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		},
+		{
+			"key": "f3kam",
+			"text": " ",
+			"type": "atomic",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [{
+				"offset": 0,
+				"length": 1,
+				"key": 4
+			}],
+			"data": {}
+		},
+		{
+			"key": "c934b",
+			"text": "",
+			"type": "unstyled",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		},
+		{
+			"key": "4mdpq",
+			"text": " ",
+			"type": "atomic",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [{
+				"offset": 0,
+				"length": 1,
+				"key": 5
+			}],
+			"data": {}
+		},
+		{
+			"key": "b9c8i",
+			"text": " ",
+			"type": "atomic",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [{
+				"offset": 0,
+				"length": 1,
+				"key": 6
+			}],
+			"data": {}
+		},
+		{
+			"key": "dgj35",
+			"text": "",
+			"type": "unstyled",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		},
+		{
+			"key": "7jk87",
+			"text": " ",
+			"type": "atomic",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [{
+				"offset": 0,
+				"length": 1,
+				"key": 7
+			}],
+			"data": {}
+		},
+		{
+			"key": "ahdtg",
+			"text": "",
+			"type": "unstyled",
+			"depth": 0,
+			"inlineStyleRanges": [],
+			"entityRanges": [],
+			"data": {}
+		}
+	],
+	"entityMap": {
+		"0": {
+			"type": "divider",
+			"mutability": "IMMUTABLE",
+			"data": {}
+		},
+		"1": {
+			"type": "form",
+			"mutability": "MUTABLE",
+			"data": {
+				"data": [{
+						"key": "First Name",
+						"value": "",
+						"selected": true,
+						"saved": true,
+						"required": true
+					},
+					{
+						"key": "Phone Number",
+						"value": "",
+						"selected": true,
+						"saved": true
+					},
+					{
+						"key": "Please fill the form below",
+						"custom": false,
+						"head": true,
+						"saved": false
+					},
+					{
+						"key": "Last Name",
+						"value": "",
+						"saved": false
+					},
+					{
+						"key": "ID Number",
+						"value": "",
+						"saved": false
+					},
+					{
+						"key": "Birthday",
+						"value": "",
+						"saved": false
+					},
+					{
+						"key": "Date",
+						"value": "",
+						"saved": false
+					},
+					{
+						"key": "Company Name",
+						"value": "",
+						"saved": false
+					},
+					{
+						"key": "URL",
+						"value": "",
+						"saved": false
+					},
+					{
+						"key": "Email",
+						"value": "",
+						"saved": false
+					},
+					{
+						"key": "Note",
+						"value": "",
+						"saved": false
+					},
+					{
+						"key": "New Field 11",
+						"value": "",
+						"editable": true,
+						"saved": false
+					}
+				],
+				"config": {
+					"editable": false,
+					"columns": 2
+				}
+			}
+		},
+		"2": {
+			"type": "image",
+			"mutability": "IMMUTABLE",
+			"data": {
+				"src": "https://dr08qaykn9isr.cloudfront.net/props/302348b8635ba37785e87feb/section/673af5f72b40d0f2ef371f2f.jpg",
+				"config": {
+					"opacity": 1,
+					"editable": true,
+					"size": {
+						"width": 525,
+						"height": 524,
+						"maxHeight": 524,
+						"ratio": 1
+					},
+					"alignment": "left",
+					"border": {},
+					"shadow": {}
+				}
+			}
+		},
+		"3": {
+			"type": "gallery",
+			"mutability": "MUTABLE",
+			"data": {
+				"data": [{
+						"i": "1",
+						"w": 332,
+						"h": 188,
+						"image": "https://dr08qaykn9isr.cloudfront.net/props/302348b8635ba37785e87feb/media/63a2e784d26c6433602e5359/654df5cb0fb83dd9942e44b7.png"
+					},
+					{
+						"i": "2",
+						"w": 206,
+						"h": 155,
+						"image": "https://dr08qaykn9isr.cloudfront.net/props/302348b8635ba37785e87feb/media/63a2e784d26c6433602e5359/655dab8df8c99dcbc86a662b.png"
+					},
+					{
+						"i": "3",
+						"w": 337,
+						"h": 352,
+						"image": "https://dr08qaykn9isr.cloudfront.net/props/302348b8635ba37785e87feb/media/63a2e784d26c6433602e5359/655dab8d04c1f94a4506e03c.png"
+					}
+				],
+				"config": {}
+			}
+		},
+		"4": {
+			"type": "media",
+			"mutability": "IMMUTABLE",
+			"data": {
+				"title": "1 day to 1 year of cubing",
+				"author_name": "theAZ",
+				"author_url": "https://www.youtube.com/@the_AZ",
+				"type": "video",
+				"height": 113,
+				"width": 200,
+				"version": "1.0",
+				"provider_name": "YouTube",
+				"provider_url": "https://www.youtube.com/",
+				"thumbnail_height": 360,
+				"thumbnail_width": 480,
+				"thumbnail_url": "https://i.ytimg.com/vi/olp1v4JUe3k/hqdefault.jpg",
+				"html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/olp1v4JUe3k?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen title=\"1 day to 1 year of cubing\"></iframe>",
+				"original_link": "https://www.youtube.com/watch?v=olp1v4JUe3k"
+			}
+		},
+		"5": {
+			"type": "TOKEN",
+			"mutability": "IMMUTABLE",
+			"data": {
+				"texcontent": "{\"pricing\":{\"strategy\":\"table\"},\"curr\":\"$\",\"deliverables\":{\"chosen\":{\"OPTION 1\":{\"total\":0,\"list\":[{\"name\":\"UX Wireframes\",\"id\":\"b508f24f-b229-4a4a-b839-4b741a4e6c04\",\"price\":\"23456\",\"type\":null,\"chosen\":false,\"selected\":false,\"currentPrice\":\"23456\"},{\"name\":\"Fully Responsive Website Design\",\"id\":\"5d9c75c6-a0d5-42f6-bf0a-74793055ec1a\",\"price\":0,\"type\":null,\"chosen\":false,\"selected\":false}]},\"OPTION 2\":{\"total\":\"\",\"list\":[{\"id\":\"3a7f634b-0618-40c7-a99d-c7a250b5d017\",\"name\":\"Everything on option 1\",\"price\":0,\"type\":null}]},\"OPTION 3\":{\"total\":\"\",\"list\":[{\"id\":\"c31b4086-10fe-402e-b94c-41aa4831512c\",\"name\":\"Everything on option 2\",\"price\":0,\"type\":null}]}}},\"roundTotal\":false,\"priceSeperator\":\"none\",\"decimalPrecision\":2,\"language\":\"english\"}"
+			}
+		},
+		"6": {
+			"type": "TOKEN",
+			"mutability": "IMMUTABLE",
+			"data": {
+				"texcontent": "{\"milestones\":{\"chosen\":{\"OPTION 1\":{\"total\":\"\",\"list\":[{\"name\":\"Kickoff Meeting\",\"id\":\"23f676e9-5e39-45d4-87bd-7b0de11dca06\",\"price\":0,\"type\":null,\"chosen\":false,\"selected\":false,\"time\":\"7890\"},{\"name\":\"Research\",\"id\":\"d90d9957-ceeb-45b4-8004-a09506cdcf7e\",\"price\":0,\"type\":null,\"chosen\":false,\"selected\":false}]},\"OPTION 2\":{\"total\":\"\",\"list\":[{\"id\":\"bf788067-d588-451b-a35c-81084783eeb2\",\"name\":\"Everything on option 1\",\"price\":0,\"type\":null}]},\"OPTION 3\":{\"total\":\"\",\"list\":[{\"id\":\"6f7ea37b-f139-4d97-b841-501b0fe95629\",\"name\":\"Everything on option 2\",\"price\":0,\"type\":null}]}}}}"
+			}
+		},
+		"7": {
+			"type": "testimonial",
+			"mutability": "MUTABLE",
+			"data": {
+				"data": [{
+						"name": "Testimonial name1",
+						"text": "This logic ensures that the horizontal rule is correctly handled and can coexist with other block types like lists and tables."
+					},
+					{
+						"name": "jhon doe",
+						"text": "That the horizontal rule is correctly handled and can coexist with other block types like lists and tables."
+					},
+					{
+						"name": "",
+						"text": ""
+					}
+				],
+				"config": {
+					"backgroundColor": "#2222d9",
+					"count": 3,
+					"horizontal": false,
+					"color": "#f696c9"
+				}
+			}
+		}
+	}
+}
