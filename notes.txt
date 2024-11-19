@@ -43,26 +43,36 @@ list
     link + bold - ok
     link + italic - ok
     link + underline - ok
+    divider - done
+    form - done
+    image - done
+    gallery - done
+    video - done
+    price module - done
+    html - done
+    goal module-  done
+    testimonial - done
+    optimization - done
+        this saves 18% space when tested with 72KB file
+        shortner - to shorten the keys before making API call
+        expander - to expand the keys before initializing the editor
 
 whats next
-    divider - ok
-    form - ok
-    image - ok
-    gallery - ok
-    video - ok
-    price module - ok
-    html - ok
-    goal module-  ok
-    testimonial - ok
-
-optimization
-    this saves 18% space when tested with 72KB file
-    shortner - to shorten the keys before making API call
-    expander - to expand the keys before initializing the editor
-
-
-proposal converter script - combine all the modules created so far and create a single converter script that that will take draft.js proposal as input and will output as lexical version of the proposal.
+done - proposal converter script - combine all the modules created so far and create a single converter script that that will take draft.js proposal as input and will output as lexical version of the proposal.
 create a POC editor to compare the results
 once things looks good we can assume that draft to lexical conversion is working 99% perfect
 
 
+To optimize the JSON:
+1 - remove editorState
+
+2. Shorten Keys: Replace verbose keys with shorter ones
+  f = format
+  i = indent
+  v = version
+  c = children
+  t = text
+  s = style
+
+3. Remove Defaults: Strip out fields that match the global defaults.
+4. Compress Text: Use libraries like lz-string to compress text nodes.

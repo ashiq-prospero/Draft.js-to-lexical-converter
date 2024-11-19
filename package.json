@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "converter.js",
   "scripts": {
-    "start": "node converter.js"
+    "convert": "node draft-converter.js",
+    "expand": "node expander.js"
   },
   "author": "",
   "license": "ISC",

@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-const { shortenKeys, expandKeys } = require("./helper");
+const { shortenKeys, expandKeys } = require("./lexical/converter");
 
 const expandedFilePath = path.join(__dirname, "./json/lexical-expanded.json");
 const shortenedFilePath = path.join(__dirname, "./json/lexical-shortened.json");

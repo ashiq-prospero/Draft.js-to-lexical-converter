@@ -1,0 +1,1820 @@
+{
+	"_id": "2d7e8ff4f738619213ea6b37",
+	"date": {
+		"$date": "2024-09-19T07:19:18.894Z"
+	},
+	"sigOptions": ["type", "upload", "draw"],
+	"signatureEmails": [],
+	"scripts": [],
+	"returnOutput": [],
+	"tags": [],
+	"spamUrls": [],
+	"pid": "3f9f4973-17ef-4763-9676-a1b837d64101",
+	"uid": "6371de67722cbe07546120fe",
+	"auid": "",
+	"name": "Ashiq",
+	"email": "ashiq@goprospero.com",
+	"version": 16,
+	"pricing": {
+		"strategy": "table"
+	},
+	"language": "english",
+	"priceSeperator": "none",
+	"contactButton": ",",
+	"currency": "$",
+	"redirectTo": "https://secure.cardcom.solutions/EA/EA5/uAi26RMwAkChohOjfviJaw/Order",
+	"redirectAfter": 5,
+	"sigtype": "sigtext",
+	"contactnumber": "7002859966",
+	"callButton": "block",
+	"project": {
+		"name": "test pricing",
+		"desc": null,
+		"goals": null,
+		"type": null,
+		"othertype": null
+	},
+	"attachments": [],
+	"__v": 0,
+	"client": {
+		"name": "",
+		"contact": "Abhisek Dey",
+		"desc": null,
+		"address": null,
+		"text": null,
+		"email": "",
+		"subject": null,
+		"fromname": null,
+		"mondayItemId": null
+	},
+	"clientPayableLink": null,
+	"clientnametext": null,
+	"curr": null,
+	"dateFormat": "MM/DD/YYYY",
+	"deletedAt": null,
+	"disableSig": false,
+	"draft": {
+		"header": {
+			"by": "By",
+			"contact": "Contact",
+			"title": "test pricing",
+			"subtitle": "Prepared For<br>Mr. Client<br>09/14/2021",
+			"name": "Ashiq",
+			"email": "ashiq@goprospero.com",
+			"logo": "https://dr08qaykn9isr.cloudfront.net/props/ea96cd321b7d14c40e2e2874/logo/66a37b809815af33ef63c7ef.png",
+			"cover": "https://dr08qaykn9isr.cloudfront.net/covers/66927350d3f1d573e08847f7/66a37b9a64c7953914a263d1.jpg",
+			"color": "rgba(0,0,0,0.4)",
+			"rawsubtitle": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Prepared For ",
+						"t": "text",
+						"s": "font-size: 24px;"
+					}, {
+						"tx": "Abhisek Dey",
+						"t": "text",
+						"s": "font-size: 24px;",
+						"f": 1
+					}],
+					"t": "paragraph"
+				}]
+			},
+			"rawtitle": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "test pricing",
+						"t": "text",
+						"s": "font-weight: 700;font-size: 48px;"
+					}],
+					"t": "paragraph"
+				}]
+			},
+			"titleStyle": {
+				"titleDisplay": "none"
+			},
+			"rawemail": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "test@email.com",
+						"t": "text"
+					}],
+					"t": "paragraph"
+				}]
+			},
+			"rawname": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Prospero team",
+						"t": "text"
+					}],
+					"t": "paragraph"
+				}]
+			},
+			"clientname": "Abhisek Dey",
+			"hidecover": false,
+			"headerConfig": {
+				"position": "normal",
+				"cover": "full",
+				"contact": "block",
+				"coverTextAlignment": "custom",
+				"title": "Poppins",
+				"family": "\"Poppins\", sans-serif",
+				"weight": 400,
+				"weights": [400, 700],
+				"color1": "white",
+				"color2": "#d2d2d2",
+				"color3": "#05034d",
+				"fontSize": "36px"
+			},
+			"originalState": {
+				"by": "By",
+				"contact": "Contact",
+				"title": "test pricing",
+				"subtitle": "Prepared For<br>Mr. Client<br>09/14/2021",
+				"name": "Ashiq",
+				"email": "ashiq@goprospero.com",
+				"logo": "https://dr08qaykn9isr.cloudfront.net/props/ea96cd321b7d14c40e2e2874/logo/66a37b809815af33ef63c7ef.png",
+				"cover": "https://dr08qaykn9isr.cloudfront.net/covers/66927350d3f1d573e08847f7/66a37b9a64c7953914a263d1.jpg",
+				"color": "rgba(0,0,0,0.4)",
+				"rawsubtitle": {
+					"t": "root",
+					"defaults": {
+						"d": "ltr",
+						"f": "",
+						"i": 0,
+						"v": 1
+					},
+					"c": [{
+						"c": [{
+							"tx": "Prepared For ",
+							"t": "text",
+							"s": "font-size: 24px;"
+						}, {
+							"tx": "Abhisek Dey",
+							"t": "text",
+							"s": "font-size: 24px;",
+							"f": 1
+						}],
+						"t": "paragraph"
+					}]
+				},
+				"rawtitle": {
+					"t": "root",
+					"defaults": {
+						"d": "ltr",
+						"f": "",
+						"i": 0,
+						"v": 1
+					},
+					"c": [{
+						"c": [{
+							"tx": "test pricing",
+							"t": "text",
+							"s": "font-weight: 700;font-size: 48px;"
+						}],
+						"t": "paragraph"
+					}]
+				},
+				"titleStyle": {
+					"titleDisplay": "none"
+				},
+				"rawemail": {
+					"t": "root",
+					"defaults": {
+						"d": "ltr",
+						"f": "",
+						"i": 0,
+						"v": 1
+					},
+					"c": [{
+						"c": [{
+							"tx": "test@email.com",
+							"t": "text"
+						}],
+						"t": "paragraph"
+					}]
+				},
+				"rawname": {
+					"t": "root",
+					"defaults": {
+						"d": "ltr",
+						"f": "",
+						"i": 0,
+						"v": 1
+					},
+					"c": [{
+						"c": [{
+							"tx": "Prospero team",
+							"t": "text"
+						}],
+						"t": "paragraph"
+					}]
+				},
+				"clientname": "Abhisek Dey",
+				"hidecover": false,
+				"headerConfig": {
+					"position": "normal",
+					"cover": "full",
+					"contact": "block",
+					"coverTextAlignment": "custom",
+					"title": "Poppins",
+					"family": "\"Poppins\", sans-serif",
+					"weight": 400,
+					"weights": [400, 700],
+					"color1": "white",
+					"color2": "#d2d2d2",
+					"color3": "#05034d",
+					"fontSize": "36px"
+				},
+				"originalState": {
+					"by": "By",
+					"contact": "Contact",
+					"title": "-COPY",
+					"subtitle": "Prepared For<br>Mr. Client<br>09/14/2021",
+					"name": "ru$&",
+					"email": "ru$&@mail.com",
+					"logo": "https://dr08qaykn9isr.cloudfront.net/props/50ccd831d32e1967335280c4/logo/6628ee1a9854428f143e5bee.png",
+					"cover": "https://dr08qaykn9isr.cloudfront.net/covers/YMCMzBje3h42Tywjy/664d796c89f3e83c91cf1f80.png",
+					"color": "rgba(0,0,0,0.4)",
+					"rawsubtitle": {
+						"t": "root",
+						"defaults": {
+							"d": "ltr",
+							"f": "",
+							"i": 0,
+							"v": 1
+						},
+						"c": [{
+							"c": [{
+								"tx": "Prepared For ",
+								"t": "text",
+								"s": "font-size: 24px;"
+							}, {
+								"tx": "Edet",
+								"t": "text",
+								"s": "font-size: 24px;",
+								"f": 1
+							}],
+							"t": "paragraph"
+						}]
+					},
+					"rawtitle": {
+						"t": "root",
+						"defaults": {
+							"d": "ltr",
+							"f": "",
+							"i": 0,
+							"v": 1
+						},
+						"c": [{
+							"c": [{
+								"tx": "-COPY",
+								"t": "text",
+								"s": "font-weight: 700;font-size: 48px;"
+							}],
+							"t": "paragraph"
+						}]
+					},
+					"titleStyle": {
+						"titleDisplay": "none"
+					},
+					"rawemail": {
+						"t": "root",
+						"defaults": {
+							"d": "ltr",
+							"f": "",
+							"i": 0,
+							"v": 1
+						},
+						"c": [{
+							"c": [{
+								"tx": "test@email.com",
+								"t": "text"
+							}],
+							"t": "paragraph"
+						}]
+					},
+					"rawname": {
+						"t": "root",
+						"defaults": {
+							"d": "ltr",
+							"f": "",
+							"i": 0,
+							"v": 1
+						},
+						"c": [{
+							"c": [{
+								"tx": "Prospero team",
+								"t": "text"
+							}],
+							"t": "paragraph"
+						}]
+					},
+					"clientname": "Edet",
+					"hidecover": false
+				}
+			}
+		},
+		"overview": {
+			"title": "Overview",
+			"text": "<div>I will develop The Company’s vision into a fully functional cross-platform website and mobile application. Using the most up to date technologies I will implement the design, and help you deploy it on your own servers.</div><div>The goal of this project is to replace the current online platform with improved technologies that will allow for better performance and conversion rates.</div>",
+			"raw": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "t-bold",
+						"t": "text",
+						"f": 1
+					}, {
+						"tx": " ",
+						"t": "text"
+					}, {
+						"tx": "t-italic",
+						"t": "text",
+						"f": 2
+					}, {
+						"tx": " ",
+						"t": "text"
+					}, {
+						"tx": "t-underlin",
+						"t": "text",
+						"f": 8
+					}, {
+						"tx": "e ",
+						"t": "text"
+					}, {
+						"tx": "t-strike",
+						"t": "text",
+						"f": 4
+					}, {
+						"tx": " ",
+						"t": "text"
+					}, {
+						"tx": "t-color",
+						"t": "text",
+						"s": "color: rgba(235, 43, 43, 1);"
+					}, {
+						"tx": " ",
+						"t": "text"
+					}, {
+						"tx": "t-background-color",
+						"t": "text",
+						"s": "color: rgba(243, 255, 44, 1);background-color: rgba(26, 67, 240, 1);"
+					}, {
+						"tx": " ",
+						"t": "text"
+					}, {
+						"c": [{
+							"tx": "t-link",
+							"t": "text"
+						}],
+						"t": "link",
+						"rel": "noreferrer",
+						"target": null,
+						"title": null,
+						"url": "https://playground.lexical.dev/"
+					}, {
+						"tx": " ",
+						"t": "text"
+					}, {
+						"tx": "t-bold-italic",
+						"t": "text",
+						"f": 3
+					}, {
+						"tx": " ",
+						"t": "text"
+					}, {
+						"tx": "t-italic-strike",
+						"t": "text",
+						"f": 6
+					}, {
+						"tx": " ",
+						"t": "text"
+					}, {
+						"tx": "t-font-size",
+						"t": "text",
+						"s": "font-size: 10px;"
+					}, {
+						"tx": " ",
+						"t": "text"
+					}, {
+						"tx": "t-font-family",
+						"t": "text",
+						"s": "font-family: asset;"
+					}, {
+						"tx": " ",
+						"t": "text"
+					}, {
+						"tx": "t-font-weight",
+						"t": "text",
+						"s": "font-weight: 700;"
+					}, {
+						"tx": " ",
+						"t": "text"
+					}, {
+						"tx": "t-font-size-color",
+						"t": "text",
+						"s": "font-size: 10px;color: rgba(74, 74, 74, 1);"
+					}, {
+						"tx": " ",
+						"t": "text"
+					}, {
+						"tx": "t-font-fam-color-italic",
+						"t": "text",
+						"s": "font-family: calligraffitti;color: rgba(246, 34, 34, 1);",
+						"f": 2
+					}, {
+						"tx": " ",
+						"t": "text"
+					}, {
+						"c": [{
+							"tx": "t-font-link-color",
+							"t": "text",
+							"s": "color: rgba(32, 43, 241, 1);font-family: calligraffitti;"
+						}],
+						"t": "link",
+						"rel": "noreferrer",
+						"target": null,
+						"title": null,
+						"url": "https://playground.lexical.dev/"
+					}, {
+						"tx": " ",
+						"t": "text"
+					}, {
+						"tx": "t-background",
+						"t": "text",
+						"s": "background-color: rgba(250, 245, 33, 1);"
+					}, {
+						"tx": " ",
+						"t": "text"
+					}, {
+						"c": [{
+							"tx": "t-link-strike-underline",
+							"t": "text",
+							"f": 12
+						}],
+						"t": "link",
+						"rel": "noreferrer",
+						"target": null,
+						"title": null,
+						"url": "https://playground.lexical.dev/"
+					}, {
+						"tx": ".",
+						"t": "text"
+					}],
+					"t": "paragraph"
+				}, {
+					"c": [],
+					"t": "paragraph"
+				}, {
+					"c": [{
+						"tx": "this is quote",
+						"t": "text"
+					}],
+					"t": "quote"
+				}, {
+					"t": "list",
+					"listType": "bullet",
+					"start": 1,
+					"tag": "ul",
+					"c": [{
+						"t": "listitem",
+						"c": [{
+							"tx": "this is list",
+							"t": "text"
+						}]
+					}, {
+						"t": "listitem",
+						"c": [{
+							"tx": "item 2",
+							"t": "text"
+						}]
+					}, {
+						"t": "list",
+						"listType": "bullet",
+						"start": 1,
+						"tag": "ul",
+						"c": [{
+							"t": "listitem",
+							"c": [{
+								"tx": "item 2.1",
+								"t": "text"
+							}]
+						}]
+					}, {
+						"t": "listitem",
+						"c": [{
+							"tx": "item 3",
+							"t": "text"
+						}]
+					}]
+				}, {
+					"c": [{
+						"tx": "left-alignment",
+						"t": "text"
+					}],
+					"t": "paragraph",
+					"f": "left"
+				}, {
+					"c": [{
+						"tx": "right-alignment",
+						"t": "text"
+					}],
+					"t": "paragraph",
+					"f": "right"
+				}, {
+					"c": [{
+						"tx": "justify-alignment text to make it evenly spread over the editor or the view justify alignment text to make it evenly spread over the editor or the view",
+						"t": "text"
+					}],
+					"t": "paragraph",
+					"f": "justify"
+				}, {
+					"c": [{
+						"tx": "center-alignment",
+						"t": "text"
+					}],
+					"t": "paragraph",
+					"f": "center"
+				}, {
+					"c": [{
+						"tx": "intent-level 1",
+						"t": "text"
+					}],
+					"t": "paragraph",
+					"i": 1
+				}, {
+					"c": [{
+						"tx": "intent-level 2",
+						"t": "text"
+					}],
+					"t": "paragraph",
+					"i": 2
+				}]
+			},
+			"rawtitle": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Overview",
+						"t": "text",
+						"f": 1
+					}],
+					"t": "paragraph"
+				}]
+			}
+		},
+		"whyme2": {
+			"title": "Why Me",
+			"raw": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [],
+					"t": "paragraph"
+				}, {
+					"t": "TOKEN",
+					"data": "{\"superPowers\":{\"Speed\":{\"text\":\"I know the secrets of good copywriting. I’ve had [x] years of experience as a professional writer, and my work can be seen on [website], [website], and [website].\",\"order\":0,\"description\":\"\"},\"Honesty\":{\"text\":\"You can see the rest of my portfolio here, where I’ve taken on many projects with businesses like yours.\",\"order\":1,\"description\":\"\"},\"Originality\":{\"text\":\"I take a comprehensive approach to copywriting, making sure that I know who I’m writing to before I begin work. Knowing your audience helps me know how to speak to the people who need you most.\",\"order\":2,\"description\":\"\"}}}"
+				}]
+			}
+		},
+		"pricing2": {
+			"title": "Cost",
+			"raw": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "The fees for our services are as follows:",
+						"t": "text"
+					}],
+					"t": "paragraph"
+				}, {
+					"c": [],
+					"t": "paragraph"
+				}, {
+					"t": "TOKEN",
+					"data": "{\"pricing\":{\"strategy\":\"table\"},\"curr\":\"$\",\"deliverables\":{\"chosen\":{\"OPTION 1\":{\"total\":0,\"list\":[{\"name\":\"Bookkeeping Services\",\"id\":\"9deee27e-9180-4d88-9031-f2bd9e8d0529\",\"price\":\"100\",\"type\":null,\"chosen\":false,\"selected\":false,\"currentPrice\":\"100\",\"description\":\"This is a description This is a description with 50% discount\",\"items\":2,\"discount\":{\"value\":\"50\",\"unit\":\"%\",\"type\":-1}},{\"name\":\"Accounts Receivable\",\"id\":\"f8317b3a-5b69-4497-8371-04b525ce745b\",\"price\":\"30\",\"type\":null,\"chosen\":false,\"selected\":false,\"currentPrice\":\"30\",\"items\":1},{\"id\":\"1fa434f0-a098-4bc9-8ed2-aad971a5ca56\",\"name\":\"Accounts Payable\",\"description\":\"\",\"price\":\"999\",\"type\":null,\"chosen\":false,\"selected\":false,\"currentPrice\":\"999\",\"items\":2},{\"id\":\"c7ef0c73-13e1-40ad-a722-e62760453078\",\"name\":\"Clean Up\",\"description\":\"\",\"price\":\"15\",\"type\":null,\"chosen\":false,\"selected\":false,\"items\":3,\"currentPrice\":\"5\"}],\"structured\":true,\"columnName\":{\"deliverable\":\"Services\",\"rowprice\":\"Price\",\"price\":\"Cost\"},\"quantity\":true,\"subtotal\":true},\"OPTION 2\":{\"total\":\"\",\"list\":[{\"id\":\"9774ec0c-1463-409f-ad6d-164d83e76178\",\"name\":\"Everything on option 1\",\"price\":0,\"type\":null}],\"structured\":true},\"OPTION 3\":{\"total\":\"\",\"list\":[{\"id\":\"833a8904-52fb-48f3-a53c-abea15f7b52c\",\"name\":\"Everything on option 2\",\"price\":0,\"type\":null}],\"structured\":true}}},\"roundTotal\":false,\"priceSeperator\":\"none\",\"decimalPrecision\":2,\"language\":\"english\"}"
+				}, {
+					"c": [],
+					"t": "paragraph"
+				}]
+			},
+			"rawtitle": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Fees",
+						"t": "text",
+						"f": 1
+					}],
+					"t": "paragraph"
+				}]
+			}
+		},
+		"milestones2": {
+			"title": "Milestones",
+			"raw": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "While rates may differ based on your requirements, we typically charge standard rates for different packages. \n\nPlease note that catering and décor are charged separately.",
+						"t": "text"
+					}],
+					"t": "paragraph"
+				}, {
+					"c": [],
+					"t": "paragraph"
+				}, {
+					"t": "table",
+					"colWidths": [92, 92],
+					"c": [{
+						"t": "tablerow",
+						"v": 1,
+						"i": 0,
+						"d": null,
+						"f": "",
+						"c": [{
+							"t": "tablecell",
+							"colSpan": 1,
+							"rowSpan": 1,
+							"backgroundColor": "#f3f3f3",
+							"headerState": 3,
+							"c": [{
+								"c": [{
+									"t": "text",
+									"tx": ""
+								}]
+							}]
+						}, {
+							"t": "tablecell",
+							"colSpan": 1,
+							"rowSpan": 1,
+							"backgroundColor": "#f3f3f3",
+							"headerState": 3,
+							"c": [{
+								"c": [{
+									"t": "text",
+									"tx": ""
+								}]
+							}]
+						}]
+					}, {
+						"t": "tablerow",
+						"v": 1,
+						"i": 0,
+						"d": null,
+						"f": "",
+						"c": [{
+							"t": "tablecell",
+							"colSpan": 1,
+							"rowSpan": 1,
+							"backgroundColor": "white",
+							"headerState": 0,
+							"c": [{
+								"c": [{
+									"t": "text",
+									"tx": "Wedding Package"
+								}]
+							}]
+						}, {
+							"t": "tablecell",
+							"colSpan": 1,
+							"rowSpan": 1,
+							"backgroundColor": "white",
+							"headerState": 0,
+							"c": [{
+								"c": [{
+									"t": "text",
+									"tx": "[Price]"
+								}]
+							}]
+						}]
+					}, {
+						"t": "tablerow",
+						"v": 1,
+						"i": 0,
+						"d": null,
+						"f": "",
+						"c": [{
+							"t": "tablecell",
+							"colSpan": 1,
+							"rowSpan": 1,
+							"backgroundColor": "white",
+							"headerState": 0,
+							"c": [{
+								"c": [{
+									"t": "text",
+									"tx": "Birthday Package"
+								}]
+							}]
+						}, {
+							"t": "tablecell",
+							"colSpan": 1,
+							"rowSpan": 1,
+							"backgroundColor": "white",
+							"headerState": 0,
+							"c": [{
+								"c": [{
+									"t": "text",
+									"tx": "[Price]"
+								}]
+							}]
+						}]
+					}, {
+						"t": "tablerow",
+						"v": 1,
+						"i": 0,
+						"d": null,
+						"f": "",
+						"c": [{
+							"t": "tablecell",
+							"colSpan": 1,
+							"rowSpan": 1,
+							"backgroundColor": "white",
+							"headerState": 0,
+							"c": [{
+								"c": [{
+									"t": "text",
+									"tx": "Baptismal Package"
+								}]
+							}]
+						}, {
+							"t": "tablecell",
+							"colSpan": 1,
+							"rowSpan": 1,
+							"backgroundColor": "white",
+							"headerState": 0,
+							"c": [{
+								"c": [{
+									"t": "text",
+									"tx": "[Price]"
+								}]
+							}]
+						}]
+					}]
+				}, {
+					"c": [],
+					"t": "paragraph"
+				}]
+			},
+			"rawtitle": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Rates",
+						"t": "text",
+						"f": 1
+					}],
+					"t": "paragraph"
+				}]
+			}
+		},
+		"whatsnext": {
+			"title": "What's Next",
+			"text": "I will be happy to answer any question regarding this proposal. You can reach me at my phone or at admin@prospero.com.\nOnce you approve this proposal, we will set up a meeting to further discuss details, dates and milestones.\nOnce the first payment is in, and the resources needed arrive, we can start the actual work. \n",
+			"raw": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Have any questions? No problem! My e-mail address is [email address], and I’m available for questions Monday-Friday at any time of day. Any questions asked on Friday will be answered on Monday. Have a look at this agreement, and see if there are any changes you would like to make. Get in contact with me, and we’ll make the necessary changes. Then, after approval, we’ll schedule a time for a conference call. (Or meeting in person, if you’re local!). In that meeting we will discuss your business, and who it’s for, so that I can create the best copy possible. Then, as soon as the first payment is clear, work will commence!",
+						"t": "text"
+					}],
+					"t": "paragraph"
+				}]
+			}
+		},
+		"signature": {
+			"title": "Signature",
+			"myname": "Ashiq",
+			"name": "Abhisek Dey",
+			"signature": "ashiq",
+			"rawtitle": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Signature",
+						"t": "text",
+						"f": 1
+					}],
+					"t": "paragraph"
+				}]
+			},
+			"btnText": "Sign Proposal",
+			"btnText2": "Si"
+		},
+		"sectionorder": ["overview", "656684c2-2e73-4d2f-923f-9ffc3b55b30e", "a20ba0df-0f73-4689-b5db-a6527c6211b4", "f72af7fe-d65f-424f-9393-7089e553f14c", "pricing2", "76b886d2-0894-419c-b671-cd035f78182f", "0e1c2d63-5744-4506-a4a5-90dcd44591da", "terms"],
+		"titleFont": {
+			"title": "Poppins",
+			"family": "Alef",
+			"weight": 400,
+			"weights": [400, 700],
+			"color1": "white",
+			"color2": "#d2d2d2",
+			"color3": "#05034d",
+			"fontSize": "36px",
+			"position": "normal",
+			"cover": "full",
+			"contact": "block",
+			"coverTextAlignment": "custom"
+		},
+		"bodyFont": {
+			"title": "Poppins",
+			"family": "\"Poppins\", sans-serif",
+			"weight": 400,
+			"weights": [400, 700],
+			"color1": "white",
+			"color2": "#05034d",
+			"color3": "black",
+			"fontSize": "16px"
+		},
+		"4f0d5e80-9c94-42fe-aefa-067c60128853": {
+			"image": "<img />",
+			"raw": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [],
+					"t": "paragraph"
+				}, {
+					"c": [],
+					"t": "paragraph"
+				}, {
+					"c": [{
+						"tx": " ",
+						"t": "text"
+					}],
+					"t": "paragraph"
+				}]
+			}
+		},
+		"variables": {
+			"client": {
+				"firstName": {
+					"count": 0,
+					"value": "Abhisek"
+				},
+				"lastName": {
+					"count": 0,
+					"value": "Dey"
+				},
+				"fullName": {
+					"count": 0,
+					"value": "Abhisek Dey"
+				},
+				"email": {
+					"count": 0,
+					"value": ""
+				},
+				"phone": {
+					"count": 0,
+					"value": ""
+				},
+				"company": {
+					"count": 0,
+					"value": ""
+				},
+				"VAT": {
+					"count": 0,
+					"value": ""
+				},
+				"streetAddress": {
+					"count": 0,
+					"value": ""
+				},
+				"city": {
+					"count": 0,
+					"value": ""
+				},
+				"postalCode": {
+					"count": 0,
+					"value": ""
+				},
+				"state": {
+					"count": 0,
+					"value": ""
+				},
+				"country": {
+					"count": 0,
+					"value": ""
+				}
+			},
+			"proposal": {
+				"name": {
+					"count": 0,
+					"value": "test pricing"
+				},
+				"title": {
+					"count": 0,
+					"value": "test pricing"
+				},
+				"number": {
+					"count": 0,
+					"value": "100046"
+				},
+				"quote": {
+					"count": 0,
+					"value": "$2143.00"
+				},
+				"discount": {
+					"count": 0,
+					"value": 0
+				},
+				"subTotal": {
+					"count": 0,
+					"value": "2143.00 $"
+				},
+				"tax": {
+					"count": 0,
+					"value": 0
+				},
+				"total": {
+					"count": 0,
+					"value": "2143.00 $"
+				},
+				"sentDate": {
+					"count": 0,
+					"value": ""
+				},
+				"createdDate": {
+					"count": 0,
+					"value": "19-09-2024"
+				},
+				"expireDate": {
+					"count": 0,
+					"value": null
+				}
+			},
+			"sender": {
+				"firstName": {
+					"count": 0,
+					"value": "Ashiq"
+				},
+				"lastName": {
+					"count": 0,
+					"value": ""
+				},
+				"fullName": {
+					"count": 0,
+					"value": "Ashiq"
+				},
+				"email": {
+					"count": 0,
+					"value": "ashiq@goprospero.com"
+				},
+				"phone": {
+					"count": 0,
+					"value": "7002859966"
+				},
+				"company": {
+					"count": 0,
+					"value": "Apple inc"
+				},
+				"VAT": {
+					"count": 0,
+					"value": "myvat123"
+				}
+			},
+			"sender2": {
+				"firstName": {
+					"count": 0,
+					"value": ""
+				},
+				"lastName": {
+					"count": 0,
+					"value": ""
+				},
+				"fullName": {
+					"count": 0,
+					"value": " "
+				},
+				"email": {
+					"count": 0,
+					"value": ""
+				},
+				"phone": {
+					"count": 0,
+					"value": ""
+				}
+			},
+			"custom": {}
+		},
+		"656684c2-2e73-4d2f-923f-9ffc3b55b30e": {
+			"title": "<div></div>",
+			"text": "<div></div>",
+			"subtitle": "<div></div>",
+			"titlePosition": "normal",
+			"rawtitle": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Why Us",
+						"t": "text",
+						"f": 1
+					}],
+					"t": "paragraph"
+				}]
+			},
+			"raw": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Our attention to detail and tremendous dedication to satisfying our customers are two of the biggest reasons you should consider capitalizing on our services.\n\nApart from simply understanding accounting principles and how to carry out our processes, ",
+						"t": "text"
+					}, {
+						"tx": "we take the time to learn about the industry you are a part of, assuming we have yet to serve clients within the niche",
+						"t": "text",
+						"f": 1
+					}, {
+						"tx": ". This will help us better understand the flow of payment requisitions, payments, and more.\n\nNext, we never leave anything to chance. Quality assurance is a big part of what we do. Though we may employ reputable systems, such as Intuit QuickBooks, we understand that the potential for mistakes can be detrimental. Therefore, ",
+						"t": "text"
+					}, {
+						"tx": "we take the time to carry out the necessary validations",
+						"t": "text",
+						"f": 1
+					}, {
+						"tx": " to avoid putting your company at risk.",
+						"t": "text"
+					}],
+					"t": "paragraph"
+				}]
+			}
+		},
+		"41b6ed4c-9bb8-4970-8fdd-6a5001253334": {
+			"title": "<div></div>",
+			"text": "<div></div>",
+			"subtitle": "<div></div>",
+			"titlePosition": "normal",
+			"raw": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Our venue is centrally located within the city’s heart, so guests are never late because they get lost on the way. It is also a stone’s throw away from the city park, making life a lot easier for bridal couples who want to capture their special day in style.",
+						"t": "text"
+					}],
+					"t": "paragraph"
+				}]
+			},
+			"rawtitle": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Proximity ",
+						"t": "text",
+						"f": 1
+					}],
+					"t": "paragraph"
+				}, {
+					"c": [{
+						"tx": "and Accessibility",
+						"t": "text",
+						"f": 1
+					}],
+					"t": "paragraph"
+				}]
+			}
+		},
+		"terms": {
+			"title": "<b>Terms and \nConditions<b>",
+			"rawtitle": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Terms and  Conditions",
+						"t": "text",
+						"f": 1
+					}],
+					"t": "paragraph"
+				}]
+			},
+			"subrawtitle": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [],
+					"t": "paragraph"
+				}]
+			},
+			"text": "<ul>\n  <li>All payments are final</li>\n  <li>We require a 50% deposit for one-off services</li>\n  <li>Clients are expected to cover the cost of system subscriptions</li>\n</ul>\n<p><br></p>",
+			"raw": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"t": "list",
+					"listType": "bullet",
+					"start": 1,
+					"tag": "ul",
+					"c": [{
+						"t": "listitem",
+						"c": [{
+							"tx": "All payments are final",
+							"t": "text"
+						}]
+					}, {
+						"t": "listitem",
+						"c": [{
+							"tx": "We require a 50% deposit for one-off services",
+							"t": "text"
+						}]
+					}, {
+						"t": "listitem",
+						"c": [{
+							"tx": "Clients are expected to cover the cost of system subscriptions",
+							"t": "text"
+						}]
+					}]
+				}, {
+					"c": [],
+					"t": "paragraph"
+				}]
+			}
+		},
+		"a20ba0df-0f73-4689-b5db-a6527c6211b4": {
+			"title": "<div></div>",
+			"text": "<div></div>",
+			"subtitle": "<div></div>",
+			"titlePosition": "normal",
+			"rawtitle": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Our Clientele",
+						"t": "text",
+						"f": 1
+					}],
+					"t": "paragraph"
+				}]
+			},
+			"raw": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "One of the incredible things about the niche we’re a part of is the extent to which we are often required to develop solutions that will specifically address the challenges that customers may face.\n\nFor example, a unique situation at a managed IT service provider (MSP) saw accounting and the technical teams having a very disjointed relationship that led to improper pricing in many cases.\n\nFrom our years of experience working with Intuit QuickBooks, we know that it features a host of integrations with different programs, some of which are help desk systems that an MSP may benefit from.\n\nThough the company wasn’t using one of those solutions, we recommended ConnectWise, which has a ",
+						"t": "text"
+					}, {
+						"tx": "QuickBooks integration that would allow billing data based on ticket work efforts",
+						"t": "text",
+						"f": 1
+					}, {
+						"tx": " to be captured and automatically pulled into the platform.\n\nWith that completed, the discrepancies often arising from the previous silo operation were almost eliminated.\n\nAnother example of a solution we’re proud of was one we delivered to a canned food manufacturer. The big challenge was",
+						"t": "text"
+					}, {
+						"tx": " managing payroll effectively and promptly",
+						"t": "text",
+						"f": 1
+					}, {
+						"tx": ", especially considering the extent to which staff members became disgruntled.\n\nNot only were there often delays because the onsite team was swamped, but the manual method of generating pay slips sometimes led to errors are late deliveries.\n\nWe ",
+						"t": "text"
+					}, {
+						"tx": "sat with the accounting team and came up with the best possible third-party solution",
+						"t": "text",
+						"f": 1
+					}, {
+						"tx": " for their specific needs. Since then, the team has not had to get as hands-on as they used to with payroll, which has led to a smooth and seamless experience.",
+						"t": "text"
+					}],
+					"t": "paragraph"
+				}]
+			}
+		},
+		"44b1ae9d-0060-4371-8898-3672a8c3ada2": {
+			"title": "<div></div>",
+			"text": "<div></div>",
+			"subtitle": "<div></div>",
+			"titlePosition": "normal",
+			"rawtitle": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Payment Terms",
+						"t": "text",
+						"f": 1
+					}],
+					"t": "paragraph"
+				}]
+			},
+			"raw": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "When you contact us, we will set up an appointment to view our venues. After that, we can temporarily reserve the venue for you. \n\nWe require full payment to be made one week before the event, so the sooner you book, the longer you have to make payment. We are available Monday to Friday between 8 am and 5 pm to discuss your requirement",
+						"t": "text"
+					}],
+					"t": "paragraph"
+				}]
+			}
+		},
+		"0e1c2d63-5744-4506-a4a5-90dcd44591da": {
+			"title": "<div></div>",
+			"text": "<div></div>",
+			"subtitle": "<div></div>",
+			"titlePosition": "normal",
+			"rawtitle": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Milestones",
+						"t": "text",
+						"f": 1
+					}],
+					"t": "paragraph"
+				}]
+			},
+			"raw": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Simply call us at [Phone Number] and give us a rundown of what you need. With that out of the way, we will provide you with a quotation based on the combination of services requested or lack thereof.\n\nYou can then confirm your request, fill out our required forms, and let us know the desired start date. From there, we will simply provide you with the expected accounting-based reports, as well as other reports at regular intervals from a service provider perspective.",
+						"t": "text"
+					}],
+					"t": "paragraph"
+				}]
+			}
+		},
+		"c9bea9b3-8db5-48ab-a178-e60c76b25048": {
+			"title": "<div></div>",
+			"text": "<div></div>",
+			"subtitle": "<div></div>",
+			"titlePosition": "normal",
+			"raw": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "I offer various packages that meet any business’s needs. They include:",
+						"t": "text"
+					}],
+					"t": "paragraph"
+				}]
+			},
+			"rawtitle": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Services",
+						"t": "text",
+						"f": 1
+					}],
+					"t": "paragraph"
+				}]
+			}
+		},
+		"76b886d2-0894-419c-b671-cd035f78182f": {
+			"image": "<img />",
+			"raw": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [],
+					"t": "paragraph"
+				}, {
+					"t": "image",
+					"data": "https://dr08qaykn9isr.cloudfront.net/props/ea96cd321b7d14c40e2e2874/section/66a37d9cc4483039b1899a0a.png",
+					"config": {
+						"editable": true,
+						"alignment": "left",
+						"border": {},
+						"shadow": {},
+						"size": {
+							"width": 892,
+							"height": 357,
+							"maxHeight": 357,
+							"ratio": 2.5
+						}
+					}
+				}, {
+					"c": [{
+						"tx": " ",
+						"t": "text"
+					}],
+					"t": "paragraph"
+				}]
+			}
+		},
+		"20f3a48d-06e0-4fdf-95fb-4e6c6064957d": {
+			"title": "<div></div>",
+			"text": "<div></div>",
+			"subtitle": "<div></div>",
+			"titlePosition": "normal",
+			"raw": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "One of the incredible things about the niche we’re a part of is the extent to which we are often required to develop solutions that will specifically address the challenges that customers may face.\n\nFor example, a unique situation at a managed IT service provider (MSP) saw accounting and the technical teams having a very disjointed relationship that led to improper pricing in many cases.\n\nFrom our years of experience working with Intuit QuickBooks, we know that it features a host of integrations with different programs, some of which are help desk systems that an MSP may benefit from.\n\nThough the company wasn’t using one of those solutions, we recommended ConnectWise, which has a ",
+						"t": "text"
+					}, {
+						"tx": "QuickBooks integration that would allow billing data based on ticket work efforts",
+						"t": "text",
+						"f": 1
+					}, {
+						"tx": " to be captured and automatically pulled into the platform.\n\nWith that completed, the discrepancies often arising from the previous silo operation were almost eliminated.\n\nAnother example of a solution we’re proud of was one we delivered to a canned food manufacturer. The big challenge was",
+						"t": "text"
+					}, {
+						"tx": " managing payroll effectively and promptly",
+						"t": "text",
+						"f": 1
+					}, {
+						"tx": ", especially considering the extent to which staff members became disgruntled.\n\nNot only were there often delays because the onsite team was swamped, but the manual method of generating pay slips sometimes led to errors are late deliveries.\n\nWe ",
+						"t": "text"
+					}, {
+						"tx": "sat with the accounting team and came up with the best possible third-party solution",
+						"t": "text",
+						"f": 1
+					}, {
+						"tx": " for their specific needs. Since then, the team has not had to get as hands-on as they used to with payroll, which has led to a smooth and seamless experience.",
+						"t": "text"
+					}],
+					"t": "paragraph"
+				}]
+			},
+			"rawtitle": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Our Clientele",
+						"t": "text",
+						"f": 1
+					}],
+					"t": "paragraph"
+				}]
+			}
+		},
+		"f72af7fe-d65f-424f-9393-7089e553f14c": {
+			"title": "<div></div>",
+			"text": "<div></div>",
+			"subtitle": "<div></div>",
+			"titlePosition": "normal",
+			"raw": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "We offer about anything you would expect from a company that will virtually handle your bookkeeping and other accounting needs. Some of the examples are:",
+						"t": "text",
+						"f": 1
+					}],
+					"t": "paragraph"
+				}, {
+					"c": [],
+					"t": "paragraph"
+				}, {
+					"t": "list",
+					"listType": "bullet",
+					"start": 1,
+					"tag": "ul",
+					"c": [{
+						"t": "listitem",
+						"c": [{
+							"tx": "Bookkeeping, including daily, weekly, monthly, quarterly, and annual applications",
+							"t": "text"
+						}]
+					}, {
+						"t": "listitem",
+						"c": [{
+							"tx": "Accounts payable services, including posting, bill pay, coding, reporting, reconciliation, and vendor master file maintenance",
+							"t": "text"
+						}]
+					}, {
+						"t": "listitem",
+						"c": [{
+							"tx": "Accounts receivable services, including cash receipt and sale posting, invoicing, reporting, and maintaining customer master files",
+							"t": "text"
+						}]
+					}, {
+						"t": "listitem",
+						"c": [{
+							"tx": "Monthly process tasks, including location tracking, customer deposit tracking, income allocations, currency conversions, and job costing",
+							"t": "text"
+						}]
+					}, {
+						"t": "listitem",
+						"c": [{
+							"tx": "Cleaning up books in arrears",
+							"t": "text"
+						}]
+					}, {
+						"t": "listitem",
+						"c": [{
+							"tx": "1099 and 1096 tasks including compiling, filing, and reporting, for your year-end tax filings",
+							"t": "text"
+						}]
+					}]
+				}, {
+					"c": [],
+					"t": "paragraph"
+				}, {
+					"c": [{
+						"tx": "Some of the tools that we tend to use are:",
+						"t": "text",
+						"f": 1
+					}],
+					"t": "paragraph"
+				}, {
+					"t": "list",
+					"listType": "bullet",
+					"start": 1,
+					"tag": "ul",
+					"c": [{
+						"t": "listitem",
+						"c": [{
+							"tx": "Intuit QuickBooks",
+							"t": "text"
+						}]
+					}, {
+						"t": "listitem",
+						"c": [{
+							"tx": "Microsoft Excel",
+							"t": "text"
+						}]
+					}, {
+						"t": "listitem",
+						"c": [{
+							"tx": "Sage 300",
+							"t": "text"
+						}]
+					}, {
+						"t": "listitem",
+						"c": [{
+							"tx": "Sage Purchase Workflow",
+							"t": "text"
+						}]
+					}]
+				}]
+			},
+			"rawtitle": {
+				"t": "root",
+				"defaults": {
+					"d": "ltr",
+					"f": "",
+					"i": 0,
+					"v": 1
+				},
+				"c": [{
+					"c": [{
+						"tx": "Services",
+						"t": "text",
+						"f": 1
+					}],
+					"t": "paragraph"
+				}]
+			}
+		}
+	},
+	"expiryMessage": "This proposal has expired. Contact ru5 for more information.",
+	"isEditing": {
+		"name": "Ashiq",
+		"uid": "6371de67722cbe07546120fe",
+		"tabID": "7135358e-03d0-4630-8e0e-57563916300d"
+	},
+	"milestones": {
+		"chosen": {
+			"OPTION 1": {
+				"total": "",
+				"list": [{
+					"name": "Introductory Meeting + Ideal Customer Discussion",
+					"id": "1dca2ad1-c21b-4cde-8fc4-ad1f38395533",
+					"price": 0,
+					"type": null,
+					"chosen": false,
+					"selected": false,
+					"time": "ASAP"
+				}, {
+					"name": "First Drafts Delivery",
+					"id": "1e5813eb-8c30-4730-b682-763628cbd4a0",
+					"price": 0,
+					"type": null,
+					"chosen": false,
+					"selected": false,
+					"time": "One Month"
+				}, {
+					"id": "8b97f3aa-4416-41d5-8951-cf857ee50da0",
+					"name": "Kickoff Meeting",
+					"price": 0,
+					"type": null
+				}]
+			},
+			"OPTION 2": {
+				"total": "",
+				"list": [{
+					"id": "ba5ffc92-8d14-4742-8d13-b4b6c7ef6137",
+					"name": "Everything on option 1",
+					"price": 0,
+					"type": null
+				}]
+			},
+			"OPTION 3": {
+				"total": "",
+				"list": [{
+					"id": "1e34cd8e-106f-4954-ae73-a1eeeaddbb10",
+					"name": "Everything on option 2",
+					"price": 0,
+					"type": null
+				}]
+			}
+		}
+	},
+	"payedfor": null,
+	"prevState": "edit",
+	"proptext": null,
+	"sawmilestones": true,
+	"sawyou": true,
+	"state": "edit",
+	"templateName": "Virtual Bookkeeping Proposal Template",
+	"titletext": null,
+	"pnum": "100046",
+	"contactOptions": [{
+		"option": "email",
+		"value": "ashiq@goprospero.com",
+		"enabled": true
+	}, {
+		"option": "call",
+		"value": "",
+		"enabled": true
+	}, {
+		"option": "whatsapp",
+		"value": "+917002859965",
+		"enabled": true
+	}],
+	"decimalPrecision": 2,
+	"mondayBoardId": null,
+	"chatway": null,
+	"creatorUserway": false,
+	"enablePayment": null,
+	"proposalRedirectAfter": 5,
+	"proposalRedirectTo": "https://secure.cardcom.solutions/EA/EA5/uAi26RMwAkChohOjfviJaw/Order",
+	"superPowers": null,
+	"userway": null,
+	"wixConnectedInstance": null,
+	"wixPricing": {
+		"lineItems": [{
+			"quantity": "12",
+			"name": "Clothing for basketball players",
+			"description": "",
+			"price": "25.00",
+			"pricesBreakdown": {
+				"totalPriceAfterTax": "290.00",
+				"taxDetails": {
+					"taxRate": "0.00",
+					"taxableAmount": "290.00",
+					"taxable": null,
+					"totalTax": "0.00",
+					"taxName": null,
+					"rateBreakdown": []
+				},
+				"totalDiscount": "0.00",
+				"price": "25.00",
+				"priceBeforeDiscounts": "25.00",
+				"lineItemPrice": "300.00",
+				"fullPrice": null
+			},
+			"itemType": {
+				"preset": null
+			}
+		}],
+		"appliedDiscounts": [{
+			"lineItemIds": [],
+			"discountType": "GLOBAL"
+		}],
+		"additionalFees": [],
+		"calculatedTotals": {
+			"priceSummary": {
+				"total": "290.00",
+				"subtotal": "300.00",
+				"discount": "10.00",
+				"additionalFees": "0.00"
+			}
+		},
+		"paymentSettings": {
+			"type": "SINGLE_PAYMENT",
+			"singlePaymentSchedule": {
+				"dueDate": null,
+				"dueDateOffset": 30,
+				"issueDate": null,
+				"deposit": null,
+				"paymentStatus": "UNSCHEDULED",
+				"amountPaid": null
+			},
+			"multiplePaymentSchedule": null
+		},
+		"currencyCode": "EUR",
+		"locale": null
+	},
+	"wixProposalId": null,
+	"deliverables": null,
+	"fromUserTemplate": null,
+	"seenCount": 0,
+	"seenTime": 0,
+	"stripe": "",
+	"expiryDate": null,
+	"openLogs": [],
+	"clientPayableAmount": null,
+	"clientPayableCurrency": null,
+	"clientPayableLabel": null,
+	"edited": {
+		"$date": "2024-11-19T06:15:12.914Z"
+	},
+	"importedProposal": null,
+	"isBasicTemplate": null,
+	"isWixTemplate": null,
+	"lastSeen": null,
+	"payment": null,
+	"published": null,
+	"selectedOption": null,
+	"signature": null,
+	"editEvent": true,
+	"enableAITool": null
+}
