@@ -76,3 +76,7 @@ To optimize the JSON:
 
 3. Remove Defaults: Strip out fields that match the global defaults.
 4. Compress Text: Use libraries like lz-string to compress text nodes.
+
+
+
+

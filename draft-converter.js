@@ -40,15 +40,11 @@ function findRawAndConvert(obj) {
   if (!obj) {
     return obj;
   }
-  // console.log("obj", obj);
 
   // find all object keys
   const objKeys = Object.keys(obj).filter(
     (key) => !excludedKeys.includes(key) && typeof obj[key] === "object"
   );
-  // const objKeys = Object.keys(obj);
-  console.log("objKeys", objKeys);
-
   objKeys.forEach((key) => {
     if (!excludedKeys.includes(key) || typeof obj[key] === "object") {
       if (raws.includes(key)) {
@@ -57,7 +53,6 @@ function findRawAndConvert(obj) {
       }
       // recursively call findRawAndConvert
       else {
-        // console.log('recursive',obj[key]);
         obj[key] = findRawAndConvert({ ...obj[key] });
       }
     }

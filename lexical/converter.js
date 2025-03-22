@@ -1,6 +1,22 @@
 const fontsList = require("./fonts");
 const fonts = new Set([...fontsList]);
 
+
+const SHORTEN = true;
+
+
+const keyMapping = {
+  format: "f",
+  indent: "i",
+  version: "v",
+  children: "c",
+  text: "tx",
+  type: "t",
+  style: "s",
+  mode: "m",
+  direction: "d",
+};
+
 // Map Draft.js inline styles to Lexical format bitmask values
 const STYLE_BITMASK = {
   bold: 1,
@@ -21,7 +37,8 @@ const calculateFormatBitmask = (styles) =>
 const extractStyleString = (styles) =>
   styles
     .filter((style) => !STYLE_BITMASK[style.toLowerCase()])
-    .join(";").replace(/;{2,}/g, ";");
+    .join(";")
+    .replace(/;{2,}/g, ";");
 
 // Convert Draft.js specific styles (e.g., font weight, color, bg-color)
 const getStyle = (style) => {
@@ -50,14 +67,10 @@ const getStyle = (style) => {
   return lowerStyle;
 };
 
-
-
 // Map Draft.js inline styles and entity ranges for links to Lexical format
 function mergeInlineStyles(text, inlineStyleRanges, entityRanges, entityMap) {
   const styleMap = Array.from({ length: text.length }, () => new Set());
   const linkMap = Array(text.length).fill(null);
-
-  console.log("styleMap", styleMap, text);
 
   // Populate styleMap with inline styles
   inlineStyleRanges.forEach(({ offset, length, style }) => {
@@ -71,7 +84,6 @@ function mergeInlineStyles(text, inlineStyleRanges, entityRanges, entityMap) {
     }
   });
 
-
   // Populate linkMap with entity data for link entities
   entityRanges.forEach(({ offset, length, key }) => {
     if (entityMap[key]?.type === "LINK") {
@@ -84,8 +96,6 @@ function mergeInlineStyles(text, inlineStyleRanges, entityRanges, entityMap) {
   // Generate Lexical-compatible segments based on styles and link entities
   return generateSegments(text, styleMap, linkMap, entityMap);
 }
-
-
 
 // Helper function to create text/link segments based on styles and entities
 function generateSegments(text, styleMap, linkMap, entityMap) {
@@ -144,12 +154,12 @@ function addSegment(segments, text, styles, linkKey, entityMap) {
   };
 
   const style = extractStyleString(styles);
-  if(style?.length){
+  if (style?.length) {
     segment.style = style;
   }
 
   const format = calculateFormatBitmask(styles);
-  if(format){
+  if (format) {
     segment.format = format;
   }
 
@@ -168,20 +178,7 @@ function addSegment(segments, text, styles, linkKey, entityMap) {
   }
 }
 
-
-
 // -------------- shortend or extent the lexical keys  ----------------
-const keyMapping = {
-  format: "f",
-  indent: "i",
-  version: "v",
-  children: "c",
-  text: "tx",
-  type: "t",
-  style: "s",
-  mode: "m",
-  direction: "d",
-};
 
 function shortenKeys(data) {
   function shorten(obj) {
@@ -281,8 +278,7 @@ function convertBlockToLexical(block, entityMap) {
         return {
           type: "horizontalrule",
         };
-      }
-       else if (entity.type === "html") {
+      } else if (entity.type === "html") {
         return {
           type: entity.type,
           data: entity.data.htmlCode,
@@ -295,15 +291,26 @@ function convertBlockToLexical(block, entityMap) {
           data: entity.data.texcontent,
         };
       } else if (entity.type === "media") {
-        return {
-          type: entity.type,
-          data: entity.data,
-        };
+        if (entity.data.original_link) {
+          return {
+            type: entity.type,
+            data: getMediaUrl(entity.data?.original_link),
+            config: { ...entity.data },
+          };
+        }
       } else if (entity.type === "image") {
+        const { hyperlink, src, config } = entity.data;
+        const { size } = config;
+        delete config.size;
+
         return {
           type: entity.type,
-          data: entity.data.src,
-          config: entity.data.config,
+          src: src,
+          config: config,
+          hyperlink: hyperlink,
+          width: size.width,
+          height: size.height,
+          maxWidth: "inherit",
         };
       } else if (["form", "gallery", "testimonial"].includes(entity.type)) {
         return {
@@ -439,11 +446,13 @@ function convertDraftToLexical(obj) {
     }
   });
 
-  // return { root };
-  return shortenKeys(root);
+  // shorten the keys to reduce file size
+  if (SHORTEN) {
+    return shortenKeys(root);
+  }
+
+  return root;
 }
-
-
 
 // Convert Draft.js table entity to Lexical table format
 function convertTableEntityToLexical(tableData) {
@@ -513,6 +522,25 @@ function convertListToLexical(block, entityMap, direction) {
 
   return { listType, listItem, depth: block.depth };
 }
+
+const getMediaUrl = (url) => {
+  if (!url || url?.length === 0) {
+    return null;
+  }
+
+  // for youtube get the video id
+  const match =
+    /^.*(youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/.exec(url);
+
+  const id = match ? (match?.[2].length === 11 ? match[2] : null) : null;
+
+  if (id != null) {
+    return `https://www.youtube-nocookie.com/embed/${id}`;
+  }
+
+  // for other platform return the url as it is
+  return url;
+};
 
 module.exports = {
   shortenKeys,

@@ -1,22 +1,25 @@
 {
-    "_id": "2d7e8ff4f738619213ea6b37",
+    "_id": "e7675df81f835afe2e3b422d",
     "date": {
-      "$date": "2024-09-19T07:19:18.894Z"
+      "$date": "2025-02-25T09:37:38.131Z"
     },
     "sigOptions": [
-      "type",
+      "draw",
       "upload",
-      "draw"
+      "type"
     ],
     "signatureEmails": [],
-    "scripts": [],
+    "scripts": [
+      "hei",
+      "fgfg"
+    ],
     "returnOutput": [],
     "tags": [],
-    "spamUrls": [],
-    "pid": "3f9f4973-17ef-4763-9676-a1b837d64101",
-    "uid": "6371de67722cbe07546120fe",
+    "pid": "d5d42347-4aa1-4fb2-bc07-1a9c946d1693",
+    "pnum": "100598",
+    "uid": "63a2e784d26c6433602e5359",
     "auid": "",
-    "name": "Ashiq",
+    "name": "Ashiq Dey",
     "email": "ashiq@goprospero.com",
     "version": 16,
     "pricing": {
@@ -24,1016 +27,85 @@
     },
     "language": "english",
     "priceSeperator": "none",
-    "contactButton": ",",
+    "decimalPrecision": 2,
+    "contactButton": "block",
+    "stripe": {
+      "stripe_user_id": "acct_1MM7pRPfKNjN9ejK",
+      "isActive": false,
+      "type": "stripe"
+    },
     "currency": "$",
+    "spamUrls": [
+      {
+        "url": "https://spamurl.com/q9",
+        "blocked": true
+      },
+      {
+        "url": "https://spamurl.com/q8",
+        "blocked": true
+      },
+      {
+        "url": "https://spamurl.com/q7",
+        "blocked": true
+      },
+      {
+        "url": "https://spamurl.com/q4",
+        "blocked": true
+      },
+      {
+        "url": "https://spamurl.com/r3",
+        "blocked": true
+      },
+      {
+        "url": "https://spamurl.com/r2",
+        "blocked": true
+      },
+      {
+        "url": "https://spamurl.com/r8",
+        "blocked": true
+      },
+      {
+        "url": "https://spamurl.com/r9",
+        "blocked": true
+      }
+    ],
     "redirectTo": "https://secure.cardcom.solutions/EA/EA5/uAi26RMwAkChohOjfviJaw/Order",
-    "redirectAfter": 5,
-    "sigtype": "sigtext",
-    "contactnumber": "7002859966",
+    "redirectAfter": 8,
+    "contactOptions": [
+      {
+        "option": "email",
+        "value": "ashiq@goprospero.com",
+        "enabled": true
+      },
+      {
+        "option": "call",
+        "value": "",
+        "enabled": true
+      },
+      {
+        "option": "whatsapp",
+        "value": "",
+        "enabled": true
+      }
+    ],
+    "sigtype": "sigdraw",
+    "contactnumber": "6787687687",
     "callButton": "block",
-    "project": {
-      "name": "test pricing",
-      "desc": null,
-      "goals": null,
-      "type": null,
-      "othertype": null
-    },
-    "attachments": [],
-    "__v": 0,
-    "client": {
-      "name": "",
-      "contact": "Abhisek Dey",
-      "desc": null,
-      "address": null,
-      "text": null,
-      "email": "",
-      "subject": null,
-      "fromname": null,
-      "mondayItemId": null
-    },
-    "clientPayableLink": null,
-    "clientnametext": null,
-    "curr": null,
-    "dateFormat": "MM/DD/YYYY",
-    "deletedAt": null,
-    "disableSig": false,
+    "importedProposal": false,
     "draft": {
-      "header": {
-        "by": "By",
-        "contact": "Contact",
-        "title": "test pricing",
-        "subtitle": "Prepared For<br>Mr. Client<br>09/14/2021",
-        "name": "Ashiq",
-        "email": "ashiq@goprospero.com",
-        "logo": "https://dr08qaykn9isr.cloudfront.net/props/ea96cd321b7d14c40e2e2874/logo/66a37b809815af33ef63c7ef.png",
-        "cover": "https://dr08qaykn9isr.cloudfront.net/covers/66927350d3f1d573e08847f7/66a37b9a64c7953914a263d1.jpg",
-        "color": "rgba(0,0,0,0.4)",
-        "rawsubtitle": {
-          "blocks": [
-            {
-              "key": "ethtv",
-              "text": "Prepared For Abhisek Dey",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [
-                {
-                  "offset": 0,
-                  "length": 30,
-                  "style": "24px"
-                },
-                {
-                  "offset": 13,
-                  "length": 24,
-                  "style": "BOLD"
-                }
-              ],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        },
-        "rawtitle": {
-          "blocks": [
-            {
-              "data": {},
-              "depth": 0,
-              "entityRanges": [],
-              "inlineStyleRanges": [
-                {
-                  "offset": 0,
-                  "length": 12,
-                  "style": "700"
-                },
-                {
-                  "offset": 0,
-                  "length": 12,
-                  "style": "48px"
-                }
-              ],
-              "type": "unstyled",
-              "key": "1ki93",
-              "text": "test pricing"
-            }
-          ],
-          "entityMap": {}
-        },
-        "titleStyle": {
-          "titleDisplay": "none"
-        },
-        "rawemail": {
-          "blocks": [
-            {
-              "key": "e8fgp",
-              "text": "test@email.com",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        },
-        "rawname": {
-          "blocks": [
-            {
-              "key": "2gig8",
-              "text": "Prospero team",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        },
-        "clientname": "Abhisek Dey",
-        "hidecover": false,
-        "headerConfig": {
-          "position": "normal",
-          "cover": "full",
-          "contact": "block",
-          "coverTextAlignment": "custom",
-          "title": "Poppins",
-          "family": "\"Poppins\", sans-serif",
-          "weight": 400,
-          "weights": [
-            400,
-            700
-          ],
-          "color1": "white",
-          "color2": "#d2d2d2",
-          "color3": "#05034d",
-          "fontSize": "36px"
-        },
-        "originalState": {
-          "by": "By",
-          "contact": "Contact",
-          "title": "test pricing",
-          "subtitle": "Prepared For<br>Mr. Client<br>09/14/2021",
-          "name": "Ashiq",
-          "email": "ashiq@goprospero.com",
-          "logo": "https://dr08qaykn9isr.cloudfront.net/props/ea96cd321b7d14c40e2e2874/logo/66a37b809815af33ef63c7ef.png",
-          "cover": "https://dr08qaykn9isr.cloudfront.net/covers/66927350d3f1d573e08847f7/66a37b9a64c7953914a263d1.jpg",
-          "color": "rgba(0,0,0,0.4)",
-          "rawsubtitle": {
-            "blocks": [
-              {
-                "key": "ethtv",
-                "text": "Prepared For Abhisek Dey",
-                "type": "unstyled",
-                "depth": 0,
-                "inlineStyleRanges": [
-                  {
-                    "offset": 0,
-                    "length": 30,
-                    "style": "24px"
-                  },
-                  {
-                    "offset": 13,
-                    "length": 24,
-                    "style": "BOLD"
-                  }
-                ],
-                "entityRanges": [],
-                "data": {}
-              }
-            ],
-            "entityMap": {}
-          },
-          "rawtitle": {
-            "blocks": [
-              {
-                "data": {},
-                "depth": 0,
-                "entityRanges": [],
-                "inlineStyleRanges": [
-                  {
-                    "offset": 0,
-                    "length": 12,
-                    "style": "700"
-                  },
-                  {
-                    "offset": 0,
-                    "length": 12,
-                    "style": "48px"
-                  }
-                ],
-                "type": "unstyled",
-                "key": "1ki93",
-                "text": "test pricing"
-              }
-            ],
-            "entityMap": {}
-          },
-          "titleStyle": {
-            "titleDisplay": "none"
-          },
-          "rawemail": {
-            "blocks": [
-              {
-                "key": "e8fgp",
-                "text": "test@email.com",
-                "type": "unstyled",
-                "depth": 0,
-                "inlineStyleRanges": [],
-                "entityRanges": [],
-                "data": {}
-              }
-            ],
-            "entityMap": {}
-          },
-          "rawname": {
-            "blocks": [
-              {
-                "key": "2gig8",
-                "text": "Prospero team",
-                "type": "unstyled",
-                "depth": 0,
-                "inlineStyleRanges": [],
-                "entityRanges": [],
-                "data": {}
-              }
-            ],
-            "entityMap": {}
-          },
-          "clientname": "Abhisek Dey",
-          "hidecover": false,
-          "headerConfig": {
-            "position": "normal",
-            "cover": "full",
-            "contact": "block",
-            "coverTextAlignment": "custom",
-            "title": "Poppins",
-            "family": "\"Poppins\", sans-serif",
-            "weight": 400,
-            "weights": [
-              400,
-              700
-            ],
-            "color1": "white",
-            "color2": "#d2d2d2",
-            "color3": "#05034d",
-            "fontSize": "36px"
-          },
-          "originalState": {
-            "by": "By",
-            "contact": "Contact",
-            "title": "-COPY",
-            "subtitle": "Prepared For<br>Mr. Client<br>09/14/2021",
-            "name": "ru$&",
-            "email": "ru$&@mail.com",
-            "logo": "https://dr08qaykn9isr.cloudfront.net/props/50ccd831d32e1967335280c4/logo/6628ee1a9854428f143e5bee.png",
-            "cover": "https://dr08qaykn9isr.cloudfront.net/covers/YMCMzBje3h42Tywjy/664d796c89f3e83c91cf1f80.png",
-            "color": "rgba(0,0,0,0.4)",
-            "rawsubtitle": {
-              "blocks": [
-                {
-                  "key": "ethtv",
-                  "text": "Prepared For Edet",
-                  "type": "unstyled",
-                  "depth": 0,
-                  "inlineStyleRanges": [
-                    {
-                      "offset": 0,
-                      "length": 22,
-                      "style": "24px"
-                    },
-                    {
-                      "offset": 13,
-                      "length": 17,
-                      "style": "BOLD"
-                    }
-                  ],
-                  "entityRanges": [],
-                  "data": {}
-                }
-              ],
-              "entityMap": {}
-            },
-            "rawtitle": {
-              "blocks": [
-                {
-                  "data": {},
-                  "depth": 0,
-                  "entityRanges": [],
-                  "inlineStyleRanges": [
-                    {
-                      "offset": 0,
-                      "length": 5,
-                      "style": "700"
-                    },
-                    {
-                      "offset": 0,
-                      "length": 5,
-                      "style": "48px"
-                    }
-                  ],
-                  "type": "unstyled",
-                  "key": "1vjbq",
-                  "text": "-COPY"
-                }
-              ],
-              "entityMap": {}
-            },
-            "titleStyle": {
-              "titleDisplay": "none"
-            },
-            "rawemail": {
-              "blocks": [
-                {
-                  "key": "e8fgp",
-                  "text": "test@email.com",
-                  "type": "unstyled",
-                  "depth": 0,
-                  "inlineStyleRanges": [],
-                  "entityRanges": [],
-                  "data": {}
-                }
-              ],
-              "entityMap": {}
-            },
-            "rawname": {
-              "blocks": [
-                {
-                  "key": "2gig8",
-                  "text": "Prospero team",
-                  "type": "unstyled",
-                  "depth": 0,
-                  "inlineStyleRanges": [],
-                  "entityRanges": [],
-                  "data": {}
-                }
-              ],
-              "entityMap": {}
-            },
-            "clientname": "Edet",
-            "hidecover": false
-          }
-        }
-      },
-      "overview": {
-        "title": "Overview",
-        "text": "<div>I will develop The Company’s vision into a fully functional cross-platform website and mobile application. Using the most up to date technologies I will implement the design, and help you deploy it on your own servers.</div><div>The goal of this project is to replace the current online platform with improved technologies that will allow for better performance and conversion rates.</div>",
-        "raw": {
-          "blocks": [
-            {
-              "key": "72bt9",
-              "text": "t-bold t-italic t-underline t-strike t-color t-background-color t-link t-bold-italic t-italic-strike t-font-size t-font-family t-font-weight t-font-size-color t-font-fam-color-italic t-font-link-color t-background t-link-strike-underline.",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [
-                {
-                  "offset": 113,
-                  "length": 13,
-                  "style": "Asset"
-                },
-                {
-                  "offset": 45,
-                  "length": 18,
-                  "style": "rgba(243, 255, 44, 1)"
-                },
-                {
-                  "offset": 45,
-                  "length": 18,
-                  "style": "bg-rgba(26, 67, 240, 1)"
-                },
-                {
-                  "offset": 183,
-                  "length": 17,
-                  "style": "rgba(32, 43, 241, 1)"
-                },
-                {
-                  "offset": 0,
-                  "length": 6,
-                  "style": "BOLD"
-                },
-                {
-                  "offset": 71,
-                  "length": 13,
-                  "style": "BOLD"
-                },
-                {
-                  "offset": 101,
-                  "length": 11,
-                  "style": "10px"
-                },
-                {
-                  "offset": 141,
-                  "length": 17,
-                  "style": "10px"
-                },
-                {
-                  "offset": 159,
-                  "length": 23,
-                  "style": "Calligraffitti"
-                },
-                {
-                  "offset": 183,
-                  "length": 17,
-                  "style": "Calligraffitti"
-                },
-                {
-                  "offset": 16,
-                  "length": 10,
-                  "style": "UNDERLINE"
-                },
-                {
-                  "offset": 214,
-                  "length": 23,
-                  "style": "UNDERLINE"
-                },
-                {
-                  "offset": 7,
-                  "length": 8,
-                  "style": "ITALIC"
-                },
-                {
-                  "offset": 71,
-                  "length": 13,
-                  "style": "ITALIC"
-                },
-                {
-                  "offset": 85,
-                  "length": 15,
-                  "style": "ITALIC"
-                },
-                {
-                  "offset": 159,
-                  "length": 23,
-                  "style": "ITALIC"
-                },
-                {
-                  "offset": 37,
-                  "length": 7,
-                  "style": "rgba(235, 43, 43, 1)"
-                },
-                {
-                  "offset": 28,
-                  "length": 8,
-                  "style": "STRIKETHROUGH"
-                },
-                {
-                  "offset": 85,
-                  "length": 15,
-                  "style": "STRIKETHROUGH"
-                },
-                {
-                  "offset": 214,
-                  "length": 23,
-                  "style": "STRIKETHROUGH"
-                },
-                {
-                  "offset": 159,
-                  "length": 23,
-                  "style": "rgba(246, 34, 34, 1)"
-                },
-                {
-                  "offset": 127,
-                  "length": 13,
-                  "style": "700"
-                },
-                {
-                  "offset": 201,
-                  "length": 12,
-                  "style": "bg-rgba(250, 245, 33, 1)"
-                },
-                {
-                  "offset": 141,
-                  "length": 17,
-                  "style": "rgba(74, 74, 74, 1)"
-                }
-              ],
-              "entityRanges": [
-                {
-                  "offset": 64,
-                  "length": 6,
-                  "key": 0
-                },
-                {
-                  "offset": 183,
-                  "length": 17,
-                  "key": 1
-                },
-                {
-                  "offset": 214,
-                  "length": 23,
-                  "key": 2
-                }
-              ],
-              "data": {}
-            },
-            {
-              "key": "6lna7",
-              "text": "",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "2co8j",
-              "text": "this is quote",
-              "type": "blockquote",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "5vu3s",
-              "text": "this is list",
-              "type": "unordered-list-item",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "lbca",
-              "text": "item 2",
-              "type": "unordered-list-item",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "1g9k",
-              "text": "item 2.1",
-              "type": "unordered-list-item",
-              "depth": 1,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "9sfdh",
-              "text": "item 3",
-              "type": "unordered-list-item",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "6c4ft",
-              "text": "left-alignment",
-              "type": "editor-align-left     ",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "dcalj",
-              "text": "right-alignment",
-              "type": "editor-align-right     ",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "16bo9",
-              "text": "justify-alignment text to make it evenly spread over the editor or the view justify alignment text to make it evenly spread over the editor or the view",
-              "type": "editor-align-justify     ",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "8oqp2",
-              "text": "center-alignment",
-              "type": "editor-align-center     ",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "1iggg",
-              "text": "intent-level 1",
-              "type": "    intent-left-1 ",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "4u024",
-              "text": "intent-level 2",
-              "type": "    intent-left-2 ",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {
-            "0": {
-              "type": "LINK",
-              "mutability": "MUTABLE",
-              "data": {
-                "url": "https://playground.lexical.dev/"
-              }
-            },
-            "1": {
-              "type": "LINK",
-              "mutability": "MUTABLE",
-              "data": {
-                "url": "https://playground.lexical.dev/"
-              }
-            },
-            "2": {
-              "type": "LINK",
-              "mutability": "MUTABLE",
-              "data": {
-                "url": "https://playground.lexical.dev/"
-              }
-            }
-          }
-        },
-        "rawtitle": {
-          "blocks": [
-            {
-              "key": "db93m",
-              "text": "Overview",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [
-                {
-                  "offset": 0,
-                  "length": 8,
-                  "style": "BOLD"
-                }
-              ],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        }
-      },
-      "whyme2": {
-        "title": "Why Me",
-        "raw": {
-          "blocks": [
-            {
-              "key": "as2e8",
-              "text": "",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "7de23",
-              "text": " ",
-              "type": "atomic",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [
-                {
-                  "offset": 0,
-                  "length": 1,
-                  "key": 0
-                }
-              ],
-              "data": {}
-            }
-          ],
-          "entityMap": {
-            "0": {
-              "type": "TOKEN",
-              "mutability": "IMMUTABLE",
-              "data": {
-                "texcontent": "{\"superPowers\":{\"Speed\":{\"text\":\"I know the secrets of good copywriting. I’ve had [x] years of experience as a professional writer, and my work can be seen on [website], [website], and [website].\",\"order\":0,\"description\":\"\"},\"Honesty\":{\"text\":\"You can see the rest of my portfolio here, where I’ve taken on many projects with businesses like yours.\",\"order\":1,\"description\":\"\"},\"Originality\":{\"text\":\"I take a comprehensive approach to copywriting, making sure that I know who I’m writing to before I begin work. Knowing your audience helps me know how to speak to the people who need you most.\",\"order\":2,\"description\":\"\"}}}"
-              }
-            }
-          }
-        }
-      },
-      "pricing2": {
-        "title": "Cost",
-        "raw": {
-          "blocks": [
-            {
-              "key": "as2e8",
-              "text": "The fees for our services are as follows:",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "9sksf",
-              "text": "",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "4rbt",
-              "text": " ",
-              "type": "atomic",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [
-                {
-                  "offset": 0,
-                  "length": 1,
-                  "key": 0
-                }
-              ],
-              "data": {}
-            },
-            {
-              "key": "vr8o",
-              "text": "",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {
-            "0": {
-              "type": "TOKEN",
-              "mutability": "IMMUTABLE",
-              "data": {
-                "texcontent": "{\"pricing\":{\"strategy\":\"table\"},\"curr\":\"$\",\"deliverables\":{\"chosen\":{\"OPTION 1\":{\"total\":0,\"list\":[{\"name\":\"Bookkeeping Services\",\"id\":\"9deee27e-9180-4d88-9031-f2bd9e8d0529\",\"price\":\"100\",\"type\":null,\"chosen\":false,\"selected\":false,\"currentPrice\":\"100\",\"description\":\"This is a description This is a description with 50% discount\",\"items\":2,\"discount\":{\"value\":\"50\",\"unit\":\"%\",\"type\":-1}},{\"name\":\"Accounts Receivable\",\"id\":\"f8317b3a-5b69-4497-8371-04b525ce745b\",\"price\":\"30\",\"type\":null,\"chosen\":false,\"selected\":false,\"currentPrice\":\"30\",\"items\":1},{\"id\":\"1fa434f0-a098-4bc9-8ed2-aad971a5ca56\",\"name\":\"Accounts Payable\",\"description\":\"\",\"price\":\"999\",\"type\":null,\"chosen\":false,\"selected\":false,\"currentPrice\":\"999\",\"items\":2},{\"id\":\"c7ef0c73-13e1-40ad-a722-e62760453078\",\"name\":\"Clean Up\",\"description\":\"\",\"price\":\"15\",\"type\":null,\"chosen\":false,\"selected\":false,\"items\":3,\"currentPrice\":\"5\"}],\"structured\":true,\"columnName\":{\"deliverable\":\"Services\",\"rowprice\":\"Price\",\"price\":\"Cost\"},\"quantity\":true,\"subtotal\":true},\"OPTION 2\":{\"total\":\"\",\"list\":[{\"id\":\"9774ec0c-1463-409f-ad6d-164d83e76178\",\"name\":\"Everything on option 1\",\"price\":0,\"type\":null}],\"structured\":true},\"OPTION 3\":{\"total\":\"\",\"list\":[{\"id\":\"833a8904-52fb-48f3-a53c-abea15f7b52c\",\"name\":\"Everything on option 2\",\"price\":0,\"type\":null}],\"structured\":true}}},\"roundTotal\":false,\"priceSeperator\":\"none\",\"decimalPrecision\":2,\"language\":\"english\"}"
-              }
-            }
-          }
-        },
-        "rawtitle": {
-          "blocks": [
-            {
-              "key": "7bn48",
-              "text": "Fees",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [
-                {
-                  "offset": 0,
-                  "length": 4,
-                  "style": "BOLD"
-                }
-              ],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        }
-      },
-      "milestones2": {
-        "title": "Milestones",
-        "raw": {
-          "blocks": [
-            {
-              "key": "as2e8",
-              "text": "While rates may differ based on your requirements, we typically charge standard rates for different packages. \n\nPlease note that catering and décor are charged separately.",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "as2f6",
-              "text": "",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "6r4dl",
-              "text": " ",
-              "type": "atomic",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [
-                {
-                  "offset": 0,
-                  "length": 1,
-                  "key": 0
-                }
-              ],
-              "data": {}
-            },
-            {
-              "key": "73kkb",
-              "text": "",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {
-            "0": {
-              "type": "table",
-              "mutability": "MUTABLE",
-              "data": {
-                "data": [
-                  {
-                    "1": "",
-                    "2": "",
-                    "id": 2
-                  },
-                  {
-                    "1": "Wedding Package",
-                    "2": "[Price]",
-                    "id": 3
-                  },
-                  {
-                    "1": "Birthday Package",
-                    "2": "[Price]",
-                    "id": 4
-                  },
-                  {
-                    "1": "Baptismal Package",
-                    "2": "[Price]",
-                    "id": 5
-                  }
-                ],
-                "config": {
-                  "topRowColor": "#f3f3f3",
-                  "rowColor": "white"
-                }
-              }
-            }
-          }
-        },
-        "rawtitle": {
-          "blocks": [
-            {
-              "key": "9qo9k",
-              "text": "Rates",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [
-                {
-                  "offset": 0,
-                  "length": 5,
-                  "style": "BOLD"
-                }
-              ],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        }
-      },
-      "whatsnext": {
-        "title": "What's Next",
-        "text": "I will be happy to answer any question regarding this proposal. You can reach me at my phone or at admin@prospero.com.\nOnce you approve this proposal, we will set up a meeting to further discuss details, dates and milestones.\nOnce the first payment is in, and the resources needed arrive, we can start the actual work. \n",
-        "raw": {
-          "blocks": [
-            {
-              "key": "ac821",
-              "text": "Have any questions? No problem! My e-mail address is [email address], and I’m available for questions Monday-Friday at any time of day. Any questions asked on Friday will be answered on Monday. Have a look at this agreement, and see if there are any changes you would like to make. Get in contact with me, and we’ll make the necessary changes. Then, after approval, we’ll schedule a time for a conference call. (Or meeting in person, if you’re local!). In that meeting we will discuss your business, and who it’s for, so that I can create the best copy possible. Then, as soon as the first payment is clear, work will commence!",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        }
-      },
-      "signature": {
-        "title": "Signature",
-        "myname": "Ashiq",
-        "name": "Abhisek Dey",
-        "signature": "ashiq",
-        "rawtitle": {
-          "blocks": [
-            {
-              "key": "ee865",
-              "text": "Signature",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [
-                {
-                  "offset": 0,
-                  "length": 9,
-                  "style": "BOLD"
-                }
-              ],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        },
-        "btnText": "Sign Proposal",
-        "btnText2": "Si"
-      },
-      "sectionorder": [
-        "overview",
-        "656684c2-2e73-4d2f-923f-9ffc3b55b30e",
-        "a20ba0df-0f73-4689-b5db-a6527c6211b4",
-        "f72af7fe-d65f-424f-9393-7089e553f14c",
-        "pricing2",
-        "76b886d2-0894-419c-b671-cd035f78182f",
-        "0e1c2d63-5744-4506-a4a5-90dcd44591da",
-        "terms"
-      ],
-      "titleFont": {
-        "title": "Poppins",
-        "family": "Alef",
-        "weight": 400,
-        "weights": [
-          400,
-          700
-        ],
-        "color1": "white",
-        "color2": "#d2d2d2",
-        "color3": "#05034d",
-        "fontSize": "36px",
-        "position": "normal",
-        "cover": "full",
-        "contact": "block",
-        "coverTextAlignment": "custom"
-      },
-      "bodyFont": {
-        "title": "Poppins",
-        "family": "\"Poppins\", sans-serif",
-        "weight": 400,
-        "weights": [
-          400,
-          700
-        ],
-        "color1": "white",
-        "color2": "#05034d",
-        "color3": "black",
-        "fontSize": "16px"
-      },
-      "4f0d5e80-9c94-42fe-aefa-067c60128853": {
-        "image": "<img />",
-        "raw": {
-          "blocks": [
-            {
-              "key": "1ouej",
-              "text": "",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "fcq1",
-              "text": "",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "ejl7k",
-              "text": " ",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        }
-      },
       "variables": {
         "client": {
           "firstName": {
             "count": 0,
-            "value": "Abhisek"
+            "value": "Prospect"
           },
           "lastName": {
             "count": 0,
-            "value": "Dey"
+            "value": "Name"
           },
           "fullName": {
             "count": 0,
-            "value": "Abhisek Dey"
+            "value": "Prospect Name"
           },
           "email": {
             "count": 0,
@@ -1075,19 +147,19 @@
         "proposal": {
           "name": {
             "count": 0,
-            "value": "test pricing"
+            "value": "New Design, Web, Video, Marketing and Copy Proposal"
           },
           "title": {
             "count": 0,
-            "value": "test pricing"
+            "value": "New Design, Web, Video, Marketing and Copy Proposal"
           },
           "number": {
             "count": 0,
-            "value": "100046"
+            "value": "100598"
           },
           "quote": {
             "count": 0,
-            "value": "$2143.00"
+            "value": "$120.00"
           },
           "discount": {
             "count": 0,
@@ -1095,7 +167,7 @@
           },
           "subTotal": {
             "count": 0,
-            "value": "2143.00 $"
+            "value": "120.00 $"
           },
           "tax": {
             "count": 0,
@@ -1103,19 +175,19 @@
           },
           "total": {
             "count": 0,
-            "value": "2143.00 $"
+            "value": "120.00 $"
           },
           "sentDate": {
             "count": 0,
-            "value": ""
+            "value": "25-02-2025"
           },
           "createdDate": {
             "count": 0,
-            "value": "19-09-2024"
+            "value": "25-02-2025"
           },
           "expireDate": {
-            "count": 0,
-            "value": null
+            "count": 1,
+            "value": "03-12-2025"
           }
         },
         "sender": {
@@ -1125,11 +197,11 @@
           },
           "lastName": {
             "count": 0,
-            "value": ""
+            "value": "Dey"
           },
           "fullName": {
             "count": 0,
-            "value": "Ashiq"
+            "value": "Ashiq Dey"
           },
           "email": {
             "count": 0,
@@ -1137,15 +209,15 @@
           },
           "phone": {
             "count": 0,
-            "value": "7002859966"
+            "value": "6787687687"
           },
           "company": {
             "count": 0,
-            "value": "Apple inc"
+            "value": "Grocered"
           },
           "VAT": {
             "count": 0,
-            "value": "myvat123"
+            "value": "1233434"
           }
         },
         "sender2": {
@@ -1172,67 +244,13 @@
         },
         "custom": {}
       },
-      "656684c2-2e73-4d2f-923f-9ffc3b55b30e": {
-        "title": "<div></div>",
-        "text": "<div></div>",
-        "subtitle": "<div></div>",
-        "titlePosition": "normal",
-        "rawtitle": {
+      "header": {
+        "by": "<p>By</p>\n",
+        "rawby": {
           "blocks": [
             {
-              "key": "c8ou2",
-              "text": "Why Us",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [
-                {
-                  "offset": 0,
-                  "length": 6,
-                  "style": "BOLD"
-                }
-              ],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        },
-        "raw": {
-          "blocks": [
-            {
-              "key": "c8ou2",
-              "text": "Our attention to detail and tremendous dedication to satisfying our customers are two of the biggest reasons you should consider capitalizing on our services.\n\nApart from simply understanding accounting principles and how to carry out our processes, we take the time to learn about the industry you are a part of, assuming we have yet to serve clients within the niche. This will help us better understand the flow of payment requisitions, payments, and more.\n\nNext, we never leave anything to chance. Quality assurance is a big part of what we do. Though we may employ reputable systems, such as Intuit QuickBooks, we understand that the potential for mistakes can be detrimental. Therefore, we take the time to carry out the necessary validations to avoid putting your company at risk.",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [
-                {
-                  "offset": 250,
-                  "length": 118,
-                  "style": "BOLD"
-                },
-                {
-                  "offset": 693,
-                  "length": 55,
-                  "style": "BOLD"
-                }
-              ],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        }
-      },
-      "41b6ed4c-9bb8-4970-8fdd-6a5001253334": {
-        "title": "<div></div>",
-        "text": "<div></div>",
-        "subtitle": "<div></div>",
-        "titlePosition": "normal",
-        "raw": {
-          "blocks": [
-            {
-              "key": "c8ou2",
-              "text": "Our venue is centrally located within the city’s heart, so guests are never late because they get lost on the way. It is also a stone’s throw away from the city park, making life a lot easier for bridal couples who want to capture their special day in style.",
+              "key": "c4ui3",
+              "text": "By",
               "type": "unstyled",
               "depth": 0,
               "inlineStyleRanges": [],
@@ -1242,33 +260,94 @@
           ],
           "entityMap": {}
         },
+        "contact": "<p>Contact</p>\n",
+        "rawcontact": {
+          "blocks": [
+            {
+              "key": "7ir0g",
+              "text": "Contact",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        "title": "New Design, Web, Video, Marketing and Copy Proposal",
         "rawtitle": {
           "blocks": [
             {
-              "key": "c8ou2",
-              "text": "Proximity ",
+              "key": "e1i0e",
+              "text": "New Design, Web, Video, Marketing and Copy Proposal",
               "type": "unstyled",
               "depth": 0,
               "inlineStyleRanges": [
                 {
-                  "offset": 0,
-                  "length": 10,
-                  "style": "BOLD"
-                }
-              ],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "813h1",
-              "text": "and Accessibility",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [
+                  "offset": 4,
+                  "length": 6,
+                  "style": "400"
+                },
+                {
+                  "offset": 17,
+                  "length": 5,
+                  "style": "400"
+                },
+                {
+                  "offset": 17,
+                  "length": 5,
+                  "style": "Schoolbell"
+                },
+                {
+                  "offset": 12,
+                  "length": 3,
+                  "style": "rgba(199, 27, 27, 1)"
+                },
+                {
+                  "offset": 17,
+                  "length": 5,
+                  "style": "bg-rgba(194, 26, 26, 1)"
+                },
+                {
+                  "offset": 17,
+                  "length": 5,
+                  "style": "rgba(190, 253, 131, 1)"
+                },
                 {
                   "offset": 0,
-                  "length": 17,
+                  "length": 3,
                   "style": "BOLD"
+                },
+                {
+                  "offset": 12,
+                  "length": 3,
+                  "style": "BOLD"
+                },
+                {
+                  "offset": 4,
+                  "length": 6,
+                  "style": "Permanent Marker"
+                },
+                {
+                  "offset": 12,
+                  "length": 3,
+                  "style": "UNDERLINE"
+                },
+                {
+                  "offset": 17,
+                  "length": 5,
+                  "style": "UNDERLINE"
+                },
+                {
+                  "offset": 12,
+                  "length": 3,
+                  "style": "ITALIC"
+                },
+                {
+                  "offset": 17,
+                  "length": 5,
+                  "style": "ITALIC"
                 }
               ],
               "entityRanges": [],
@@ -1276,24 +355,171 @@
             }
           ],
           "entityMap": {}
+        },
+        "subtitle": "Prepared For<br>Prospect Name<br>25/02/25",
+        "rawsubtitle": {
+          "blocks": [
+            {
+              "key": "ff3v8",
+              "text": "Prepared For\nProspect Name\n25/02/25",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        "name": "Ashiq Dey",
+        "rawname": {
+          "blocks": [
+            {
+              "key": "ad83h",
+              "text": "Ashiq Dey",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        "email": "ashiq@goprospero.com",
+        "rawemail": {
+          "blocks": [
+            {
+              "key": "d076p",
+              "text": "ashiq@goprospero.com",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        "logo": "https://dr08qaykn9isr.cloudfront.net/props/bd28013e28b297044d4fa8f4/logo/677fd7591238aa318c56873f.png",
+        "cover": "https://dr08qaykn9isr.cloudfront.net/application/covers/01.jpg",
+        "color": "rgba(0,0,0,0.4)",
+        "originalState": {
+          "by": "<p>By</p>\n",
+          "rawby": {
+            "blocks": [
+              {
+                "key": "eu0kr",
+                "text": "By",
+                "type": "unstyled",
+                "depth": 0,
+                "inlineStyleRanges": [],
+                "entityRanges": [],
+                "data": {}
+              }
+            ],
+            "entityMap": {}
+          },
+          "contact": "<p>Contact</p>\n",
+          "rawcontact": {
+            "blocks": [
+              {
+                "key": "frdi6",
+                "text": "Contact",
+                "type": "unstyled",
+                "depth": 0,
+                "inlineStyleRanges": [],
+                "entityRanges": [],
+                "data": {}
+              }
+            ],
+            "entityMap": {}
+          },
+          "title": "New Design, Web, Video, Marketing and Copy Proposal",
+          "rawtitle": {
+            "blocks": [
+              {
+                "key": "e7kq6",
+                "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                "type": "unstyled",
+                "depth": 0,
+                "inlineStyleRanges": [],
+                "entityRanges": [],
+                "data": {}
+              }
+            ],
+            "entityMap": {}
+          },
+          "subtitle": "Prepared For<br>Prospect Name<br>25/02/25",
+          "rawsubtitle": {
+            "blocks": [
+              {
+                "key": "ar83n",
+                "text": "Prepared For\nProspect Name\n25/02/25",
+                "type": "unstyled",
+                "depth": 0,
+                "inlineStyleRanges": [],
+                "entityRanges": [],
+                "data": {}
+              }
+            ],
+            "entityMap": {}
+          },
+          "name": "Ashiq Dey",
+          "rawname": {
+            "blocks": [
+              {
+                "key": "a4mtt",
+                "text": "Ashiq Dey",
+                "type": "unstyled",
+                "depth": 0,
+                "inlineStyleRanges": [],
+                "entityRanges": [],
+                "data": {}
+              }
+            ],
+            "entityMap": {}
+          },
+          "email": "ashiq@goprospero.com",
+          "rawemail": {
+            "blocks": [
+              {
+                "key": "8debj",
+                "text": "ashiq@goprospero.com",
+                "type": "unstyled",
+                "depth": 0,
+                "inlineStyleRanges": [],
+                "entityRanges": [],
+                "data": {}
+              }
+            ],
+            "entityMap": {}
+          }
+        },
+        "headerConfig": {
+          "title": "Poppins",
+          "family": "Poppins",
+          "weight": 400,
+          "weights": [
+            400,
+            700
+          ],
+          "color1": "white",
+          "color2": "#d2d2d2",
+          "color3": "black",
+          "fontSize": "36px"
         }
       },
-      "terms": {
-        "title": "<b>Terms and \nConditions<b>",
+      "overview": {
+        "title": "<p>Overview</p>\n",
         "rawtitle": {
           "blocks": [
             {
-              "key": "4e4a5",
-              "text": "Terms and  Conditions",
+              "key": "6upj0",
+              "text": "Overview",
               "type": "unstyled",
               "depth": 0,
-              "inlineStyleRanges": [
-                {
-                  "offset": 0,
-                  "length": 21,
-                  "style": "BOLD"
-                }
-              ],
+              "inlineStyleRanges": [],
               "entityRanges": [],
               "data": {}
             }
@@ -1303,7 +529,7 @@
         "subrawtitle": {
           "blocks": [
             {
-              "key": "cf9dk",
+              "key": "87u25",
               "text": "",
               "type": "unstyled",
               "depth": 0,
@@ -1314,216 +540,114 @@
           ],
           "entityMap": {}
         },
-        "text": "<ul>\n  <li>All payments are final</li>\n  <li>We require a 50% deposit for one-off services</li>\n  <li>Clients are expected to cover the cost of system subscriptions</li>\n</ul>\n<p><br></p>",
+        "text": "<div>I will transform The Company’s vision into an engaging content that will help your customers connect, understand and fall in love with your company. The content shall include blog posts (weekly), social media posts (daily) and a complete overhaul of your company’s website communications.\n</div><div>The goal of this project is to improve our communication style to create a more human and engaging brand experience, which will decrease customer complaints and help tickets. \n</div>",
         "raw": {
           "blocks": [
             {
-              "key": "4o5a8",
-              "text": "All payments are final",
-              "type": "unordered-list-item",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "95p2v",
-              "text": "We require a 50% deposit for one-off services",
-              "type": "unordered-list-item",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "fem14",
-              "text": "Clients are expected to cover the cost of system subscriptions",
-              "type": "unordered-list-item",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "fqq6b",
-              "text": "",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        }
-      },
-      "a20ba0df-0f73-4689-b5db-a6527c6211b4": {
-        "title": "<div></div>",
-        "text": "<div></div>",
-        "subtitle": "<div></div>",
-        "titlePosition": "normal",
-        "rawtitle": {
-          "blocks": [
-            {
-              "key": "2huni",
-              "text": "Our Clientele",
-              "type": "unstyled",
+              "key": "7cs0r",
+              "text": "I will transform The Company’s vision into an engaging content that will help your customers connect, understand and fall in love with your company. The content shall include blog posts (weekly), social media posts (daily) and a complete ",
+              "type": "   line-height__1-5  ",
               "depth": 0,
               "inlineStyleRanges": [
                 {
-                  "offset": 0,
-                  "length": 13,
-                  "style": "BOLD"
-                }
-              ],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        },
-        "raw": {
-          "blocks": [
-            {
-              "key": "2huni",
-              "text": "One of the incredible things about the niche we’re a part of is the extent to which we are often required to develop solutions that will specifically address the challenges that customers may face.\n\nFor example, a unique situation at a managed IT service provider (MSP) saw accounting and the technical teams having a very disjointed relationship that led to improper pricing in many cases.\n\nFrom our years of experience working with Intuit QuickBooks, we know that it features a host of integrations with different programs, some of which are help desk systems that an MSP may benefit from.\n\nThough the company wasn’t using one of those solutions, we recommended ConnectWise, which has a QuickBooks integration that would allow billing data based on ticket work efforts to be captured and automatically pulled into the platform.\n\nWith that completed, the discrepancies often arising from the previous silo operation were almost eliminated.\n\nAnother example of a solution we’re proud of was one we delivered to a canned food manufacturer. The big challenge was managing payroll effectively and promptly, especially considering the extent to which staff members became disgruntled.\n\nNot only were there often delays because the onsite team was swamped, but the manual method of generating pay slips sometimes led to errors are late deliveries.\n\nWe sat with the accounting team and came up with the best possible third-party solution for their specific needs. Since then, the team has not had to get as hands-on as they used to with payroll, which has led to a smooth and seamless experience.",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [
-                {
-                  "offset": 689,
-                  "length": 81,
-                  "style": "BOLD"
+                  "offset": 140,
+                  "length": 88,
+                  "style": "bg-rgba(246, 12, 12, 1)"
                 },
                 {
-                  "offset": 1060,
-                  "length": 42,
-                  "style": "BOLD"
-                },
-                {
-                  "offset": 1347,
-                  "length": 84,
-                  "style": "BOLD"
-                }
-              ],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        }
-      },
-      "44b1ae9d-0060-4371-8898-3672a8c3ada2": {
-        "title": "<div></div>",
-        "text": "<div></div>",
-        "subtitle": "<div></div>",
-        "titlePosition": "normal",
-        "rawtitle": {
-          "blocks": [
-            {
-              "key": "2huni",
-              "text": "Payment Terms",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [
-                {
-                  "offset": 0,
-                  "length": 13,
-                  "style": "BOLD"
-                }
-              ],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        },
-        "raw": {
-          "blocks": [
-            {
-              "key": "2huni",
-              "text": "When you contact us, we will set up an appointment to view our venues. After that, we can temporarily reserve the venue for you. \n\nWe require full payment to be made one week before the event, so the sooner you book, the longer you have to make payment. We are available Monday to Friday between 8 am and 5 pm to discuss your requirement",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        }
-      },
-      "0e1c2d63-5744-4506-a4a5-90dcd44591da": {
-        "title": "<div></div>",
-        "text": "<div></div>",
-        "subtitle": "<div></div>",
-        "titlePosition": "normal",
-        "rawtitle": {
-          "blocks": [
-            {
-              "key": "2huni",
-              "text": "Milestones",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [
-                {
-                  "offset": 0,
+                  "offset": 7,
                   "length": 10,
                   "style": "BOLD"
+                },
+                {
+                  "offset": 78,
+                  "length": 5,
+                  "style": "BOLD"
+                },
+                {
+                  "offset": 140,
+                  "length": 88,
+                  "style": "rgba(251, 250, 250, 1)"
+                },
+                {
+                  "offset": 68,
+                  "length": 9,
+                  "style": "rgba(253, 253, 253, 1)"
+                },
+                {
+                  "offset": 68,
+                  "length": 9,
+                  "style": "bg-rgba(224, 51, 51, 0.48)"
+                },
+                {
+                  "offset": 19,
+                  "length": 36,
+                  "style": "bg-rgba(255, 255, 255, 0.48)"
+                },
+                {
+                  "offset": 63,
+                  "length": 5,
+                  "style": "bg-rgba(255, 255, 255, 0.48)"
+                },
+                {
+                  "offset": 21,
+                  "length": 3,
+                  "style": "ITALIC"
+                },
+                {
+                  "offset": 105,
+                  "length": 10,
+                  "style": "STRIKETHROUGH"
+                },
+                {
+                  "offset": 55,
+                  "length": 8,
+                  "style": "bg-rgba(40, 92, 217, 1)"
                 }
               ],
               "entityRanges": [],
               "data": {}
-            }
-          ],
-          "entityMap": {}
-        },
-        "raw": {
-          "blocks": [
+            },
             {
-              "key": "2huni",
-              "text": "Simply call us at [Phone Number] and give us a rundown of what you need. With that out of the way, we will provide you with a quotation based on the combination of services requested or lack thereof.\n\nYou can then confirm your request, fill out our required forms, and let us know the desired start date. From there, we will simply provide you with the expected accounting-based reports, as well as other reports at regular intervals from a service provider perspective.",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        }
-      },
-      "c9bea9b3-8db5-48ab-a178-e60c76b25048": {
-        "title": "<div></div>",
-        "text": "<div></div>",
-        "subtitle": "<div></div>",
-        "titlePosition": "normal",
-        "raw": {
-          "blocks": [
-            {
-              "key": "efs8b",
-              "text": "I offer various packages that meet any business’s needs. They include:",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        },
-        "rawtitle": {
-          "blocks": [
-            {
-              "key": "efs8b",
-              "text": "Services",
-              "type": "unstyled",
+              "key": "9shhd",
+              "text": " I would like to overhaul of your company’s website communications. hello",
+              "type": "   line-height__1-5  ",
               "depth": 0,
               "inlineStyleRanges": [
                 {
                   "offset": 0,
-                  "length": 8,
+                  "length": 26,
                   "style": "BOLD"
+                },
+                {
+                  "offset": 44,
+                  "length": 7,
+                  "style": "BOLD"
+                },
+                {
+                  "offset": 34,
+                  "length": 10,
+                  "style": "ITALIC"
+                }
+              ],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "ej0rr",
+              "text": "The goal of this project is to improve our communication style to create a more human and engaging brand experience, which will decrease customer complaints and help tickets.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [
+                {
+                  "offset": 12,
+                  "length": 5,
+                  "style": "BOLD"
+                },
+                {
+                  "offset": 17,
+                  "length": 7,
+                  "style": "bg-rgba(25, 217, 57, 1)"
                 }
               ],
               "entityRanges": [],
@@ -1533,12 +657,59 @@
           "entityMap": {}
         }
       },
-      "76b886d2-0894-419c-b671-cd035f78182f": {
-        "image": "<img />",
-        "raw": {
+      "whyme2": {},
+      "pricing2": {
+        "title": "<p>Cost</p>\n",
+        "rawtitle": {
           "blocks": [
             {
-              "key": "2h63g",
+              "key": "4180l",
+              "text": "Cost",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        "subrawtitle": {
+          "blocks": [
+            {
+              "key": "7bm8m",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        "raw": {
+          "entityMap": {
+            "0": {
+              "type": "TOKEN",
+              "mutability": "IMMUTABLE",
+              "data": {
+                "texcontent": "{\"deliverables\":{\"chosen\":{\"OPTION 1\":{\"total\":0,\"list\":[{\"name\":\"UX Wireframes\",\"id\":\"76c696ac-7c5d-4582-aa70-11b90166b3ac\",\"price\":\"12\",\"type\":null,\"chosen\":false,\"selected\":false,\"currentPrice\":\"12\",\"items\":1},{\"name\":\"Fully Responsive Website Design\",\"id\":\"63cf16c1-60a6-446a-96c2-11c6875f86fe\",\"price\":\"12\",\"type\":null,\"chosen\":false,\"selected\":false,\"currentPrice\":\"12\",\"items\":2},{\"id\":\"f5ccfbef-5b04-4736-bd6b-600809cbc7f1\",\"name\":\"About Page\",\"description\":\"\",\"price\":\"12\",\"type\":null,\"currentPrice\":\"12\",\"items\":3},{\"id\":\"4062fe6c-2bb8-4bd2-ac98-8207f2618d11\",\"name\":\"Email Templates\",\"description\":\"\",\"price\":\"12\",\"type\":null,\"currentPrice\":\"12\",\"items\":4}],\"quantity\":true,\"subtotal\":true},\"OPTION 2\":{\"total\":\"\",\"list\":[{\"id\":\"33861b67-319c-4931-b997-98a98f74f236\",\"name\":\"Everything on option 1\",\"price\":0,\"type\":null}]},\"OPTION 3\":{\"total\":\"\",\"list\":[{\"id\":\"6385b2c2-eff3-4275-b260-51cf8f6e742b\",\"name\":\"Everything on option 2\",\"price\":0,\"type\":null}]}}},\"curr\":\"$\",\"pricing\":{\"strategy\":\"table\"},\"roundTotal\":false,\"priceSeperator\":\"none\",\"decimalPrecision\":2,\"language\":\"english\"}"
+              }
+            }
+          },
+          "blocks": [
+            {
+              "key": "as2e8",
+              "text": "Here's a breakdown of the deliverables we've discussed and their costed 1:",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "as2e9",
               "text": "",
               "type": "unstyled",
               "depth": 0,
@@ -1547,7 +718,7 @@
               "data": {}
             },
             {
-              "key": "74q66",
+              "key": "7de23",
               "text": " ",
               "type": "atomic",
               "depth": 0,
@@ -1562,8 +733,24 @@
               "data": {}
             },
             {
-              "key": "78ve9",
-              "text": " ",
+              "key": "as2f5",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ]
+        }
+      },
+      "milestones2": {
+        "title": "<p>Milestones</p>\n",
+        "rawtitle": {
+          "blocks": [
+            {
+              "key": "1opv2",
+              "text": "Milestones",
               "type": "unstyled",
               "depth": 0,
               "inlineStyleRanges": [],
@@ -1571,238 +758,36 @@
               "data": {}
             }
           ],
+          "entityMap": {}
+        },
+        "subrawtitle": {
+          "blocks": [
+            {
+              "key": "cvcan",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        "raw": {
           "entityMap": {
             "0": {
-              "type": "image",
+              "type": "TOKEN",
               "mutability": "IMMUTABLE",
               "data": {
-                "src": "https://dr08qaykn9isr.cloudfront.net/props/ea96cd321b7d14c40e2e2874/section/66a37d9cc4483039b1899a0a.png",
-                "config": {
-                  "editable": true,
-                  "alignment": "left",
-                  "border": {},
-                  "shadow": {},
-                  "size": {
-                    "width": 892,
-                    "height": 357,
-                    "maxHeight": 357,
-                    "ratio": 2.5
-                  }
-                }
+                "texcontent": "{\"milestones\":{\"chosen\":{\"OPTION 1\":{\"total\":\"\",\"list\":[{\"name\":\"Kickoff Meeting\",\"id\":\"a5a20316-63de-4072-ba0e-b3583fadce88\",\"price\":0,\"type\":null,\"chosen\":false,\"selected\":false},{\"name\":\"Research\",\"id\":\"c515fada-cfe0-4817-a9c2-4e06901550ae\",\"price\":0,\"type\":null,\"chosen\":false,\"selected\":false}]},\"OPTION 2\":{\"total\":\"\",\"list\":[{\"id\":\"26a9392d-cbad-4ef0-b60e-db0d2e20c1ee\",\"name\":\"Everything on option 1\",\"price\":0,\"type\":null}]},\"OPTION 3\":{\"total\":\"\",\"list\":[{\"id\":\"70f1e254-0883-4626-a484-2b88a2ee172c\",\"name\":\"Everything on option 2\",\"price\":0,\"type\":null}]}}}}"
               }
             }
-          }
-        }
-      },
-      "20f3a48d-06e0-4fdf-95fb-4e6c6064957d": {
-        "title": "<div></div>",
-        "text": "<div></div>",
-        "subtitle": "<div></div>",
-        "titlePosition": "normal",
-        "raw": {
+          },
           "blocks": [
             {
-              "key": "7erm1",
-              "text": "One of the incredible things about the niche we’re a part of is the extent to which we are often required to develop solutions that will specifically address the challenges that customers may face.\n\nFor example, a unique situation at a managed IT service provider (MSP) saw accounting and the technical teams having a very disjointed relationship that led to improper pricing in many cases.\n\nFrom our years of experience working with Intuit QuickBooks, we know that it features a host of integrations with different programs, some of which are help desk systems that an MSP may benefit from.\n\nThough the company wasn’t using one of those solutions, we recommended ConnectWise, which has a QuickBooks integration that would allow billing data based on ticket work efforts to be captured and automatically pulled into the platform.\n\nWith that completed, the discrepancies often arising from the previous silo operation were almost eliminated.\n\nAnother example of a solution we’re proud of was one we delivered to a canned food manufacturer. The big challenge was managing payroll effectively and promptly, especially considering the extent to which staff members became disgruntled.\n\nNot only were there often delays because the onsite team was swamped, but the manual method of generating pay slips sometimes led to errors are late deliveries.\n\nWe sat with the accounting team and came up with the best possible third-party solution for their specific needs. Since then, the team has not had to get as hands-on as they used to with payroll, which has led to a smooth and seamless experience.",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [
-                {
-                  "offset": 689,
-                  "length": 81,
-                  "style": "BOLD"
-                },
-                {
-                  "offset": 1060,
-                  "length": 42,
-                  "style": "BOLD"
-                },
-                {
-                  "offset": 1347,
-                  "length": 84,
-                  "style": "BOLD"
-                }
-              ],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        },
-        "rawtitle": {
-          "blocks": [
-            {
-              "key": "7erm1",
-              "text": "Our Clientele",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [
-                {
-                  "offset": 0,
-                  "length": 13,
-                  "style": "BOLD"
-                }
-              ],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        }
-      },
-      "f72af7fe-d65f-424f-9393-7089e553f14c": {
-        "title": "<div></div>",
-        "text": "<div></div>",
-        "subtitle": "<div></div>",
-        "titlePosition": "normal",
-        "raw": {
-          "blocks": [
-            {
-              "key": "7erm1",
-              "text": "We offer about anything you would expect from a company that will virtually handle your bookkeeping and other accounting needs. Some of the examples are:",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [
-                {
-                  "offset": 0,
-                  "length": 153,
-                  "style": "BOLD"
-                }
-              ],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "7h8nt",
-              "text": "",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "dedn5",
-              "text": "Bookkeeping, including daily, weekly, monthly, quarterly, and annual applications",
-              "type": "unordered-list-item",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "cjnn8",
-              "text": "Accounts payable services, including posting, bill pay, coding, reporting, reconciliation, and vendor master file maintenance",
-              "type": "unordered-list-item",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "e1n66",
-              "text": "Accounts receivable services, including cash receipt and sale posting, invoicing, reporting, and maintaining customer master files",
-              "type": "unordered-list-item",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "f71q0",
-              "text": "Monthly process tasks, including location tracking, customer deposit tracking, income allocations, currency conversions, and job costing",
-              "type": "unordered-list-item",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "flofh",
-              "text": "Cleaning up books in arrears",
-              "type": "unordered-list-item",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "nqsa",
-              "text": "1099 and 1096 tasks including compiling, filing, and reporting, for your year-end tax filings",
-              "type": "unordered-list-item",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "bq9hd",
-              "text": "",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "fl1ji",
-              "text": "Some of the tools that we tend to use are:",
-              "type": "unstyled",
-              "depth": 0,
-              "inlineStyleRanges": [
-                {
-                  "offset": 0,
-                  "length": 42,
-                  "style": "BOLD"
-                }
-              ],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "9c896",
-              "text": "Intuit QuickBooks",
-              "type": "unordered-list-item",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "1vmpq",
-              "text": "Microsoft Excel",
-              "type": "unordered-list-item",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "1evhl",
-              "text": "Sage 300",
-              "type": "unordered-list-item",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            },
-            {
-              "key": "dm7ar",
-              "text": "Sage Purchase Workflow",
-              "type": "unordered-list-item",
-              "depth": 0,
-              "inlineStyleRanges": [],
-              "entityRanges": [],
-              "data": {}
-            }
-          ],
-          "entityMap": {}
-        },
-        "rawtitle": {
-          "blocks": [
-            {
-              "key": "7erm1",
-              "text": "Services",
+              "key": "as2e8",
+              "text": "Assuming that we have all necessary materials ready, here are the suggested milestones:",
               "type": "unstyled",
               "depth": 0,
               "inlineStyleRanges": [
@@ -1814,46 +799,350 @@
               ],
               "entityRanges": [],
               "data": {}
+            },
+            {
+              "key": "as2e9",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "7de23",
+              "text": " ",
+              "type": "atomic",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [
+                {
+                  "offset": 0,
+                  "length": 1,
+                  "key": 0
+                }
+              ],
+              "data": {}
+            },
+            {
+              "key": "as2f6",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ]
+        }
+      },
+      "terms": {
+        "title": "<p>Terms</p>\n",
+        "rawtitle": {
+          "blocks": [
+            {
+              "key": "91am1",
+              "text": "Terms",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        "subrawtitle": {
+          "blocks": [
+            {
+              "key": "24v98",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        "text": "<ol><li>This proposal is valid until {{proposal.expireDate}}.</li><li>Payment structure: 50% upfront, 50% after approval of the final work. Payment via Paypal or bank transfer.</li><li>Resources needed for the design, such as fonts, stock photos, and icons, are not included in the prices above. Those will be paid for by the client, and the right to use them shall be theirs.</li><li>Additional work for components that appear in the scope of work will be charged [termsrate] per hour (e.g. beyond the number of revisions described). </li><li>New components that are not described in the scope of work will be assessed in a new estimate.</li><li>Business day count starts only after the client provides all resources requested, such as images, contact details, etc.</li><li>Usage rights: After the work is completed and payment has been received, the client will own the rights to the design. </li><li>In the case of project cancellation after the work has started, the client will pay for the relative part of the work.</li></ol>",
+        "raw": {
+          "blocks": [
+            {
+              "key": "71h0b",
+              "text": "This proposal is valid until {{proposal.expireDate}}.",
+              "type": "ordered-list-item",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "c7l8e",
+              "text": "Payment structure: 50% upfront, 50% after approval of the final work. Payment via Paypal or bank transfer.",
+              "type": "ordered-list-item",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "a2mtc",
+              "text": "Resources needed for the design, such as fonts, stock photos, and icons, are not included in the prices above. Those will be paid for by the client, and the right to use them shall be theirs.",
+              "type": "ordered-list-item",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "419nk",
+              "text": "Additional work for components that appear in the scope of work will be charged [termsrate] per hour (e.g. beyond the number of revisions described).",
+              "type": "ordered-list-item",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "dp022",
+              "text": "New components that are not described in the scope of work will be assessed in a new estimate.",
+              "type": "ordered-list-item",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "4p8jr",
+              "text": "Business day count starts only after the client provides all resources requested, such as images, contact details, etc.",
+              "type": "ordered-list-item",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "5q2d1",
+              "text": "Usage rights: After the work is completed and payment has been received, the client will own the rights to the design.",
+              "type": "ordered-list-item",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            },
+            {
+              "key": "bcpsb",
+              "text": "In the case of project cancellation after the work has started, the client will pay for the relative part of the work.",
+              "type": "ordered-list-item",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
             }
           ],
           "entityMap": {}
         }
+      },
+      "whatsnext": {
+        "title": "<p>What&#39;s Next</p>\n",
+        "rawtitle": {
+          "blocks": [
+            {
+              "key": "al2r9",
+              "text": "What's Next",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        "subrawtitle": {
+          "blocks": [
+            {
+              "key": "3uugu",
+              "text": "",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        "text": "<p>I will be happy to answer any question regarding this proposal. You can reach me at my phone or at ashiq@goprospero.com.<br>Once you approve this proposal, we will set up a meeting to further discuss details, dates and milestones.<br>Once the first payment is in, and the resources needed arrive, we can start the actual work. </p>\n",
+        "raw": {
+          "blocks": [
+            {
+              "key": "bomlu",
+              "text": "I will be happy to answer any question regarding this proposal. You can reach me at my phone or at ashiq@goprospero.com.\nOnce you approve this proposal, we will set up a meeting to further discuss details, dates and milestones.\nOnce the first payment is in, and the resources needed arrive, we can start the actual work.",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        }
+      },
+      "signature": {
+        "title": "<p>Signature</p>\n",
+        "rawtitle": {
+          "blocks": [
+            {
+              "key": "4ql21",
+              "text": "Signature",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        "myname": "Ashiq Dey",
+        "rawmyname": {
+          "blocks": [
+            {
+              "key": "e77o1",
+              "text": "Ashiq Dey",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        "name": "Prospect Name",
+        "rawname": {
+          "blocks": [
+            {
+              "key": "c3f48",
+              "text": "Prospect Name",
+              "type": "unstyled",
+              "depth": 0,
+              "inlineStyleRanges": [],
+              "entityRanges": [],
+              "data": {}
+            }
+          ],
+          "entityMap": {}
+        },
+        "signature": "contact",
+        "signatureBackgroundColor": "#005AFF",
+        "hidesig": false
+      },
+      "sectionorder": [
+        "overview",
+        "pricing2",
+        "milestones2",
+        "whatsnext",
+        "terms"
+      ],
+      "bodyFont": {
+        "title": "Poppins",
+        "family": "Poppins",
+        "weight": 400,
+        "weights": [
+          400,
+          700
+        ],
+        "color1": "white",
+        "color2": "#4a4a4a",
+        "color3": "black",
+        "fontSize": "20px"
+      },
+      "titleFont": {
+        "title": "Poppins",
+        "family": "Poppins",
+        "weight": 400,
+        "weights": [
+          400,
+          700
+        ],
+        "color1": "white",
+        "color2": "#d2d2d2",
+        "color3": "black",
+        "fontSize": "36px"
+      },
+      "subTitleFont": {
+        "title": "Poppins",
+        "family": "Poppins",
+        "weight": 400,
+        "weights": [
+          400,
+          700
+        ],
+        "color1": "gray",
+        "fontSize": "18px"
       }
     },
-    "expiryMessage": "This proposal has expired. Contact ru5 for more information.",
-    "isEditing": {
-      "name": "Ashiq",
-      "uid": "6371de67722cbe07546120fe",
-      "tabID": "7135358e-03d0-4630-8e0e-57563916300d"
+    "client": {
+      "contact": "Prospect Name",
+      "name": null,
+      "desc": null,
+      "address": null,
+      "text": null,
+      "email": null
     },
-    "milestones": {
+    "project": {
+      "name": "New Design, Web, Video, Marketing and Copy Proposal",
+      "desc": "I will transform The Company’s vision into an engaging content that will help your customers connect, understand and fall in love with your company. The content shall include blog posts (weekly), social media posts (daily) and a complete overhaul of your company’s website communications.\n",
+      "goals": "The goal of this project is to improve our communication style to create a more human and engaging brand experience, which will decrease customer complaints and help tickets. \n",
+      "type": "design web video marketing copy",
+      "othertype": ""
+    },
+    "mondayBoardId": null,
+    "expiryDate": {
+      "$date": "2025-03-12T09:37:38.131Z"
+    },
+    "expiryMessage": "This proposal has expired. Contact Ashiq Dey for more information.",
+    "enableAITool": false,
+    "fonts": [],
+    "sharedViaMail": false,
+    "emailSettings": null,
+    "openLogs": [],
+    "emailLogs": [],
+    "attachments": [],
+    "__v": 0,
+    "approvedmanually": null,
+    "chatway": null,
+    "clientPayableAmount": null,
+    "clientPayableCurrency": null,
+    "clientPayableLabel": null,
+    "clientPayableLink": null,
+    "creatorUserway": false,
+    "curr": null,
+    "dateFormat": "DD/MM/YY",
+    "deliverables": {
       "chosen": {
         "OPTION 1": {
           "total": "",
           "list": [
             {
-              "name": "Introductory Meeting + Ideal Customer Discussion",
-              "id": "1dca2ad1-c21b-4cde-8fc4-ad1f38395533",
+              "name": "UX Wireframes",
+              "id": "76c696ac-7c5d-4582-aa70-11b90166b3ac",
               "price": 0,
               "type": null,
               "chosen": false,
-              "selected": false,
-              "time": "ASAP"
+              "selected": false
             },
             {
-              "name": "First Drafts Delivery",
-              "id": "1e5813eb-8c30-4730-b682-763628cbd4a0",
+              "name": "Fully Responsive Website Design",
+              "id": "63cf16c1-60a6-446a-96c2-11c6875f86fe",
               "price": 0,
               "type": null,
               "chosen": false,
-              "selected": false,
-              "time": "One Month"
-            },
-            {
-              "id": "8b97f3aa-4416-41d5-8951-cf857ee50da0",
-              "name": "Kickoff Meeting",
-              "price": 0,
-              "type": null
+              "selected": false
             }
           ]
         },
@@ -1861,7 +1150,7 @@
           "total": "",
           "list": [
             {
-              "id": "ba5ffc92-8d14-4742-8d13-b4b6c7ef6137",
+              "id": "33861b67-319c-4931-b997-98a98f74f236",
               "name": "Everything on option 1",
               "price": 0,
               "type": null
@@ -1872,7 +1161,69 @@
           "total": "",
           "list": [
             {
-              "id": "1e34cd8e-106f-4954-ae73-a1eeeaddbb10",
+              "id": "6385b2c2-eff3-4275-b260-51cf8f6e742b",
+              "name": "Everything on option 2",
+              "price": 0,
+              "type": null
+            }
+          ]
+        }
+      }
+    },
+    "disableSig": null,
+    "editEvent": true,
+    "edited": {
+      "$date": "2025-03-22T07:26:06.650Z"
+    },
+    "enablePayment": null,
+    "fromUserTemplate": null,
+    "isBasicTemplate": null,
+    "isEditing": {
+      "name": "Ashiq Dey",
+      "uid": "63a2e784d26c6433602e5359",
+      "tabID": "42dfc110-71c6-43b9-99a5-a99d908b39d2"
+    },
+    "isWixTemplate": null,
+    "lastSeen": null,
+    "milestones": {
+      "chosen": {
+        "OPTION 1": {
+          "total": "",
+          "list": [
+            {
+              "name": "Kickoff Meeting",
+              "id": "a5a20316-63de-4072-ba0e-b3583fadce88",
+              "price": 0,
+              "type": null,
+              "chosen": false,
+              "selected": false
+            },
+            {
+              "name": "Research",
+              "id": "c515fada-cfe0-4817-a9c2-4e06901550ae",
+              "price": 0,
+              "type": null,
+              "chosen": false,
+              "selected": false
+            }
+          ]
+        },
+        "OPTION 2": {
+          "total": "",
+          "list": [
+            {
+              "id": "26a9392d-cbad-4ef0-b60e-db0d2e20c1ee",
+              "name": "Everything on option 1",
+              "price": 0,
+              "type": null
+            }
+          ]
+        },
+        "OPTION 3": {
+          "total": "",
+          "list": [
+            {
+              "id": "70f1e254-0883-4626-a484-2b88a2ee172c",
               "name": "Everything on option 2",
               "price": 0,
               "type": null
@@ -1882,121 +1233,682 @@
       }
     },
     "payedfor": null,
-    "prevState": "edit",
-    "proptext": null,
+    "payment": null,
+    "prevState": "published",
+    "proposalRedirectAfter": null,
+    "proposalRedirectTo": null,
+    "published": {
+      "$date": "2000-01-01T00:00:00.000Z"
+    },
     "sawmilestones": true,
     "sawyou": true,
-    "state": "edit",
-    "templateName": "Virtual Bookkeeping Proposal Template",
-    "titletext": null,
-    "pnum": "100046",
-    "contactOptions": [
-      {
-        "option": "email",
-        "value": "ashiq@goprospero.com",
-        "enabled": true
-      },
-      {
-        "option": "call",
-        "value": "",
-        "enabled": true
-      },
-      {
-        "option": "whatsapp",
-        "value": "+917002859965",
-        "enabled": true
-      }
-    ],
-    "decimalPrecision": 2,
-    "mondayBoardId": null,
-    "chatway": null,
-    "creatorUserway": false,
-    "enablePayment": null,
-    "proposalRedirectAfter": 5,
-    "proposalRedirectTo": "https://secure.cardcom.solutions/EA/EA5/uAi26RMwAkChohOjfviJaw/Order",
+    "seenCount": null,
+    "seenTime": null,
+    "selectedOption": null,
+    "signature": null,
+    "state": "published",
     "superPowers": null,
     "userway": null,
     "wixConnectedInstance": null,
-    "wixPricing": {
-      "lineItems": [
+    "wixPricing": null,
+    "wixProposalId": null,
+    "history": {
+      "changes": [
         {
-          "quantity": "12",
-          "name": "Clothing for basketball players",
-          "description": "",
-          "price": "25.00",
-          "pricesBreakdown": {
-            "totalPriceAfterTax": "290.00",
-            "taxDetails": {
-              "taxRate": "0.00",
-              "taxableAmount": "290.00",
-              "taxable": null,
-              "totalTax": "0.00",
-              "taxName": null,
-              "rateBreakdown": []
-            },
-            "totalDiscount": "0.00",
-            "price": "25.00",
-            "priceBeforeDiscounts": "25.00",
-            "lineItemPrice": "300.00",
-            "fullPrice": null
-          },
-          "itemType": {
-            "preset": null
+          "draft.header.rawtitle": {
+            "blocks": [
+              {
+                "key": "e1i0e",
+                "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                "type": "unstyled",
+                "depth": 0,
+                "inlineStyleRanges": [
+                  {
+                    "offset": 0,
+                    "length": 3,
+                    "style": "BOLD"
+                  },
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "Permanent Marker"
+                  },
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "400"
+                  }
+                ],
+                "entityRanges": []
+              }
+            ]
+          }
+        },
+        {
+          "draft.header.rawtitle": {
+            "blocks": [
+              {
+                "key": "e1i0e",
+                "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                "type": "unstyled",
+                "depth": 0,
+                "inlineStyleRanges": [
+                  {
+                    "offset": 0,
+                    "length": 3,
+                    "style": "BOLD"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "BOLD"
+                  },
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "Permanent Marker"
+                  },
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "400"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "ITALIC"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "UNDERLINE"
+                  }
+                ],
+                "entityRanges": []
+              }
+            ]
+          }
+        },
+        {
+          "draft.header.rawtitle": {
+            "blocks": [
+              {
+                "key": "e1i0e",
+                "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                "type": "unstyled",
+                "depth": 0,
+                "inlineStyleRanges": [
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(150, 36, 36, 1)"
+                  },
+                  {
+                    "offset": 0,
+                    "length": 3,
+                    "style": "BOLD"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "BOLD"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(192, 44, 44, 1)"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(195, 43, 43, 1)"
+                  },
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "Permanent Marker"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "UNDERLINE"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(168, 41, 41, 1)"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "ITALIC"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(199, 44, 44, 1)"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(189, 45, 45, 1)"
+                  },
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "400"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(148, 36, 36, 1)"
+                  }
+                ],
+                "entityRanges": []
+              }
+            ]
+          }
+        },
+        {
+          "draft.header.rawtitle": {
+            "blocks": [
+              {
+                "key": "e1i0e",
+                "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                "type": "unstyled",
+                "depth": 0,
+                "inlineStyleRanges": [
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(202, 45, 45, 1)"
+                  },
+                  {
+                    "offset": 0,
+                    "length": 3,
+                    "style": "BOLD"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "BOLD"
+                  },
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "Permanent Marker"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "UNDERLINE"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(211, 42, 42, 1)"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "ITALIC"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(199, 44, 44, 1)"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(201, 44, 44, 1)"
+                  },
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "400"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(148, 36, 36, 1)"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(221, 38, 38, 1)"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(206, 46, 46, 1)"
+                  }
+                ],
+                "entityRanges": []
+              }
+            ]
+          }
+        },
+        {
+          "draft.header.rawtitle": {
+            "blocks": [
+              {
+                "key": "e1i0e",
+                "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                "type": "unstyled",
+                "depth": 0,
+                "inlineStyleRanges": [
+                  {
+                    "offset": 0,
+                    "length": 3,
+                    "style": "BOLD"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "BOLD"
+                  },
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "Permanent Marker"
+                  },
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "400"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "UNDERLINE"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "ITALIC"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(206, 46, 46, 1)"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(199, 27, 27, 1)"
+                  }
+                ],
+                "entityRanges": []
+              }
+            ]
+          }
+        },
+        {
+          "draft.header.rawtitle": {
+            "blocks": [
+              {
+                "key": "e1i0e",
+                "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                "type": "unstyled",
+                "depth": 0,
+                "inlineStyleRanges": [
+                  {
+                    "offset": 0,
+                    "length": 3,
+                    "style": "BOLD"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "BOLD"
+                  },
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "Permanent Marker"
+                  },
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "400"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "UNDERLINE"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "ITALIC"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(199, 27, 27, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "bg-rgba(194, 26, 26, 1)"
+                  }
+                ],
+                "entityRanges": []
+              }
+            ]
+          }
+        },
+        {
+          "draft.header.rawtitle": {
+            "blocks": [
+              {
+                "key": "e1i0e",
+                "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                "type": "unstyled",
+                "depth": 0,
+                "inlineStyleRanges": [
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(193, 253, 136, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(160, 231, 95, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(176, 246, 110, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(181, 248, 118, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(152, 224, 86, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(164, 236, 97, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(167, 238, 100, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(196, 253, 142, 1)"
+                  },
+                  {
+                    "offset": 0,
+                    "length": 3,
+                    "style": "BOLD"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "BOLD"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(184, 250, 123, 1)"
+                  },
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "Permanent Marker"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(186, 252, 125, 1)"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "UNDERLINE"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(199, 253, 147, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(188, 253, 127, 1)"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "ITALIC"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(125, 190, 65, 1)"
+                  },
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "400"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(132, 199, 70, 1)"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(199, 27, 27, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "bg-rgba(194, 26, 26, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(183, 248, 121, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(147, 218, 81, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(157, 228, 93, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(74, 74, 74, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(190, 253, 131, 1)"
+                  }
+                ],
+                "entityRanges": []
+              }
+            ]
+          }
+        },
+        {
+          "draft.header.rawtitle": {
+            "blocks": [
+              {
+                "key": "e1i0e",
+                "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                "type": "unstyled",
+                "depth": 0,
+                "inlineStyleRanges": [
+                  {
+                    "offset": 0,
+                    "length": 3,
+                    "style": "BOLD"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "BOLD"
+                  },
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "Permanent Marker"
+                  },
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "400"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "UNDERLINE"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "UNDERLINE"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "ITALIC"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "ITALIC"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(199, 27, 27, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "bg-rgba(194, 26, 26, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(190, 253, 131, 1)"
+                  }
+                ],
+                "entityRanges": []
+              }
+            ]
+          }
+        },
+        {
+          "draft.header.rawtitle": {
+            "blocks": [
+              {
+                "key": "e1i0e",
+                "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                "type": "unstyled",
+                "depth": 0,
+                "inlineStyleRanges": [
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "400"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "400"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "Schoolbell"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "rgba(199, 27, 27, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "bg-rgba(194, 26, 26, 1)"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "rgba(190, 253, 131, 1)"
+                  },
+                  {
+                    "offset": 0,
+                    "length": 3,
+                    "style": "BOLD"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "BOLD"
+                  },
+                  {
+                    "offset": 4,
+                    "length": 6,
+                    "style": "Permanent Marker"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "UNDERLINE"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "UNDERLINE"
+                  },
+                  {
+                    "offset": 12,
+                    "length": 3,
+                    "style": "ITALIC"
+                  },
+                  {
+                    "offset": 17,
+                    "length": 5,
+                    "style": "ITALIC"
+                  }
+                ],
+                "entityRanges": []
+              }
+            ]
           }
         }
       ],
-      "appliedDiscounts": [
-        {
-          "lineItemIds": [],
-          "discountType": "GLOBAL"
-        }
-      ],
-      "additionalFees": [],
-      "calculatedTotals": {
-        "priceSummary": {
-          "total": "290.00",
-          "subtotal": "300.00",
-          "discount": "10.00",
-          "additionalFees": "0.00"
-        }
+      "lastBackup": {
+        "$date": "2025-03-22T07:25:16.467Z"
       },
-      "paymentSettings": {
-        "type": "SINGLE_PAYMENT",
-        "singlePaymentSchedule": {
-          "dueDate": null,
-          "dueDateOffset": 30,
-          "issueDate": null,
-          "deposit": null,
-          "paymentStatus": "UNSCHEDULED",
-          "amountPaid": null
-        },
-        "multiplePaymentSchedule": null
-      },
-      "currencyCode": "EUR",
-      "locale": null
+      "_id": {
+        "$oid": "67de65df527eec32c6b9481c"
+      }
     },
-    "wixProposalId": null,
-    "deliverables": null,
-    "fromUserTemplate": null,
-    "seenCount": 0,
-    "seenTime": 0,
-    "stripe": "",
-    "expiryDate": null,
-    "openLogs": [],
-    "clientPayableAmount": null,
-    "clientPayableCurrency": null,
-    "clientPayableLabel": null,
-    "edited": {
-      "$date": "2024-11-19T06:15:12.914Z"
-    },
-    "importedProposal": null,
-    "isBasicTemplate": null,
-    "isWixTemplate": null,
-    "lastSeen": null,
-    "payment": null,
-    "published": null,
-    "selectedOption": null,
-    "signature": null,
-    "editEvent": true,
-    "enableAITool": null
+    "proptext": null,
+    "isSecured": null,
+    "password": null,
+    "sharePasswordOverEmail": null
   }

@@ -1,1 +1,2009 @@
-{"type":"root","defaults":{"direction":"ltr","format":"","indent":0,"version":1},"children":[{"children":[{"text":"t-bold","type":"text","format":1},{"text":" ","type":"text"},{"text":"t-italic","type":"text","format":2},{"text":" ","type":"text"},{"text":"t-underlin","type":"text","format":8},{"text":"e ","type":"text"},{"text":"t-strike","type":"text","format":4},{"text":" ","type":"text"},{"text":"t-color","type":"text","style":"color: rgba(235, 43, 43, 1);"},{"text":" ","type":"text"},{"text":"t-background-color","type":"text","style":"color: rgba(243, 255, 44, 1);background-color: rgba(26, 67, 240, 1);"},{"text":" ","type":"text"},{"children":[{"text":"t-link","type":"text"}],"type":"link","rel":"noreferrer","target":null,"title":null,"url":"https://playground.lexical.dev/"},{"text":" ","type":"text"},{"text":"t-bold-italic","type":"text","format":3},{"text":" ","type":"text"},{"text":"t-italic-strike","type":"text","format":6},{"text":" ","type":"text"},{"text":"t-font-size","type":"text","style":"font-size: 10px;"},{"text":" ","type":"text"},{"text":"t-font-family","type":"text","style":"font-family: asset;"},{"text":" ","type":"text"},{"text":"t-font-weight","type":"text","style":"font-weight: 700;"},{"text":" ","type":"text"},{"text":"t-font-size-color","type":"text","style":"font-size: 10px;color: rgba(74, 74, 74, 1);"},{"text":" ","type":"text"},{"text":"t-font-fam-color-italic","type":"text","style":"font-family: calligraffitti;color: rgba(246, 34, 34, 1);","format":2},{"text":" ","type":"text"},{"children":[{"text":"t-font-link-color","type":"text","style":"color: rgba(32, 43, 241, 1);font-family: calligraffitti;"}],"type":"link","rel":"noreferrer","target":null,"title":null,"url":"https://playground.lexical.dev/"},{"text":" ","type":"text"},{"text":"t-background","type":"text","style":"background-color: rgba(250, 245, 33, 1);"},{"text":" ","type":"text"},{"children":[{"text":"t-link-strike-underline","type":"text","format":12}],"type":"link","rel":"noreferrer","target":null,"title":null,"url":"https://playground.lexical.dev/"},{"text":".","type":"text"}],"type":"paragraph"},{"children":[],"type":"paragraph"},{"children":[{"text":"this is quote","type":"text"}],"type":"quote"},{"type":"list","listType":"bullet","start":1,"tag":"ul","children":[{"type":"listitem","children":[{"text":"this is list","type":"text"}]},{"type":"listitem","children":[{"text":"item 2","type":"text"}]},{"type":"list","listType":"bullet","start":1,"tag":"ul","children":[{"type":"listitem","children":[{"text":"item 2.1","type":"text"}]}]},{"type":"listitem","children":[{"text":"item 3","type":"text"}]}]},{"children":[{"text":"left-alignment","type":"text"}],"type":"paragraph","format":"left"},{"children":[{"text":"right-alignment","type":"text"}],"type":"paragraph","format":"right"},{"children":[{"text":"justify-alignment text to make it evenly spread over the editor or the view justify alignment text to make it evenly spread over the editor or the view","type":"text"}],"type":"paragraph","format":"justify"},{"children":[{"text":"center-alignment","type":"text"}],"type":"paragraph","format":"center"},{"children":[{"text":"intent-level 1","type":"text"}],"type":"paragraph","indent":1},{"children":[{"text":"intent-level 2","type":"text"}],"type":"paragraph","indent":2}]}
+{
+    "_id": "e7675df81f835afe2e3b422d",
+    "date": {
+        "$date": "2025-02-25T09:37:38.131Z"
+    },
+    "sigOptions": [
+        "draw",
+        "upload",
+        "type"
+    ],
+    "signatureEmails": [],
+    "scripts": [
+        "hei",
+        "fgfg"
+    ],
+    "returnOutput": [],
+    "tags": [],
+    "pid": "d5d42347-4aa1-4fb2-bc07-1a9c946d1693",
+    "pnum": "100598",
+    "uid": "63a2e784d26c6433602e5359",
+    "auid": "",
+    "name": "Ashiq Dey",
+    "email": "ashiq@goprospero.com",
+    "version": 16,
+    "pricing": {
+        "strategy": "table"
+    },
+    "language": "english",
+    "priceSeperator": "none",
+    "decimalPrecision": 2,
+    "contactButton": "block",
+    "stripe": {
+        "stripe_user_id": "acct_1MM7pRPfKNjN9ejK",
+        "isActive": false,
+        "type": "stripe"
+    },
+    "currency": "$",
+    "spamUrls": [
+        {
+            "url": "https://spamurl.com/q9",
+            "blocked": true
+        },
+        {
+            "url": "https://spamurl.com/q8",
+            "blocked": true
+        },
+        {
+            "url": "https://spamurl.com/q7",
+            "blocked": true
+        },
+        {
+            "url": "https://spamurl.com/q4",
+            "blocked": true
+        },
+        {
+            "url": "https://spamurl.com/r3",
+            "blocked": true
+        },
+        {
+            "url": "https://spamurl.com/r2",
+            "blocked": true
+        },
+        {
+            "url": "https://spamurl.com/r8",
+            "blocked": true
+        },
+        {
+            "url": "https://spamurl.com/r9",
+            "blocked": true
+        }
+    ],
+    "redirectTo": "https://secure.cardcom.solutions/EA/EA5/uAi26RMwAkChohOjfviJaw/Order",
+    "redirectAfter": 8,
+    "contactOptions": [
+        {
+            "option": "email",
+            "value": "ashiq@goprospero.com",
+            "enabled": true
+        },
+        {
+            "option": "call",
+            "value": "",
+            "enabled": true
+        },
+        {
+            "option": "whatsapp",
+            "value": "",
+            "enabled": true
+        }
+    ],
+    "sigtype": "sigdraw",
+    "contactnumber": "6787687687",
+    "callButton": "block",
+    "importedProposal": false,
+    "draft": {
+        "variables": {
+            "client": {
+                "firstName": {
+                    "count": 0,
+                    "value": "Prospect"
+                },
+                "lastName": {
+                    "count": 0,
+                    "value": "Name"
+                },
+                "fullName": {
+                    "count": 0,
+                    "value": "Prospect Name"
+                },
+                "email": {
+                    "count": 0,
+                    "value": ""
+                },
+                "phone": {
+                    "count": 0,
+                    "value": ""
+                },
+                "company": {
+                    "count": 0,
+                    "value": ""
+                },
+                "VAT": {
+                    "count": 0,
+                    "value": ""
+                },
+                "streetAddress": {
+                    "count": 0,
+                    "value": ""
+                },
+                "city": {
+                    "count": 0,
+                    "value": ""
+                },
+                "postalCode": {
+                    "count": 0,
+                    "value": ""
+                },
+                "state": {
+                    "count": 0,
+                    "value": ""
+                },
+                "country": {
+                    "count": 0,
+                    "value": ""
+                }
+            },
+            "proposal": {
+                "name": {
+                    "count": 0,
+                    "value": "New Design, Web, Video, Marketing and Copy Proposal"
+                },
+                "title": {
+                    "count": 0,
+                    "value": "New Design, Web, Video, Marketing and Copy Proposal"
+                },
+                "number": {
+                    "count": 0,
+                    "value": "100598"
+                },
+                "quote": {
+                    "count": 0,
+                    "value": "$120.00"
+                },
+                "discount": {
+                    "count": 0,
+                    "value": 0
+                },
+                "subTotal": {
+                    "count": 0,
+                    "value": "120.00 $"
+                },
+                "tax": {
+                    "count": 0,
+                    "value": 0
+                },
+                "total": {
+                    "count": 0,
+                    "value": "120.00 $"
+                },
+                "sentDate": {
+                    "count": 0,
+                    "value": "25-02-2025"
+                },
+                "createdDate": {
+                    "count": 0,
+                    "value": "25-02-2025"
+                },
+                "expireDate": {
+                    "count": 1,
+                    "value": "03-12-2025"
+                }
+            },
+            "sender": {
+                "firstName": {
+                    "count": 0,
+                    "value": "Ashiq"
+                },
+                "lastName": {
+                    "count": 0,
+                    "value": "Dey"
+                },
+                "fullName": {
+                    "count": 0,
+                    "value": "Ashiq Dey"
+                },
+                "email": {
+                    "count": 0,
+                    "value": "ashiq@goprospero.com"
+                },
+                "phone": {
+                    "count": 0,
+                    "value": "6787687687"
+                },
+                "company": {
+                    "count": 0,
+                    "value": "Grocered"
+                },
+                "VAT": {
+                    "count": 0,
+                    "value": "1233434"
+                }
+            },
+            "sender2": {
+                "firstName": {
+                    "count": 0,
+                    "value": ""
+                },
+                "lastName": {
+                    "count": 0,
+                    "value": ""
+                },
+                "fullName": {
+                    "count": 0,
+                    "value": " "
+                },
+                "email": {
+                    "count": 0,
+                    "value": ""
+                },
+                "phone": {
+                    "count": 0,
+                    "value": ""
+                }
+            },
+            "custom": {}
+        },
+        "header": {
+            "by": "<p>By</p>\n",
+            "rawby": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "By",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "contact": "<p>Contact</p>\n",
+            "rawcontact": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "Contact",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "title": "New Design, Web, Video, Marketing and Copy Proposal",
+            "rawtitle": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "New",
+                                "type": "text",
+                                "format": 1
+                            },
+                            {
+                                "text": " ",
+                                "type": "text"
+                            },
+                            {
+                                "text": "Design",
+                                "type": "text",
+                                "style": "font-weight: 400;font-family: permanent marker;"
+                            },
+                            {
+                                "text": ", ",
+                                "type": "text"
+                            },
+                            {
+                                "text": "Web",
+                                "type": "text",
+                                "style": "color: rgba(199, 27, 27, 1);",
+                                "format": 11
+                            },
+                            {
+                                "text": ", ",
+                                "type": "text"
+                            },
+                            {
+                                "text": "Video",
+                                "type": "text",
+                                "style": "font-weight: 400;font-family: schoolbell;background-color: rgba(194, 26, 26, 1);color: rgba(190, 253, 131, 1);",
+                                "format": 10
+                            },
+                            {
+                                "text": ", Marketing and Copy Proposal",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "subtitle": "Prepared For<br>Prospect Name<br>25/02/25",
+            "rawsubtitle": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "Prepared For\nProspect Name\n25/02/25",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "name": "Ashiq Dey",
+            "rawname": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "Ashiq Dey",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "email": "ashiq@goprospero.com",
+            "rawemail": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "ashiq@goprospero.com",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "logo": "https://dr08qaykn9isr.cloudfront.net/props/bd28013e28b297044d4fa8f4/logo/677fd7591238aa318c56873f.png",
+            "cover": "https://dr08qaykn9isr.cloudfront.net/application/covers/01.jpg",
+            "color": "rgba(0,0,0,0.4)",
+            "originalState": {
+                "by": "<p>By</p>\n",
+                "rawby": {
+                    "type": "root",
+                    "defaults": {
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1
+                    },
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "text": "By",
+                                    "type": "text"
+                                }
+                            ],
+                            "type": "paragraph"
+                        }
+                    ]
+                },
+                "contact": "<p>Contact</p>\n",
+                "rawcontact": {
+                    "type": "root",
+                    "defaults": {
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1
+                    },
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "text": "Contact",
+                                    "type": "text"
+                                }
+                            ],
+                            "type": "paragraph"
+                        }
+                    ]
+                },
+                "title": "New Design, Web, Video, Marketing and Copy Proposal",
+                "rawtitle": {
+                    "type": "root",
+                    "defaults": {
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1
+                    },
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                                    "type": "text"
+                                }
+                            ],
+                            "type": "paragraph"
+                        }
+                    ]
+                },
+                "subtitle": "Prepared For<br>Prospect Name<br>25/02/25",
+                "rawsubtitle": {
+                    "type": "root",
+                    "defaults": {
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1
+                    },
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "text": "Prepared For\nProspect Name\n25/02/25",
+                                    "type": "text"
+                                }
+                            ],
+                            "type": "paragraph"
+                        }
+                    ]
+                },
+                "name": "Ashiq Dey",
+                "rawname": {
+                    "type": "root",
+                    "defaults": {
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1
+                    },
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "text": "Ashiq Dey",
+                                    "type": "text"
+                                }
+                            ],
+                            "type": "paragraph"
+                        }
+                    ]
+                },
+                "email": "ashiq@goprospero.com",
+                "rawemail": {
+                    "type": "root",
+                    "defaults": {
+                        "direction": "ltr",
+                        "format": "",
+                        "indent": 0,
+                        "version": 1
+                    },
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "text": "ashiq@goprospero.com",
+                                    "type": "text"
+                                }
+                            ],
+                            "type": "paragraph"
+                        }
+                    ]
+                }
+            },
+            "headerConfig": {
+                "title": "Poppins",
+                "family": "Poppins",
+                "weight": 400,
+                "weights": [
+                    400,
+                    700
+                ],
+                "color1": "white",
+                "color2": "#d2d2d2",
+                "color3": "black",
+                "fontSize": "36px"
+            }
+        },
+        "overview": {
+            "title": "<p>Overview</p>\n",
+            "rawtitle": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "Overview",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "subrawtitle": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "text": "<div>I will transform The Company’s vision into an engaging content that will help your customers connect, understand and fall in love with your company. The content shall include blog posts (weekly), social media posts (daily) and a complete overhaul of your company’s website communications.\n</div><div>The goal of this project is to improve our communication style to create a more human and engaging brand experience, which will decrease customer complaints and help tickets. \n</div>",
+            "raw": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "I will ",
+                                "type": "text"
+                            },
+                            {
+                                "text": "transform ",
+                                "type": "text",
+                                "format": 1
+                            },
+                            {
+                                "text": "Th",
+                                "type": "text"
+                            },
+                            {
+                                "text": "e ",
+                                "type": "text",
+                                "style": "background-color: rgba(255, 255, 255, 0.48);"
+                            },
+                            {
+                                "text": "Com",
+                                "type": "text",
+                                "style": "background-color: rgba(255, 255, 255, 0.48);",
+                                "format": 2
+                            },
+                            {
+                                "text": "pany’s vision into an engaging ",
+                                "type": "text",
+                                "style": "background-color: rgba(255, 255, 255, 0.48);"
+                            },
+                            {
+                                "text": "content ",
+                                "type": "text",
+                                "style": "background-color: rgba(40, 92, 217, 1);"
+                            },
+                            {
+                                "text": "that ",
+                                "type": "text",
+                                "style": "background-color: rgba(255, 255, 255, 0.48);"
+                            },
+                            {
+                                "text": "will help",
+                                "type": "text",
+                                "style": "color: rgba(253, 253, 253, 1);background-color: rgba(224, 51, 51, 0.48);"
+                            },
+                            {
+                                "text": " ",
+                                "type": "text"
+                            },
+                            {
+                                "text": "your ",
+                                "type": "text",
+                                "format": 1
+                            },
+                            {
+                                "text": "customers connect, und",
+                                "type": "text"
+                            },
+                            {
+                                "text": "erstand an",
+                                "type": "text",
+                                "format": 4
+                            },
+                            {
+                                "text": "d fall in love with your ",
+                                "type": "text"
+                            },
+                            {
+                                "text": "company. The content shall include blog posts (weekly), social media posts (daily) and a",
+                                "type": "text",
+                                "style": "background-color: rgba(246, 12, 12, 1);color: rgba(251, 250, 250, 1);"
+                            },
+                            {
+                                "text": " complete ",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph",
+                        "style": "line-height: 1.5;"
+                    },
+                    {
+                        "children": [
+                            {
+                                "text": " I would like to overhaul ",
+                                "type": "text",
+                                "format": 1
+                            },
+                            {
+                                "text": "of your ",
+                                "type": "text"
+                            },
+                            {
+                                "text": "company’s ",
+                                "type": "text",
+                                "format": 2
+                            },
+                            {
+                                "text": "website",
+                                "type": "text",
+                                "format": 1
+                            },
+                            {
+                                "text": " communications. hello",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph",
+                        "style": "line-height: 1.5;"
+                    },
+                    {
+                        "children": [
+                            {
+                                "text": "The goal of ",
+                                "type": "text"
+                            },
+                            {
+                                "text": "this ",
+                                "type": "text",
+                                "format": 1
+                            },
+                            {
+                                "text": "project",
+                                "type": "text",
+                                "style": "background-color: rgba(25, 217, 57, 1);"
+                            },
+                            {
+                                "text": " is to improve our communication style to create a more human and engaging brand experience, which will decrease customer complaints and help tickets.",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    }
+                ]
+            }
+        },
+        "whyme2": {},
+        "pricing2": {
+            "title": "<p>Cost</p>\n",
+            "rawtitle": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "Cost",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "subrawtitle": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "raw": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "Here's a breakdown of the deliverables we've discussed and their costed 1:",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    },
+                    {
+                        "children": [],
+                        "type": "paragraph"
+                    },
+                    {
+                        "type": "TOKEN",
+                        "data": "{\"deliverables\":{\"chosen\":{\"OPTION 1\":{\"total\":0,\"list\":[{\"name\":\"UX Wireframes\",\"id\":\"76c696ac-7c5d-4582-aa70-11b90166b3ac\",\"price\":\"12\",\"type\":null,\"chosen\":false,\"selected\":false,\"currentPrice\":\"12\",\"items\":1},{\"name\":\"Fully Responsive Website Design\",\"id\":\"63cf16c1-60a6-446a-96c2-11c6875f86fe\",\"price\":\"12\",\"type\":null,\"chosen\":false,\"selected\":false,\"currentPrice\":\"12\",\"items\":2},{\"id\":\"f5ccfbef-5b04-4736-bd6b-600809cbc7f1\",\"name\":\"About Page\",\"description\":\"\",\"price\":\"12\",\"type\":null,\"currentPrice\":\"12\",\"items\":3},{\"id\":\"4062fe6c-2bb8-4bd2-ac98-8207f2618d11\",\"name\":\"Email Templates\",\"description\":\"\",\"price\":\"12\",\"type\":null,\"currentPrice\":\"12\",\"items\":4}],\"quantity\":true,\"subtotal\":true},\"OPTION 2\":{\"total\":\"\",\"list\":[{\"id\":\"33861b67-319c-4931-b997-98a98f74f236\",\"name\":\"Everything on option 1\",\"price\":0,\"type\":null}]},\"OPTION 3\":{\"total\":\"\",\"list\":[{\"id\":\"6385b2c2-eff3-4275-b260-51cf8f6e742b\",\"name\":\"Everything on option 2\",\"price\":0,\"type\":null}]}}},\"curr\":\"$\",\"pricing\":{\"strategy\":\"table\"},\"roundTotal\":false,\"priceSeperator\":\"none\",\"decimalPrecision\":2,\"language\":\"english\"}"
+                    },
+                    {
+                        "children": [],
+                        "type": "paragraph"
+                    }
+                ]
+            }
+        },
+        "milestones2": {
+            "title": "<p>Milestones</p>\n",
+            "rawtitle": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "Milestones",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "subrawtitle": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "raw": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "Assuming",
+                                "type": "text",
+                                "format": 1
+                            },
+                            {
+                                "text": " that we have all necessary materials ready, here are the suggested milestones:",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    },
+                    {
+                        "children": [],
+                        "type": "paragraph"
+                    },
+                    {
+                        "type": "TOKEN",
+                        "data": "{\"milestones\":{\"chosen\":{\"OPTION 1\":{\"total\":\"\",\"list\":[{\"name\":\"Kickoff Meeting\",\"id\":\"a5a20316-63de-4072-ba0e-b3583fadce88\",\"price\":0,\"type\":null,\"chosen\":false,\"selected\":false},{\"name\":\"Research\",\"id\":\"c515fada-cfe0-4817-a9c2-4e06901550ae\",\"price\":0,\"type\":null,\"chosen\":false,\"selected\":false}]},\"OPTION 2\":{\"total\":\"\",\"list\":[{\"id\":\"26a9392d-cbad-4ef0-b60e-db0d2e20c1ee\",\"name\":\"Everything on option 1\",\"price\":0,\"type\":null}]},\"OPTION 3\":{\"total\":\"\",\"list\":[{\"id\":\"70f1e254-0883-4626-a484-2b88a2ee172c\",\"name\":\"Everything on option 2\",\"price\":0,\"type\":null}]}}}}"
+                    },
+                    {
+                        "children": [],
+                        "type": "paragraph"
+                    }
+                ]
+            }
+        },
+        "terms": {
+            "title": "<p>Terms</p>\n",
+            "rawtitle": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "Terms",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "subrawtitle": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "text": "<ol><li>This proposal is valid until {{proposal.expireDate}}.</li><li>Payment structure: 50% upfront, 50% after approval of the final work. Payment via Paypal or bank transfer.</li><li>Resources needed for the design, such as fonts, stock photos, and icons, are not included in the prices above. Those will be paid for by the client, and the right to use them shall be theirs.</li><li>Additional work for components that appear in the scope of work will be charged [termsrate] per hour (e.g. beyond the number of revisions described). </li><li>New components that are not described in the scope of work will be assessed in a new estimate.</li><li>Business day count starts only after the client provides all resources requested, such as images, contact details, etc.</li><li>Usage rights: After the work is completed and payment has been received, the client will own the rights to the design. </li><li>In the case of project cancellation after the work has started, the client will pay for the relative part of the work.</li></ol>",
+            "raw": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "type": "list",
+                        "listType": "number",
+                        "start": 1,
+                        "tag": "ol",
+                        "children": [
+                            {
+                                "type": "listitem",
+                                "children": [
+                                    {
+                                        "text": "This proposal is valid until {{proposal.expireDate}}.",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "listitem",
+                                "children": [
+                                    {
+                                        "text": "Payment structure: 50% upfront, 50% after approval of the final work. Payment via Paypal or bank transfer.",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "listitem",
+                                "children": [
+                                    {
+                                        "text": "Resources needed for the design, such as fonts, stock photos, and icons, are not included in the prices above. Those will be paid for by the client, and the right to use them shall be theirs.",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "listitem",
+                                "children": [
+                                    {
+                                        "text": "Additional work for components that appear in the scope of work will be charged [termsrate] per hour (e.g. beyond the number of revisions described).",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "listitem",
+                                "children": [
+                                    {
+                                        "text": "New components that are not described in the scope of work will be assessed in a new estimate.",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "listitem",
+                                "children": [
+                                    {
+                                        "text": "Business day count starts only after the client provides all resources requested, such as images, contact details, etc.",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "listitem",
+                                "children": [
+                                    {
+                                        "text": "Usage rights: After the work is completed and payment has been received, the client will own the rights to the design.",
+                                        "type": "text"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "listitem",
+                                "children": [
+                                    {
+                                        "text": "In the case of project cancellation after the work has started, the client will pay for the relative part of the work.",
+                                        "type": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "whatsnext": {
+            "title": "<p>What&#39;s Next</p>\n",
+            "rawtitle": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "What's Next",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "subrawtitle": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "text": "<p>I will be happy to answer any question regarding this proposal. You can reach me at my phone or at ashiq@goprospero.com.<br>Once you approve this proposal, we will set up a meeting to further discuss details, dates and milestones.<br>Once the first payment is in, and the resources needed arrive, we can start the actual work. </p>\n",
+            "raw": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "I will be happy to answer any question regarding this proposal. You can reach me at my phone or at ashiq@goprospero.com.\nOnce you approve this proposal, we will set up a meeting to further discuss details, dates and milestones.\nOnce the first payment is in, and the resources needed arrive, we can start the actual work.",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    }
+                ]
+            }
+        },
+        "signature": {
+            "title": "<p>Signature</p>\n",
+            "rawtitle": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "Signature",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "myname": "Ashiq Dey",
+            "rawmyname": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "Ashiq Dey",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "name": "Prospect Name",
+            "rawname": {
+                "type": "root",
+                "defaults": {
+                    "direction": "ltr",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1
+                },
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "text": "Prospect Name",
+                                "type": "text"
+                            }
+                        ],
+                        "type": "paragraph"
+                    }
+                ]
+            },
+            "signature": "contact",
+            "signatureBackgroundColor": "#005AFF",
+            "hidesig": false
+        },
+        "sectionorder": [
+            "overview",
+            "pricing2",
+            "milestones2",
+            "whatsnext",
+            "terms"
+        ],
+        "bodyFont": {
+            "title": "Poppins",
+            "family": "Poppins",
+            "weight": 400,
+            "weights": [
+                400,
+                700
+            ],
+            "color1": "white",
+            "color2": "#4a4a4a",
+            "color3": "black",
+            "fontSize": "20px"
+        },
+        "titleFont": {
+            "title": "Poppins",
+            "family": "Poppins",
+            "weight": 400,
+            "weights": [
+                400,
+                700
+            ],
+            "color1": "white",
+            "color2": "#d2d2d2",
+            "color3": "black",
+            "fontSize": "36px"
+        },
+        "subTitleFont": {
+            "title": "Poppins",
+            "family": "Poppins",
+            "weight": 400,
+            "weights": {
+                "0": 400,
+                "1": 700
+            },
+            "color1": "gray",
+            "fontSize": "18px"
+        }
+    },
+    "client": {
+        "contact": "Prospect Name",
+        "name": null,
+        "desc": null,
+        "address": null,
+        "text": null,
+        "email": null
+    },
+    "project": {
+        "name": "New Design, Web, Video, Marketing and Copy Proposal",
+        "desc": "I will transform The Company’s vision into an engaging content that will help your customers connect, understand and fall in love with your company. The content shall include blog posts (weekly), social media posts (daily) and a complete overhaul of your company’s website communications.\n",
+        "goals": "The goal of this project is to improve our communication style to create a more human and engaging brand experience, which will decrease customer complaints and help tickets. \n",
+        "type": "design web video marketing copy",
+        "othertype": ""
+    },
+    "mondayBoardId": null,
+    "expiryDate": {
+        "$date": "2025-03-12T09:37:38.131Z"
+    },
+    "expiryMessage": "This proposal has expired. Contact Ashiq Dey for more information.",
+    "enableAITool": false,
+    "fonts": [],
+    "sharedViaMail": false,
+    "emailSettings": null,
+    "openLogs": [],
+    "emailLogs": [],
+    "attachments": [],
+    "__v": 0,
+    "approvedmanually": null,
+    "chatway": null,
+    "clientPayableAmount": null,
+    "clientPayableCurrency": null,
+    "clientPayableLabel": null,
+    "clientPayableLink": null,
+    "creatorUserway": false,
+    "curr": null,
+    "dateFormat": "DD/MM/YY",
+    "deliverables": {
+        "chosen": {
+            "OPTION 1": {
+                "total": "",
+                "list": [
+                    {
+                        "name": "UX Wireframes",
+                        "id": "76c696ac-7c5d-4582-aa70-11b90166b3ac",
+                        "price": 0,
+                        "type": null,
+                        "chosen": false,
+                        "selected": false
+                    },
+                    {
+                        "name": "Fully Responsive Website Design",
+                        "id": "63cf16c1-60a6-446a-96c2-11c6875f86fe",
+                        "price": 0,
+                        "type": null,
+                        "chosen": false,
+                        "selected": false
+                    }
+                ]
+            },
+            "OPTION 2": {
+                "total": "",
+                "list": [
+                    {
+                        "id": "33861b67-319c-4931-b997-98a98f74f236",
+                        "name": "Everything on option 1",
+                        "price": 0,
+                        "type": null
+                    }
+                ]
+            },
+            "OPTION 3": {
+                "total": "",
+                "list": [
+                    {
+                        "id": "6385b2c2-eff3-4275-b260-51cf8f6e742b",
+                        "name": "Everything on option 2",
+                        "price": 0,
+                        "type": null
+                    }
+                ]
+            }
+        }
+    },
+    "disableSig": null,
+    "editEvent": true,
+    "edited": {
+        "$date": "2025-03-22T07:26:06.650Z"
+    },
+    "enablePayment": null,
+    "fromUserTemplate": null,
+    "isBasicTemplate": null,
+    "isEditing": {
+        "name": "Ashiq Dey",
+        "uid": "63a2e784d26c6433602e5359",
+        "tabID": "42dfc110-71c6-43b9-99a5-a99d908b39d2"
+    },
+    "isWixTemplate": null,
+    "lastSeen": null,
+    "milestones": {
+        "chosen": {
+            "OPTION 1": {
+                "total": "",
+                "list": [
+                    {
+                        "name": "Kickoff Meeting",
+                        "id": "a5a20316-63de-4072-ba0e-b3583fadce88",
+                        "price": 0,
+                        "type": null,
+                        "chosen": false,
+                        "selected": false
+                    },
+                    {
+                        "name": "Research",
+                        "id": "c515fada-cfe0-4817-a9c2-4e06901550ae",
+                        "price": 0,
+                        "type": null,
+                        "chosen": false,
+                        "selected": false
+                    }
+                ]
+            },
+            "OPTION 2": {
+                "total": "",
+                "list": [
+                    {
+                        "id": "26a9392d-cbad-4ef0-b60e-db0d2e20c1ee",
+                        "name": "Everything on option 1",
+                        "price": 0,
+                        "type": null
+                    }
+                ]
+            },
+            "OPTION 3": {
+                "total": "",
+                "list": [
+                    {
+                        "id": "70f1e254-0883-4626-a484-2b88a2ee172c",
+                        "name": "Everything on option 2",
+                        "price": 0,
+                        "type": null
+                    }
+                ]
+            }
+        }
+    },
+    "payedfor": null,
+    "payment": null,
+    "prevState": "published",
+    "proposalRedirectAfter": null,
+    "proposalRedirectTo": null,
+    "published": {
+        "$date": "2000-01-01T00:00:00.000Z"
+    },
+    "sawmilestones": true,
+    "sawyou": true,
+    "seenCount": null,
+    "seenTime": null,
+    "selectedOption": null,
+    "signature": null,
+    "state": "published",
+    "superPowers": null,
+    "userway": null,
+    "wixConnectedInstance": null,
+    "wixPricing": null,
+    "wixProposalId": null,
+    "history": {
+        "changes": [
+            {
+                "draft.header.rawtitle": {
+                    "blocks": [
+                        {
+                            "key": "e1i0e",
+                            "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                            "type": "unstyled",
+                            "depth": 0,
+                            "inlineStyleRanges": [
+                                {
+                                    "offset": 0,
+                                    "length": 3,
+                                    "style": "BOLD"
+                                },
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "Permanent Marker"
+                                },
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "400"
+                                }
+                            ],
+                            "entityRanges": []
+                        }
+                    ]
+                }
+            },
+            {
+                "draft.header.rawtitle": {
+                    "blocks": [
+                        {
+                            "key": "e1i0e",
+                            "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                            "type": "unstyled",
+                            "depth": 0,
+                            "inlineStyleRanges": [
+                                {
+                                    "offset": 0,
+                                    "length": 3,
+                                    "style": "BOLD"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "BOLD"
+                                },
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "Permanent Marker"
+                                },
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "400"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "ITALIC"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "UNDERLINE"
+                                }
+                            ],
+                            "entityRanges": []
+                        }
+                    ]
+                }
+            },
+            {
+                "draft.header.rawtitle": {
+                    "blocks": [
+                        {
+                            "key": "e1i0e",
+                            "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                            "type": "unstyled",
+                            "depth": 0,
+                            "inlineStyleRanges": [
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(150, 36, 36, 1)"
+                                },
+                                {
+                                    "offset": 0,
+                                    "length": 3,
+                                    "style": "BOLD"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "BOLD"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(192, 44, 44, 1)"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(195, 43, 43, 1)"
+                                },
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "Permanent Marker"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "UNDERLINE"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(168, 41, 41, 1)"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "ITALIC"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(199, 44, 44, 1)"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(189, 45, 45, 1)"
+                                },
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "400"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(148, 36, 36, 1)"
+                                }
+                            ],
+                            "entityRanges": []
+                        }
+                    ]
+                }
+            },
+            {
+                "draft.header.rawtitle": {
+                    "blocks": [
+                        {
+                            "key": "e1i0e",
+                            "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                            "type": "unstyled",
+                            "depth": 0,
+                            "inlineStyleRanges": [
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(202, 45, 45, 1)"
+                                },
+                                {
+                                    "offset": 0,
+                                    "length": 3,
+                                    "style": "BOLD"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "BOLD"
+                                },
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "Permanent Marker"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "UNDERLINE"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(211, 42, 42, 1)"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "ITALIC"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(199, 44, 44, 1)"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(201, 44, 44, 1)"
+                                },
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "400"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(148, 36, 36, 1)"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(221, 38, 38, 1)"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(206, 46, 46, 1)"
+                                }
+                            ],
+                            "entityRanges": []
+                        }
+                    ]
+                }
+            },
+            {
+                "draft.header.rawtitle": {
+                    "blocks": [
+                        {
+                            "key": "e1i0e",
+                            "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                            "type": "unstyled",
+                            "depth": 0,
+                            "inlineStyleRanges": [
+                                {
+                                    "offset": 0,
+                                    "length": 3,
+                                    "style": "BOLD"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "BOLD"
+                                },
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "Permanent Marker"
+                                },
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "400"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "UNDERLINE"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "ITALIC"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(206, 46, 46, 1)"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(199, 27, 27, 1)"
+                                }
+                            ],
+                            "entityRanges": []
+                        }
+                    ]
+                }
+            },
+            {
+                "draft.header.rawtitle": {
+                    "blocks": [
+                        {
+                            "key": "e1i0e",
+                            "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                            "type": "unstyled",
+                            "depth": 0,
+                            "inlineStyleRanges": [
+                                {
+                                    "offset": 0,
+                                    "length": 3,
+                                    "style": "BOLD"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "BOLD"
+                                },
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "Permanent Marker"
+                                },
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "400"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "UNDERLINE"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "ITALIC"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(199, 27, 27, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "bg-rgba(194, 26, 26, 1)"
+                                }
+                            ],
+                            "entityRanges": []
+                        }
+                    ]
+                }
+            },
+            {
+                "draft.header.rawtitle": {
+                    "blocks": [
+                        {
+                            "key": "e1i0e",
+                            "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                            "type": "unstyled",
+                            "depth": 0,
+                            "inlineStyleRanges": [
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(193, 253, 136, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(160, 231, 95, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(176, 246, 110, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(181, 248, 118, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(152, 224, 86, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(164, 236, 97, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(167, 238, 100, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(196, 253, 142, 1)"
+                                },
+                                {
+                                    "offset": 0,
+                                    "length": 3,
+                                    "style": "BOLD"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "BOLD"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(184, 250, 123, 1)"
+                                },
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "Permanent Marker"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(186, 252, 125, 1)"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "UNDERLINE"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(199, 253, 147, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(188, 253, 127, 1)"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "ITALIC"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(125, 190, 65, 1)"
+                                },
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "400"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(132, 199, 70, 1)"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(199, 27, 27, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "bg-rgba(194, 26, 26, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(183, 248, 121, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(147, 218, 81, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(157, 228, 93, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(74, 74, 74, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(190, 253, 131, 1)"
+                                }
+                            ],
+                            "entityRanges": []
+                        }
+                    ]
+                }
+            },
+            {
+                "draft.header.rawtitle": {
+                    "blocks": [
+                        {
+                            "key": "e1i0e",
+                            "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                            "type": "unstyled",
+                            "depth": 0,
+                            "inlineStyleRanges": [
+                                {
+                                    "offset": 0,
+                                    "length": 3,
+                                    "style": "BOLD"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "BOLD"
+                                },
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "Permanent Marker"
+                                },
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "400"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "UNDERLINE"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "UNDERLINE"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "ITALIC"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "ITALIC"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(199, 27, 27, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "bg-rgba(194, 26, 26, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(190, 253, 131, 1)"
+                                }
+                            ],
+                            "entityRanges": []
+                        }
+                    ]
+                }
+            },
+            {
+                "draft.header.rawtitle": {
+                    "blocks": [
+                        {
+                            "key": "e1i0e",
+                            "text": "New Design, Web, Video, Marketing and Copy Proposal",
+                            "type": "unstyled",
+                            "depth": 0,
+                            "inlineStyleRanges": [
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "400"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "400"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "Schoolbell"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "rgba(199, 27, 27, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "bg-rgba(194, 26, 26, 1)"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "rgba(190, 253, 131, 1)"
+                                },
+                                {
+                                    "offset": 0,
+                                    "length": 3,
+                                    "style": "BOLD"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "BOLD"
+                                },
+                                {
+                                    "offset": 4,
+                                    "length": 6,
+                                    "style": "Permanent Marker"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "UNDERLINE"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "UNDERLINE"
+                                },
+                                {
+                                    "offset": 12,
+                                    "length": 3,
+                                    "style": "ITALIC"
+                                },
+                                {
+                                    "offset": 17,
+                                    "length": 5,
+                                    "style": "ITALIC"
+                                }
+                            ],
+                            "entityRanges": []
+                        }
+                    ]
+                }
+            }
+        ],
+        "lastBackup": {
+            "$date": "2025-03-22T07:25:16.467Z"
+        },
+        "_id": {
+            "$oid": "67de65df527eec32c6b9481c"
+        }
+    },
+    "proptext": null,
+    "isSecured": null,
+    "password": null,
+    "sharePasswordOverEmail": null
+}
