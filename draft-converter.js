@@ -14,16 +14,17 @@ try {
 }
 
 const raws = [
-  "raw",
   "rawtitle",
   "subrawtitle",
-  "rawtitle",
+  "raw",
+  "raw1",
+  "raw2",
+  "raw3",
   "rawsubtitle",
   "rawcontact",
   "rawname",
-  "rawemail",
-  "rawtitle",
   "rawmyname",
+  "rawemail",
   "rawby",
 ];
 
@@ -31,6 +32,7 @@ const excludedKeys = [
   "sectionorder",
   "titleFont",
   "bodyFont",
+  "subTitleFont",
   "variables",
   "headerConfig",
   "titleStyle",
@@ -49,7 +51,7 @@ function findRawAndConvert(obj) {
     if (!excludedKeys.includes(key) || typeof obj[key] === "object") {
       if (raws.includes(key)) {
         // if raw then convert to lexical
-        obj[key] = convertDraftToLexical({ ...obj[key] });
+        obj[key] = convertDraftToLexical({ ...obj[key] }, true);
       }
       // recursively call findRawAndConvert
       else {
@@ -61,7 +63,7 @@ function findRawAndConvert(obj) {
   return obj;
 }
 
-proposal.draft = findRawAndConvert(proposal.draft);
+proposal.lexical = findRawAndConvert(proposal.draft);
 fs.writeFileSync(lexicalProposal, JSON.stringify(proposal), "utf-8");
 
 // convert and output the result

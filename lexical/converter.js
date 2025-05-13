@@ -1,9 +1,7 @@
 const fontsList = require("./fonts");
 const fonts = new Set([...fontsList]);
 
-
 const SHORTEN = true;
-
 
 const keyMapping = {
   format: "f",
@@ -11,10 +9,26 @@ const keyMapping = {
   version: "v",
   children: "c",
   text: "tx",
-  type: "t",
+  type: "ty",
   style: "s",
   mode: "m",
   direction: "d",
+};
+
+const defaultValues = {
+  style: "",
+  version: 1,
+  format: "",
+  type: "text",
+  detail: 0,
+  mode: "normal",
+  direction: "ltr",
+  indent: 0,
+  textFormat: 0,
+  textStyle: "",
+  rel: "noreferrer",
+  target: null,
+  title: null,
 };
 
 // Map Draft.js inline styles to Lexical format bitmask values
@@ -25,6 +39,99 @@ const STYLE_BITMASK = {
   underline: 8,
   code: 16,
 };
+
+// main function to convert Draft.js JSON to Lexical JSON and wrap in `editorState`
+function convertDraftToLexical(obj, shorten = true) {
+  const root = {
+    type: "root",
+    // defaults: {
+    //   direction: "ltr",
+    //   format: "",
+    //   indent: 0,
+    //   version: 1,
+    // },
+    children: [],
+  };
+
+  // for list we need to track previous block (depth, list type)
+  const listStack = [];
+
+  const draftContent = { ...obj };
+
+  draftContent.blocks.forEach((block) => {
+    const result = convertBlockToLexical(block, draftContent.entityMap);
+
+    if (result.listType) {
+      const { listType, listItem, depth } = result;
+
+      // handle root-level list type transition
+      if (
+        listStack.length > 0 &&
+        depth === 0 &&
+        listStack[listStack.length - 1].list.listType !== listType
+      ) {
+        // close the previous list when transitioning list type at depth 0
+        while (listStack.length > 0) {
+          listStack.pop();
+        }
+      }
+
+      // check if we need to create a new list
+      if (
+        listStack.length === 0 || // no existing list
+        listStack[listStack.length - 1].depth < depth || // new nested list
+        listStack[listStack.length - 1].list.listType !== listType // different list type
+      ) {
+        const newList = {
+          type: "list",
+          listType,
+          start: 1,
+          tag: listType === "bullet" ? "ul" : "ol",
+          children: [listItem],
+        };
+
+        if (listStack.length === 0) {
+          // add to root if there's no parent list
+          root.children.push(newList);
+        } else {
+          // add to the parent list
+          const parentList = listStack[listStack.length - 1].list;
+          parentList.children.push(newList);
+        }
+
+        // push the new list onto the stack
+        listStack.push({ list: newList, depth });
+      } else if (listStack[listStack.length - 1].depth === depth) {
+        // add to the current list at the same depth
+        const currentList = listStack[listStack.length - 1].list;
+        currentList.children.push(listItem);
+      } else {
+        // handle stepping back in depth
+        while (
+          listStack.length > 0 &&
+          listStack[listStack.length - 1].depth > depth
+        ) {
+          listStack.pop();
+        }
+        const currentList = listStack[listStack.length - 1].list;
+        currentList.children.push(listItem);
+      }
+    } else {
+      // add non list blocks to the root
+      while (listStack.length > 0) {
+        listStack.pop(); // clear the stack when moving out of lists
+      }
+      root.children.push(result);
+    }
+  });
+
+  // shorten the keys to reduce file size
+  if (shorten) {
+    return shortenKeys(root, true);
+  }
+
+  return root;
+}
 
 // Convert Draft.js styles to a format bitmask
 const calculateFormatBitmask = (styles) =>
@@ -180,13 +287,16 @@ function addSegment(segments, text, styles, linkKey, entityMap) {
 
 // -------------- shortend or extent the lexical keys  ----------------
 
-function shortenKeys(data) {
+function shortenKeys(data, clean = true) {
   function shorten(obj) {
     if (Array.isArray(obj)) {
       return obj.map(shorten);
     } else if (obj !== null && typeof obj === "object") {
       const shortenedObj = {};
       for (const key in obj) {
+        if (clean && defaultValues[key] === obj[key]) {
+          continue;
+        }
         const shortKey = keyMapping[key] || key;
         shortenedObj[shortKey] = shorten(obj[key]);
       }
@@ -280,20 +390,41 @@ function convertBlockToLexical(block, entityMap) {
         };
       } else if (entity.type === "html") {
         return {
-          type: entity.type,
+          type: "prospero-element",
+          elementType: "html",
           data: entity.data.htmlCode,
           config: entity.data.config,
         };
       } else if (entity.type === "TOKEN") {
-        // why are we storing json as string instead of object
+        // TODO why are we storing json as string instead of object ?
+        const data = JSON.parse(entity.data.texcontent);
+
+        let elementType = "price";
+
+        if (data.milestones) {
+          elementType = "milestone";
+        }
+
         return {
-          type: entity.type,
-          data: entity.data.texcontent,
+          type: "prospero-element",
+          elementType,
+          data,
         };
-      } else if (entity.type === "media") {
+      } else if (["form", "gallery", "testimonial"].includes(entity.type)) {
+        const data = entity.data.data;
+        // const config = entity.data.config;
+
+        return {
+          type: "prospero-element",
+          elementType : entity.type,
+          data,
+        };
+      }
+      
+      else if (entity.type === "media") {
         if (entity.data.original_link) {
           return {
-            type: entity.type,
+            type: 'video',
             data: getMediaUrl(entity.data?.original_link),
             config: { ...entity.data },
           };
@@ -312,13 +443,7 @@ function convertBlockToLexical(block, entityMap) {
           height: size.height,
           maxWidth: "inherit",
         };
-      } else if (["form", "gallery", "testimonial"].includes(entity.type)) {
-        return {
-          type: entity.type,
-          data: entity.data.data,
-          config: entity.data.config,
-        };
-      }
+      } 
 
       return {
         type: "horizontalrule",
@@ -359,99 +484,6 @@ function convertBlockToLexical(block, entityMap) {
   }
 
   return data;
-}
-
-// main function to convert Draft.js JSON to Lexical JSON and wrap in `editorState`
-function convertDraftToLexical(obj) {
-  const root = {
-    type: "root",
-    defaults: {
-      direction: "ltr",
-      format: "",
-      indent: 0,
-      version: 1,
-    },
-    children: [],
-  };
-
-  // for list we need to track previous block (depth, list type)
-  const listStack = [];
-
-  const draftContent = { ...obj };
-
-  draftContent.blocks.forEach((block) => {
-    const result = convertBlockToLexical(block, draftContent.entityMap);
-
-    if (result.listType) {
-      const { listType, listItem, depth } = result;
-
-      // handle root-level list type transition
-      if (
-        listStack.length > 0 &&
-        depth === 0 &&
-        listStack[listStack.length - 1].list.listType !== listType
-      ) {
-        // close the previous list when transitioning list type at depth 0
-        while (listStack.length > 0) {
-          listStack.pop();
-        }
-      }
-
-      // check if we need to create a new list
-      if (
-        listStack.length === 0 || // no existing list
-        listStack[listStack.length - 1].depth < depth || // new nested list
-        listStack[listStack.length - 1].list.listType !== listType // different list type
-      ) {
-        const newList = {
-          type: "list",
-          listType,
-          start: 1,
-          tag: listType === "bullet" ? "ul" : "ol",
-          children: [listItem],
-        };
-
-        if (listStack.length === 0) {
-          // add to root if there's no parent list
-          root.children.push(newList);
-        } else {
-          // add to the parent list
-          const parentList = listStack[listStack.length - 1].list;
-          parentList.children.push(newList);
-        }
-
-        // push the new list onto the stack
-        listStack.push({ list: newList, depth });
-      } else if (listStack[listStack.length - 1].depth === depth) {
-        // add to the current list at the same depth
-        const currentList = listStack[listStack.length - 1].list;
-        currentList.children.push(listItem);
-      } else {
-        // handle stepping back in depth
-        while (
-          listStack.length > 0 &&
-          listStack[listStack.length - 1].depth > depth
-        ) {
-          listStack.pop();
-        }
-        const currentList = listStack[listStack.length - 1].list;
-        currentList.children.push(listItem);
-      }
-    } else {
-      // add non list blocks to the root
-      while (listStack.length > 0) {
-        listStack.pop(); // clear the stack when moving out of lists
-      }
-      root.children.push(result);
-    }
-  });
-
-  // shorten the keys to reduce file size
-  if (SHORTEN) {
-    return shortenKeys(root);
-  }
-
-  return root;
 }
 
 // Convert Draft.js table entity to Lexical table format

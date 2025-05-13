@@ -29,8 +29,8 @@ try {
 
 
 // convert and output the result
-let jsonData = convertDraftToLexical(draftContentJSON);
-jsonData = shortenKeys(jsonData);
+let jsonData = convertDraftToLexical(draftContentJSON, true);
+// jsonData = shortenKeys(jsonData);
 // jsonData = expandKeys(jsonData);
 // console.log("Lexical JSON Output:", JSON.stringify(lexicalJSON));
 console.log("Lexical JSON Output:", JSON.stringify(jsonData));
