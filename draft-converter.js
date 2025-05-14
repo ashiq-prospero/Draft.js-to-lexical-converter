@@ -63,7 +63,27 @@ function findRawAndConvert(obj) {
   return obj;
 }
 
-proposal.lexical = findRawAndConvert(proposal.draft);
+const deleteFields = (proposal) => {
+  delete proposal.draft;
+  delete proposal.deliverables;
+  delete proposal.history;
+  delete proposal.milestones;
+  
+  return proposal;
+}
+
+const convertProposal = (proposal) => {
+  let _proposal = {...proposal};
+  const draft = _proposal.draft;
+  _proposal = deleteFields(_proposal);
+  _proposal.lexical = findRawAndConvert(draft);
+
+  return _proposal;
+}
+
+
+proposal = convertProposal(proposal);
+
 fs.writeFileSync(lexicalProposal, JSON.stringify(proposal), "utf-8");
 
 // convert and output the result

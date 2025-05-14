@@ -78,5 +78,38 @@ To optimize the JSON:
 4. Compress Text: Use libraries like lz-string to compress text nodes.
 
 
+TODO
+-----------
+    handle \n
+    convert price, mile, html and all other elements
+    handle variable -> variable node 
+    
+    divider - ✅
+    form - ✅
+    image ✅
+    gallery - ✅
+    video- ✅
+    table - ✅
+    price - ✅
+    html - ✅
+    goal - ✅
+    testimonial - ✅
+
+    quote
 
 
+
+const COMPONENT_REGISTRY = {
+  form: Form,
+  gallery: Gallery,
+  price: Price,
+  html: Html,
+  goal: Goal,
+  testimonial: Testimonial,
+};
+
+"type": "prospero-element",
+"version": 1,
+"format": "",
+"elementType": "price",
+"data": {}

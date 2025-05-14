@@ -42,7 +42,7 @@ const STYLE_BITMASK = {
 
 // main function to convert Draft.js JSON to Lexical JSON and wrap in `editorState`
 function convertDraftToLexical(obj, shorten = true) {
-  const root = {
+  let root = {
     type: "root",
     // defaults: {
     //   direction: "ltr",
@@ -125,6 +125,11 @@ function convertDraftToLexical(obj, shorten = true) {
     }
   });
 
+
+  // parse variables and convert them to variable node
+  root = convertToVariableNodes(root);
+
+
   // shorten the keys to reduce file size
   if (shorten) {
     return shortenKeys(root, true);
@@ -132,6 +137,67 @@ function convertDraftToLexical(obj, shorten = true) {
 
   return root;
 }
+
+
+// const convertToVariableNode = (node) => {
+//   if(node.text){
+//     node.text = parseVarieleAndConvert(node.text);
+//   }
+//   if (node.children) {
+//     node.children = node.children.map(convertToVariableNode);
+//   }
+// };
+
+function convertToVariableNodes(input) {
+  const variableRegex = /{{(.*?)}}/g;
+
+  function processTextNode(text) {
+    const matches = [...text.matchAll(variableRegex)];
+    const nodes = [];
+    let lastIndex = 0;
+
+    matches.forEach(match => {
+      const [fullMatch, variableName] = match;
+      const startIndex = match.index;
+
+      // Add plain text before the variable
+      if (startIndex > lastIndex) {
+        nodes.push({ type: "text", text: text.slice(lastIndex, startIndex) });
+      }
+
+      // Add the variable node
+      nodes.push({ type: "variable", text: fullMatch });
+
+      lastIndex = startIndex + fullMatch.length;
+    });
+
+    // Add remaining plain text after the last variable
+    if (lastIndex < text.length) {
+      nodes.push({ type: "text", text: text.slice(lastIndex) });
+    }
+
+    return nodes;
+  }
+
+  function processChildren(children) {
+    return children.map(child => {
+      if (child.text) {
+        return { ...child, children: processTextNode(child.text), text: undefined };
+      } else if (child.children) {
+        return { ...child, children: processChildren(child.children) };
+      }
+      return child;
+    });
+  }
+
+  return {
+    ...input,
+    children: processChildren(input.children)
+  };
+}
+
+
+
 
 // Convert Draft.js styles to a format bitmask
 const calculateFormatBitmask = (styles) =>
@@ -298,7 +364,13 @@ function shortenKeys(data, clean = true) {
           continue;
         }
         const shortKey = keyMapping[key] || key;
-        shortenedObj[shortKey] = shorten(obj[key]);
+
+        if (key === "data") {
+          // for data key we dont need to shorten recursively
+          shortenedObj[shortKey] = obj[key];
+        } else {
+          shortenedObj[shortKey] = shorten(obj[key]);
+        }
       }
       return shortenedObj;
     }
@@ -384,10 +456,6 @@ function convertBlockToLexical(block, entityMap) {
     if (entity?.type) {
       if (entity.type === "table") {
         return convertTableEntityToLexical(entity.data);
-      } else if (entity.type === "divider") {
-        return {
-          type: "horizontalrule",
-        };
       } else if (entity.type === "html") {
         return {
           type: "prospero-element",
@@ -396,14 +464,9 @@ function convertBlockToLexical(block, entityMap) {
           config: entity.data.config,
         };
       } else if (entity.type === "TOKEN") {
-        // TODO why are we storing json as string instead of object ?
+        // TODO why were we storing json as string instead of object ?
         const data = JSON.parse(entity.data.texcontent);
-
-        let elementType = "price";
-
-        if (data.milestones) {
-          elementType = "milestone";
-        }
+        const elementType = data.milestones ? "milestone" : "price";
 
         return {
           type: "prospero-element",
@@ -411,39 +474,44 @@ function convertBlockToLexical(block, entityMap) {
           data,
         };
       } else if (["form", "gallery", "testimonial"].includes(entity.type)) {
-        const data = entity.data.data;
-        // const config = entity.data.config;
+        const data = entity.data?.data || {};
+        const config = entity.data?.config || {};
 
         return {
           type: "prospero-element",
-          elementType : entity.type,
+          elementType: entity.type,
           data,
+          config,
         };
-      }
-      
-      else if (entity.type === "media") {
-        if (entity.data.original_link) {
-          return {
-            type: 'video',
-            data: getMediaUrl(entity.data?.original_link),
-            config: { ...entity.data },
-          };
-        }
+      } else if (entity.type === "media") {
+        const url = getMediaUrl(entity.data?.original_link);
+
+        return {
+          type: "video",
+          url: url || "",
+          config: {},
+        };
       } else if (entity.type === "image") {
         const { hyperlink, src, config } = entity.data;
         const { size } = config;
         delete config.size;
 
         return {
-          type: entity.type,
+          type: "image",
           src: src,
-          config: config,
-          hyperlink: hyperlink,
-          width: size.width,
-          height: size.height,
-          maxWidth: "inherit",
+          config: {
+            ...config,
+            hyperlink,
+            width: size.width,
+            height: size.height,
+            ratio: size?.ratio || 1,
+          },
         };
-      } 
+      } else if (entity.type === "divider") {
+        return {
+          type: "horizontalrule",
+        };
+      }
 
       return {
         type: "horizontalrule",
@@ -455,6 +523,7 @@ function convertBlockToLexical(block, entityMap) {
   if (block.type.includes("list-item")) {
     return convertListToLexical(block, entityMap, direction);
   }
+
 
   const data = {
     children: mergeInlineStyles(
@@ -482,6 +551,8 @@ function convertBlockToLexical(block, entityMap) {
   if (lineHeight) {
     data.style = `line-height: ${lineHeight};`;
   }
+
+  console.log("data", data);
 
   return data;
 }
