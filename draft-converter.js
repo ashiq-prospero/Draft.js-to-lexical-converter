@@ -1,8 +1,10 @@
 const fs = require("fs");
 const path = require("path");
-const { convertDraftToLexical } = require("./lexical/converter");
+const { convertProposal, convertToVariableNodes } = require("./lexical/converter");
 
+// proposal to be converted
 const draftProposal = path.join(__dirname, "./json/proposal-draft.json");
+// output file after conversion
 const lexicalProposal = path.join(__dirname, "./json/proposal-lexical.json");
 
 let proposal;
@@ -13,78 +15,17 @@ try {
   process.exit(1);
 }
 
-const raws = [
-  "rawtitle",
-  "subrawtitle",
-  "raw",
-  "raw1",
-  "raw2",
-  "raw3",
-  "rawsubtitle",
-  "rawcontact",
-  "rawname",
-  "rawmyname",
-  "rawemail",
-  "rawby",
-];
 
-const excludedKeys = [
-  "sectionorder",
-  "titleFont",
-  "bodyFont",
-  "subTitleFont",
-  "variables",
-  "headerConfig",
-  "titleStyle",
-];
-
-function findRawAndConvert(obj) {
-  if (!obj) {
-    return obj;
-  }
-
-  // find all object keys
-  const objKeys = Object.keys(obj).filter(
-    (key) => !excludedKeys.includes(key) && typeof obj[key] === "object"
-  );
-  objKeys.forEach((key) => {
-    if (!excludedKeys.includes(key) || typeof obj[key] === "object") {
-      if (raws.includes(key)) {
-        // if raw then convert to lexical
-        obj[key] = convertDraftToLexical({ ...obj[key] }, true);
-      }
-      // recursively call findRawAndConvert
-      else {
-        obj[key] = findRawAndConvert({ ...obj[key] });
-      }
-    }
-  });
-
-  return obj;
-}
-
-const deleteFields = (proposal) => {
-  delete proposal.draft;
-  delete proposal.deliverables;
-  delete proposal.history;
-  delete proposal.milestones;
-  
-  return proposal;
-}
-
-const convertProposal = (proposal) => {
-  let _proposal = {...proposal};
-  const draft = _proposal.draft;
-  _proposal = deleteFields(_proposal);
-  _proposal.lexical = findRawAndConvert(draft);
-
-  return _proposal;
-}
-
-
+// convert the proposal to lexical format
 proposal = convertProposal(proposal);
+// save the output to a file
+fs.writeFileSync(lexicalProposal, JSON.stringify(proposal, null, 2), "utf-8");
 
-fs.writeFileSync(lexicalProposal, JSON.stringify(proposal), "utf-8");
+
+// const root = {"type":"root","children":[{"children":[{"text":"I will provide {{client.firstName}} the following services for you","type":"text"}],"type":"paragraph","direction":"ltr"},{"children":[{"text":"Proposal : {{proposal.name}}","type":"text"}],"type":"paragraph","direction":"ltr"}]};
+// const output = convertToVariableNodes(root)
+// console.log(JSON.stringify(output, null, 2));
+
 
 // convert and output the result
 // let jsonData = convertDraftToLexical(proposalJson);

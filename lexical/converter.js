@@ -1,7 +1,30 @@
 const fontsList = require("./fonts");
 const fonts = new Set([...fontsList]);
 
-const SHORTEN = true;
+const raws = [
+  "rawtitle",
+  "subrawtitle",
+  "raw",
+  "raw1",
+  "raw2",
+  "raw3",
+  "rawsubtitle",
+  "rawcontact",
+  "rawname",
+  "rawmyname",
+  "rawemail",
+  "rawby",
+];
+
+const draftNonSection = [
+  "sectionorder",
+  "titleFont",
+  "bodyFont",
+  "subTitleFont",
+  "variables",
+  "headerConfig",
+  "titleStyle",
+];
 
 const keyMapping = {
   format: "f",
@@ -39,6 +62,66 @@ const STYLE_BITMASK = {
   underline: 8,
   code: 16,
 };
+
+
+
+const convertProposal = (proposal) => {
+  let _proposal = { ...proposal };
+  const draft = _proposal.draft;
+  _proposal = deleteFields(_proposal);
+  _proposal.lexical = draftToLexical(draft);
+
+  return _proposal;
+};
+
+const deleteFields = (proposal) => {
+  delete proposal.draft;
+  delete proposal.deliverables;
+  delete proposal.history;
+  delete proposal.milestones;
+
+  return proposal;
+};
+
+const draftToLexical = (draft) => {
+  // removed the delete sections from draft
+  const keepSection = [...draft.sectionorder, ...draftNonSection, "signature"];
+
+  Object.keys(draft).forEach((key) => {
+    if (!keepSection.includes(key)) {
+      delete draft[key];
+    }
+  });
+
+  lexical = findRawAndConvert(draft);
+
+  return lexical;
+};
+
+function findRawAndConvert(obj) {
+  if (!obj) {
+    return obj;
+  }
+
+  // find all object keys
+  const objKeys = Object.keys(obj).filter(
+    (key) => !draftNonSection.includes(key) && typeof obj[key] === "object"
+  );
+  objKeys.forEach((key) => {
+    if (!draftNonSection.includes(key) || typeof obj[key] === "object") {
+      if (raws.includes(key)) {
+        // if raw then convert to lexical
+        obj[key] = convertDraftToLexical({ ...obj[key] }, true);
+      }
+      // recursively call findRawAndConvert
+      else {
+        obj[key] = findRawAndConvert({ ...obj[key] });
+      }
+    }
+  });
+
+  return obj;
+}
 
 // main function to convert Draft.js JSON to Lexical JSON and wrap in `editorState`
 function convertDraftToLexical(obj, shorten = true) {
@@ -125,10 +208,8 @@ function convertDraftToLexical(obj, shorten = true) {
     }
   });
 
-
   // parse variables and convert them to variable node
   root = convertToVariableNodes(root);
-
 
   // shorten the keys to reduce file size
   if (shorten) {
@@ -139,16 +220,22 @@ function convertDraftToLexical(obj, shorten = true) {
 }
 
 
-// const convertToVariableNode = (node) => {
-//   if(node.text){
-//     node.text = parseVarieleAndConvert(node.text);
-//   }
-//   if (node.children) {
-//     node.children = node.children.map(convertToVariableNode);
-//   }
-// };
+/*
+1. if a node contains children
+2. check if the node.text is having variable in this format {{client.name}}
+3. if yes then split the text into multiple nodes, the variable node would be of type variable, the rest of the text would be of type text in right order
+4. if the node contains node.children then continue step 2,3
 
-function convertToVariableNodes(input) {
+input:
+{"type":"root","children":[{"children":[{"text":"I will provide {{client.firstName}} the following services for you","type":"text"}],"type":"paragraph","direction":"ltr"},{"children":[{"text":"Proposal : {{proposal.name}}","type":"text"}],"type":"paragraph","direction":"ltr"}]}
+output:
+{"type":"root","children":[{"children":[{"text":"I will provide ","type":"text"},{"text":"{{client.firstName}}","type":"variable"},{"text":" the following services for you","type":"text"}],"type":"paragraph","direction":"ltr"},{"children":[{"text":"Proposal : ","type":"text"},{"text":"{{proposal.name}}","type":"variable"}],"type":"paragraph","direction":"ltr"}]}
+*/
+// function convertToVariableNodes(root) {
+//   console.log('loger')
+//   console.log(JSON.stringify(root));
+// }
+function convertToVariableNodes(root) {
   const variableRegex = /{{(.*?)}}/g;
 
   function processTextNode(text) {
@@ -156,8 +243,8 @@ function convertToVariableNodes(input) {
     const nodes = [];
     let lastIndex = 0;
 
-    matches.forEach(match => {
-      const [fullMatch, variableName] = match;
+    matches.forEach((match) => {
+      const [fullMatch] = match;
       const startIndex = match.index;
 
       // Add plain text before the variable
@@ -180,10 +267,12 @@ function convertToVariableNodes(input) {
   }
 
   function processChildren(children) {
-    return children.map(child => {
+    return children.flatMap((child) => {
       if (child.text) {
-        return { ...child, children: processTextNode(child.text), text: undefined };
+        // Process text nodes to split into text and variable nodes
+        return processTextNode(child.text);
       } else if (child.children) {
+        // Recursively process child nodes
         return { ...child, children: processChildren(child.children) };
       }
       return child;
@@ -191,12 +280,10 @@ function convertToVariableNodes(input) {
   }
 
   return {
-    ...input,
-    children: processChildren(input.children)
+    ...root,
+    children: processChildren(root.children),
   };
 }
-
-
 
 
 // Convert Draft.js styles to a format bitmask
@@ -225,8 +312,8 @@ const getStyle = (style) => {
   // find color
   if (lowerStyle.startsWith("rgba")) return `color: ${lowerStyle};`;
 
-  // find color
-  if (lowerStyle.startsWith("rgba")) return `color: ${lowerStyle};`;
+  // // find color
+  // if (lowerStyle.startsWith("rgba")) return `color: ${lowerStyle};`;
 
   //  find font weight
   if (/^\d{3}$/.test(lowerStyle)) return `font-weight: ${lowerStyle};`;
@@ -524,7 +611,6 @@ function convertBlockToLexical(block, entityMap) {
     return convertListToLexical(block, entityMap, direction);
   }
 
-
   const data = {
     children: mergeInlineStyles(
       block.text,
@@ -551,8 +637,6 @@ function convertBlockToLexical(block, entityMap) {
   if (lineHeight) {
     data.style = `line-height: ${lineHeight};`;
   }
-
-  console.log("data", data);
 
   return data;
 }
@@ -581,22 +665,27 @@ function convertTableEntityToLexical(tableData) {
         headerState: rowIndex === 0 ? 3 : 0, // 3 for header, 0 for regular cell
         children: [
           {
-            children: [
-              {
-                type: "text",
-                // version: 1,
-                text: cellText,
-                // mode: "normal",
-              },
-            ],
+            type: "text",
+            text: cellText,
           },
+
+          // {
+          //   children: [
+          //     {
+          //       type: "text",
+          //       // version: 1,
+          //       text: cellText,
+          //       // mode: "normal",
+          //     },
+          //   ],
+          // },
         ],
       })),
   }));
 
   return {
     type: "table",
-    colWidths: Array(Object.keys(rows[0]).length - 1).fill(92), // Set column width for each column (minus the "id" column)
+    colWidths: Array(Object.keys(rows[0]).length - 1).fill(30), // Set column width for each column (minus the "id" column)
     children: tableRows,
   };
 }
@@ -646,12 +735,10 @@ const getMediaUrl = (url) => {
 };
 
 module.exports = {
+  convertProposal,
   shortenKeys,
   expandKeys,
-  mapBlockTypeToLexical,
-  mapBlockTypeToFormat,
-  mapBlockTypeToDirection,
-  mapBlockTypeToIntent,
   extractLineHeight,
   convertDraftToLexical,
+  convertToVariableNodes,
 };

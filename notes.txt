@@ -99,6 +99,8 @@ TODO
 
 
 
+
+
 const COMPONENT_REGISTRY = {
   form: Form,
   gallery: Gallery,

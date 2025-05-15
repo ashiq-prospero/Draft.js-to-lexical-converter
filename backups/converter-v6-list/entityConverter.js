@@ -28,25 +28,35 @@ function convertTableEntityToLexical(tableData) {
         headerState: rowIndex === 0 ? 3 : 0, // 3 for header, 0 for regular cell
         children: [
           {
-            type: "paragraph",
+            type: "text",
             version: 1,
-            indent: 0,
-            direction: null,
-            format: "",
-            textFormat: 0,
-            textStyle: "",
-            children: [
-              {
-                type: "text",
-                version: 1,
-                text: cellText,
-                format: 0,
-                style: "",
-                detail: 0,
-                mode: "normal",
-              },
-            ],
+            text: cellText,
+            format: 0,
+            style: "",
+            detail: 0,
+            mode: "normal",
           },
+
+          // {
+          //   type: "paragraph",
+          //   version: 1,
+          //   indent: 0,
+          //   direction: null,
+          //   format: "",
+          //   textFormat: 0,
+          //   textStyle: "",
+          //   children: [
+          //     {
+          //       type: "text",
+          //       version: 1,
+          //       text: cellText,
+          //       format: 0,
+          //       style: "",
+          //       detail: 0,
+          //       mode: "normal",
+          //     },
+          //   ],
+          // },
         ],
       })),
   }));
@@ -57,7 +67,7 @@ function convertTableEntityToLexical(tableData) {
     indent: 0,
     direction: null,
     format: "",
-    colWidths: Array(Object.keys(rows[0]).length - 1).fill(92), // Set column width for each column (minus the "id" column)
+    colWidths: Array(Object.keys(rows[0]).length - 1).fill(30), // Set column width for each column (minus the "id" column)
     children: tableRows,
   };
 }

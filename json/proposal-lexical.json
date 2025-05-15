@@ -1,1 +1,1152 @@
-{"_id":"77616594564e7ab9a3dca0fd","date":{"$date":"2025-03-25T11:17:08.700Z"},"sigOptions":["type","upload","draw"],"signatureEmails":[],"scripts":[],"returnOutput":[],"tags":[],"pid":"20074cbf-5048-48e1-bf63-588c8a0f7162","pnum":"100069","uid":"6371de67722cbe07546120fe","auid":"","name":"Ashiq","email":"ashiq@goprospero.com","version":16,"pricing":{"strategy":"table"},"language":"english","priceSeperator":"none","decimalPrecision":2,"contactButton":"block","stripe":"","currency":"$","spamUrls":[],"redirectTo":"https://secure.cardcom.solutions/EA/EA5/uAi26RMwAkChohOjfviJaw/Order","redirectAfter":5,"contactOptions":[{"option":"email","value":"ashiq@goprospero.com","enabled":true},{"option":"call","value":"","enabled":true},{"option":"whatsapp","value":"+917002859965","enabled":true}],"sigtype":"sigtext","contactnumber":"7002859966","callButton":"block","importedProposal":false,"client":{"contact":"Prospect Name","name":null,"desc":null,"address":null,"text":null,"email":null},"project":{"name":"New Web Proposal bnm","desc":"I will provide the following services for you: [add services required here]","goals":"The aim of the project is to help drive business success by working together with your team in order to reach your goal by the deadline you set.","type":"web ","othertype":""},"mondayBoardId":null,"expiryDate":null,"expiryMessage":"","enableAITool":false,"fonts":[],"sharedViaMail":false,"emailSettings":null,"openLogs":[],"emailLogs":[],"attachments":[],"__v":0,"approvedmanually":null,"chatway":null,"clientPayableAmount":null,"clientPayableCurrency":null,"clientPayableLabel":null,"clientPayableLink":null,"creatorUserway":false,"curr":null,"dateFormat":"MM/DD/YYYY","disableSig":null,"editEvent":null,"edited":{"$date":"2025-05-14T04:45:03.130Z"},"enablePayment":null,"fromUserTemplate":null,"isBasicTemplate":null,"isEditing":null,"isWixTemplate":null,"lastSeen":null,"payedfor":null,"payment":null,"prevState":null,"proposalRedirectAfter":null,"proposalRedirectTo":null,"published":null,"sawmilestones":true,"sawyou":true,"seenCount":null,"seenTime":null,"selectedOption":null,"signature":null,"state":"milestones","superPowers":null,"userway":null,"wixConnectedInstance":null,"wixPricing":null,"wixProposalId":null,"proptext":null,"isSecured":null,"password":null,"sharePasswordOverEmail":null,"lexical":{"variables":{"client":{"firstName":{"count":1,"value":"Prospect"},"lastName":{"count":0,"value":"Name"},"fullName":{"count":0,"value":"Prospect Name"},"email":{"count":0,"value":""},"phone":{"count":0,"value":""},"company":{"count":0,"value":""},"VAT":{"count":0,"value":""},"streetAddress":{"count":0,"value":""},"city":{"count":0,"value":""},"postalCode":{"count":0,"value":""},"state":{"count":0,"value":""},"country":{"count":0,"value":""}},"proposal":{"name":{"count":1,"value":"New Web Proposal"},"title":{"count":0,"value":"New Web Proposal"},"number":{"count":0,"value":"100069"},"quote":{"count":0,"value":"$210.00"},"discount":{"count":0,"value":0},"subTotal":{"count":0,"value":"210.00 $"},"tax":{"count":0,"value":0},"total":{"count":0,"value":"210.00 $"},"sentDate":{"count":0,"value":""},"createdDate":{"count":0,"value":"25-03-2025"},"expireDate":{"count":0,"value":""}},"sender":{"firstName":{"count":0,"value":"Ashiq"},"lastName":{"count":0,"value":""},"fullName":{"count":0,"value":"Ashiq"},"email":{"count":0,"value":"ashiq@goprospero.com"},"phone":{"count":0,"value":"7002859966"},"company":{"count":0,"value":"Apple inc"},"VAT":{"count":0,"value":"myvat123"}},"sender2":{"firstName":{"count":0,"value":""},"lastName":{"count":0,"value":""},"fullName":{"count":0,"value":" "},"email":{"count":0,"value":""},"phone":{"count":0,"value":""}},"custom":{}},"header":{"by":"<p>By</p>\n","rawby":{"ty":"root","c":[{"c":[{"c":[{"tx":"By"}]}],"ty":"paragraph"}]},"contact":"<p>Contact</p>\n","rawcontact":{"ty":"root","c":[{"c":[{"c":[{"tx":"Contact"}]}],"ty":"paragraph"}]},"title":"New Web Proposal bnm","rawtitle":{"ty":"root","c":[{"c":[{"c":[{"tx":"All elements"}]}],"ty":"paragraph"}]},"subtitle":"Prepared For<br>Prospect Name<br>03/25/2025","rawsubtitle":{"ty":"root","c":[{"c":[{"c":[{"tx":"Prepared For\nProspect Name\n03/25/2025"}]}],"ty":"paragraph"}]},"name":"Ashiq","rawname":{"ty":"root","c":[{"c":[{"c":[{"tx":"Ashiq"}]}],"ty":"paragraph"}]},"email":"ashiq@goprospero.com","rawemail":{"ty":"root","c":[{"c":[{"c":[{"tx":"ashiq@goprospero.com"}]}],"ty":"paragraph"}]},"logo":{},"cover":"https://dr08qaykn9isr.cloudfront.net/application/covers/02.jpg","color":"rgba(0,0,0,0.4)","originalState":{"by":"<p>By</p>\n","rawby":{"ty":"root","c":[{"c":[{"c":[{"tx":"By"}]}],"ty":"paragraph"}]},"contact":"<p>Contact</p>\n","rawcontact":{"ty":"root","c":[{"c":[{"c":[{"tx":"Contact"}]}],"ty":"paragraph"}]},"title":"New Web Proposal","rawtitle":{"ty":"root","c":[{"c":[{"c":[{"tx":"New Web Proposal"}]}],"ty":"paragraph"}]},"subtitle":"Prepared For<br>Prospect Name<br>03/25/2025","rawsubtitle":{"ty":"root","c":[{"c":[{"c":[{"tx":"Prepared For\nProspect Name\n03/25/2025"}]}],"ty":"paragraph"}]},"name":"Ashiq","rawname":{"ty":"root","c":[{"c":[{"c":[{"tx":"Ashiq"}]}],"ty":"paragraph"}]},"email":"ashiq@goprospero.com","rawemail":{"ty":"root","c":[{"c":[{"c":[{"tx":"ashiq@goprospero.com"}]}],"ty":"paragraph"}]}},"headerConfig":{"title":"Poppins","family":"Poppins","weight":400,"weights":[400,700],"color1":"white","color2":"#d2d2d2","color3":"black","fontSize":"36px"}},"overview":{"title":"<p>Overview</p>\n","rawtitle":{"ty":"root","c":[{"c":[{"c":[{"tx":"Overview"}]}],"ty":"paragraph"}]},"subrawtitle":{"ty":"root","c":[{"c":[{"c":[{"tx":"This is overview subtitle"}]}],"ty":"paragraph"}]},"text":"<div>I will provide the following services for you: [add services required here]</div><div>The aim of the project is to help drive business success by working together with your team in order to reach your goal by the deadline you set.</div>","raw":{"ty":"root","c":[{"c":[{"c":[{"tx":"I will provide "},{"ty":"variable","tx":"{{client.firstName}}"},{"tx":" the following services for you: [add services required here] The aim of the project is to help drive business success by working together with your team in order to reach your goal by the deadline you set."}]}],"ty":"paragraph"},{"c":[{"c":[{"tx":"Proposal : "},{"ty":"variable","tx":"{{proposal.name}}"}]}],"ty":"paragraph"}]}},"whyme2":{},"pricing2":{"title":"<p>Cost</p>\n","rawtitle":{"ty":"root","c":[{"c":[{"c":[{"tx":"Cost"}]}],"ty":"paragraph"}]},"subrawtitle":{"ty":"root","c":[{"c":[],"ty":"paragraph"}]},"raw":{"ty":"root","c":[{"c":[{"c":[{"tx":"Here's a breakdown of the deliverables we've discussed and their cost:"}]}],"ty":"paragraph"},{"c":[],"ty":"paragraph"},{"ty":"prospero-element","elementType":"price","data":{"deliverables":{"chosen":{"OPTION 1":{"total":0,"list":[{"name":"Design to HTML/CSS","id":"867732fd-24da-4487-891f-85d2b944a5d0","price":"10","type":null,"chosen":false,"selected":false,"currentPrice":"10","items":1},{"name":"Content Management System (CMS)","id":"231e4129-13c2-479d-bce7-bb49a79f0b3c","price":"100","type":null,"chosen":false,"selected":false,"currentPrice":"100","items":2}],"quantity":true,"subtotal":true},"OPTION 2":{"total":"","list":[{"id":"d986f373-d225-4edd-842f-1b2a4fe838da","name":"Everything on option 1","price":0,"type":null}]},"OPTION 3":{"total":"","list":[{"id":"975f67cc-fa38-4a85-89f3-2d0af3d3a38d","name":"Everything on option 2","price":0,"type":null}]}}},"curr":"$","pricing":{"strategy":"table"},"roundTotal":false,"priceSeperator":"none","decimalPrecision":2,"language":"english"}},{"ty":"horizontalrule"},{"c":[{"c":[{"tx":"Image element:"}]}],"ty":"paragraph"},{"ty":"image","src":"https://dr08qaykn9isr.cloudfront.net/props/77616594564e7ab9a3dca0fd/section/67e3e50428bd7e1b869043be.png","config":{"imageType":"png","width":332,"height":188,"ratio":1.77}},{"c":[],"ty":"paragraph"}]}},"milestones2":{},"terms":{"title":"<p>Terms</p>\n","rawtitle":{"ty":"root","c":[{"c":[{"c":[{"tx":"Terms"}]}],"ty":"paragraph"}]},"subrawtitle":{"ty":"root","c":[{"c":[],"ty":"paragraph"}]},"text":"<ol><li>Payment structure: 50% upfront, 50% after approval of the final work. Payment via Paypal or bank transfer.</li><li>Resources needed for the design, such as fonts, stock photos, and icons, are not included in the prices above. Those will be paid for by the client, and the right to use them shall be theirs.</li><li>Additional work for components that appear in the scope of work will be charged [termsrate] per hour (e.g. beyond the number of revisions described). </li><li>New components that are not described in the scope of work will be assessed in a new estimate.</li><li>Business day count starts only after the client provides all resources requested, such as images, contact details, etc.</li><li>Usage rights: After the work is completed and payment has been received, the client will own the rights to the design. </li><li>In the case of project cancellation after the work has started, the client will pay for the relative part of the work.</li></ol>","raw":{"ty":"root","c":[{"ty":"list","listType":"number","start":1,"tag":"ol","c":[{"ty":"listitem","c":[{"c":[{"tx":"Payment structure: 50% upfront, 50% after approval of the final work. Payment via Paypal or bank transfer."}]}],"d":"rtl"},{"ty":"listitem","c":[{"c":[{"tx":"Resources needed for the design, such as fonts, stock photos, and icons, are not included in the prices above. Those will be paid for by the client, and the right to use them shall be theirs."}]}]},{"ty":"listitem","c":[{"c":[{"tx":"Additional work for components that appear in the scope of work will be charged [termsrate] per hour (e.g. beyond the number of revisions described)."}]}]},{"ty":"listitem","c":[{"c":[{"tx":"New components that are not described in the scope of work will be assessed in a new estimate."}]}]},{"ty":"listitem","c":[{"c":[{"tx":"Business day count starts only after the client provides all resources requested, such as images, contact details, etc."}]}]},{"ty":"listitem","c":[{"c":[{"tx":"Usage rights: After the work is completed and payment has been received, the client will own the rights to the design."}]}]},{"ty":"listitem","c":[{"c":[{"tx":"In the case of project cancellation after the work has started, the client will pay for the relative part of the work."}]}]}]}]}},"whatsnext":{"title":"<p>What&#39;s Next</p>\n","rawtitle":{"ty":"root","c":[{"c":[{"c":[{"tx":"What's Next"}]}],"ty":"paragraph"}]},"subrawtitle":{"ty":"root","c":[{"c":[],"ty":"paragraph"}]},"text":"<p>I will be happy to answer any question regarding this proposal. You can reach me at my phone or at ashiq@goprospero.com.<br>Once you approve this proposal, we will set up a meeting to further discuss details, dates and milestones.<br>Once the first payment is in, and the resources needed arrive, we can start the actual work. </p>\n","raw":{"ty":"root","c":[{"c":[{"c":[{"tx":"I will be happy to answer any question regarding this proposal. You can reach me at my phone or at ashiq@goprospero.com."}]}],"ty":"paragraph"},{"c":[],"ty":"paragraph"},{"ty":"prospero-element","elementType":"gallery","data":[{"i":"1","x":0,"y":0,"w":5,"h":8,"image":"https://dr08qaykn9isr.cloudfront.net/props/77616594564e7ab9a3dca0fd/section/68241dc935921b762984badd.png"},{"i":"2","x":5,"y":0,"w":3,"h":6,"image":"https://dr08qaykn9isr.cloudfront.net/props/77616594564e7ab9a3dca0fd/section/68241dc966a939dfb6d35d6c.png"},{"i":"3","x":0,"y":6,"w":5,"h":7,"image":"https://dr08qaykn9isr.cloudfront.net/props/77616594564e7ab9a3dca0fd/section/68241dc95e81afac4e620e4b.png"},{"i":"4","x":8,"y":0,"w":4,"h":6,"image":"https://dr08qaykn9isr.cloudfront.net/props/77616594564e7ab9a3dca0fd/section/68241dc9f9dfaaa25d8483cd.png"},{"i":"5","x":5,"y":6,"w":7,"h":9,"image":"https://dr08qaykn9isr.cloudfront.net/props/77616594564e7ab9a3dca0fd/section/68241dc9a51903b2ee50aaa1.png"}],"config":{}},{"c":[{"c":[{"tx":"\nVideo"}]}],"ty":"paragraph"},{"ty":"video","url":"https://www.youtube-nocookie.com/embed/O77cTDoD5Uo","config":{}},{"c":[{"c":[{"tx":"\ntable"}]}],"ty":"paragraph"},{"c":[],"ty":"paragraph"},{"ty":"table","colWidths":[92,92,92],"c":[{"ty":"tablerow","d":null,"c":[{"ty":"tablecell","colSpan":1,"rowSpan":1,"backgroundColor":"#c4c5ff","headerState":3,"c":[{"c":[{"c":[{"tx":"Name"}]}]}]},{"ty":"tablecell","colSpan":1,"rowSpan":1,"backgroundColor":"#c4c5ff","headerState":3,"c":[{"c":[{"c":[{"tx":"Mark"}]}]}]},{"ty":"tablecell","colSpan":1,"rowSpan":1,"backgroundColor":"#c4c5ff","headerState":3,"c":[{"c":[{"c":[{"tx":"Status"}]}]}]}]},{"ty":"tablerow","d":null,"c":[{"ty":"tablecell","colSpan":1,"rowSpan":1,"backgroundColor":"#fcf0e7","headerState":0,"c":[{"c":[{"c":[{"tx":"Jhon"}]}]}]},{"ty":"tablecell","colSpan":1,"rowSpan":1,"backgroundColor":"#fcf0e7","headerState":0,"c":[{"c":[{"c":[{"tx":"78"}]}]}]},{"ty":"tablecell","colSpan":1,"rowSpan":1,"backgroundColor":"#fcf0e7","headerState":0,"c":[{"c":[{"c":[{"tx":"Passed"}]}]}]}]},{"ty":"tablerow","d":null,"c":[{"ty":"tablecell","colSpan":1,"rowSpan":1,"backgroundColor":"#fcf0e7","headerState":0,"c":[{"c":[{"c":[{"tx":"Raju"}]}]}]},{"ty":"tablecell","colSpan":1,"rowSpan":1,"backgroundColor":"#fcf0e7","headerState":0,"c":[{"c":[{"c":[{"tx":"35"}]}]}]},{"ty":"tablecell","colSpan":1,"rowSpan":1,"backgroundColor":"#fcf0e7","headerState":0,"c":[{"c":[{"c":[{"tx":"Failed"}]}]}]}]}]},{"c":[],"ty":"paragraph"}]}},"signature":{"title":"<p>Signature</p>\n","rawtitle":{"ty":"root","c":[{"c":[{"c":[{"tx":"Signature"}]}],"ty":"paragraph"}]},"myname":"Ashiq","rawmyname":{"ty":"root","c":[{"c":[{"c":[{"tx":"Ashiq"}]}],"ty":"paragraph"}]},"name":"Prospect Name","rawname":{"ty":"root","c":[{"c":[{"c":[{"tx":"Prospect Name"}]}],"ty":"paragraph"}]},"signature":"ashiq","signatureBackgroundColor":"rgba(0,90,255,undefined)"},"sectionorder":["overview","pricing2","milestones2","whatsnext","68aab088-4b7c-4ea6-9806-9c9033648a9b","b2903091-8588-49b8-b971-666e301ec2d7","terms"],"bodyFont":{"title":"Poppins","family":"Poppins","weight":400,"weights":[400,700],"color1":"white","color2":"#4a4a4a","color3":"black","fontSize":"20px"},"titleFont":{"title":"Poppins","family":"Poppins","weight":400,"weights":[400,700],"color1":"white","color2":"#d2d2d2","color3":"black","fontSize":"36px"},"subTitleFont":{"title":"Poppins","family":"Poppins","weight":400,"weights":[400,700],"color1":"gray","fontSize":"18px"},"5b40ebbd-e923-4c1b-844e-bcbf1f1a6f79":{"title":"<div></div>","text":"<div></div>","subtitle":"<div></div>","titlePosition":"large","rawtitle":{"ty":"root","c":[{"c":[{"c":[{"tx":"preface"}]}],"ty":"paragraph"}]}},"68aab088-4b7c-4ea6-9806-9c9033648a9b":{"title":"<div></div>","text":"<div></div>","subtitle":"<div></div>","titlePosition":"normal","raw":{"ty":"root","c":[{"c":[],"ty":"paragraph"},{"ty":"prospero-element","elementType":"html","data":"<html><head></head><body>\n\n<h1 style=\"background-color:Tomato;\">Tomato</h1>\n<h1 style=\"background-color:Orange;\">Orange</h1>\n<h1 style=\"background-color:DodgerBlue;\">DodgerBlue</h1>\n<h1 style=\"background-color:MediumSeaGreen;\">MediumSeaGreen</h1>\n<h1 style=\"background-color:Gray;\">Gray</h1>\n\n\n</body></html>","config":{"editable":true,"size":{"width":439,"height":356}}},{"c":[],"ty":"paragraph"},{"ty":"prospero-element","elementType":"milestone","data":{"milestones":{"chosen":{"OPTION 1":{"total":"","list":[{"name":"Kickoff Meeting","id":"6ea4b229-b56a-44aa-989d-b4677d8d899f","price":0,"type":null,"chosen":false,"selected":false,"time":"1","description":"Kickoff Meeting description"},{"name":"Research","id":"c7324880-9e4c-4ad5-8471-a34f7f38d95b","price":0,"type":null,"chosen":false,"selected":false,"time":"2"}]},"OPTION 2":{"total":"","list":[{"id":"f4d9737b-c5d5-4169-8068-1c0dba931415","name":"Everything on option 1","price":0,"type":null}]},"OPTION 3":{"total":"","list":[{"id":"ebeae895-3e00-438d-bc44-0c70a2e85370","name":"Everything on option 2","price":0,"type":null}]}}}}},{"c":[],"ty":"paragraph"},{"ty":"prospero-element","elementType":"testimonial","data":[{"name":"Jhon","text":"HTML colors are specified with predefined color names.","avatar":"https://dr08qaykn9isr.cloudfront.net/props/77616594564e7ab9a3dca0fd/testimonials/68241f2c7dd21501d4834915.webp"},{"name":"Mark","text":"HTML colors are specified with predefined color names"},{"name":"","text":""}],"config":{"backgroundColor":"#5353e1","count":3,"horizontal":false,"color":"#fef00e"}},{"c":[],"ty":"paragraph"}]},"rawtitle":{"ty":"root","c":[{"c":[{"c":[{"tx":"html"}]}],"ty":"paragraph"}]}},"b2903091-8588-49b8-b971-666e301ec2d7":{"title":"<div></div>","text":"<div></div>","subtitle":"<div></div>","titlePosition":"normal","raw":{"ty":"root","c":[{"c":[],"ty":"paragraph"},{"ty":"prospero-element","elementType":"form","data":[{"key":"First Name","value":"","selected":true,"saved":true,"required":true},{"key":"Last Name","value":"","selected":true,"saved":true},{"key":"Date","value":"","selected":true,"saved":true},{"key":"Location","value":"","editable":true,"saved":true,"selected":true},{"key":"Rank","value":"","editable":true,"saved":true,"selected":true},{"key":"Please fill the form below","custom":false,"head":true,"saved":false},{"key":"ID Number","value":"","saved":false},{"key":"Birthday","value":"","saved":false},{"key":"Company Name","value":"","saved":false},{"key":"URL","value":"","saved":false},{"key":"Phone Number","value":"","saved":false},{"key":"Email","value":"","saved":false},{"key":"Note","value":"","saved":false}],"config":{"editable":false,"columns":1}},{"c":[],"ty":"paragraph"}]}}}}
+{
+  "_id": "77616594564e7ab9a3dca0fd",
+  "date": {
+    "$date": "2025-03-25T11:17:08.700Z"
+  },
+  "sigOptions": [
+    "type",
+    "upload",
+    "draw"
+  ],
+  "signatureEmails": [],
+  "scripts": [],
+  "returnOutput": [],
+  "tags": [],
+  "pid": "20074cbf-5048-48e1-bf63-588c8a0f7162",
+  "pnum": "100069",
+  "uid": "6371de67722cbe07546120fe",
+  "auid": "",
+  "name": "Ashiq",
+  "email": "ashiq@goprospero.com",
+  "version": 16,
+  "pricing": {
+    "strategy": "table"
+  },
+  "language": "english",
+  "priceSeperator": "none",
+  "decimalPrecision": 2,
+  "contactButton": "block",
+  "stripe": "",
+  "currency": "$",
+  "spamUrls": [],
+  "redirectTo": "https://secure.cardcom.solutions/EA/EA5/uAi26RMwAkChohOjfviJaw/Order",
+  "redirectAfter": 5,
+  "contactOptions": [
+    {
+      "option": "email",
+      "value": "ashiq@goprospero.com",
+      "enabled": true
+    },
+    {
+      "option": "call",
+      "value": "",
+      "enabled": true
+    },
+    {
+      "option": "whatsapp",
+      "value": "+917002859965",
+      "enabled": true
+    }
+  ],
+  "sigtype": "sigtext",
+  "contactnumber": "7002859966",
+  "callButton": "block",
+  "importedProposal": false,
+  "client": {
+    "contact": "Prospect Name",
+    "name": null,
+    "desc": null,
+    "address": null,
+    "text": null,
+    "email": null
+  },
+  "project": {
+    "name": "New Web Proposal bnm",
+    "desc": "I will provide the following services for you: [add services required here]",
+    "goals": "The aim of the project is to help drive business success by working together with your team in order to reach your goal by the deadline you set.",
+    "type": "web ",
+    "othertype": ""
+  },
+  "mondayBoardId": null,
+  "expiryDate": null,
+  "expiryMessage": "",
+  "enableAITool": false,
+  "fonts": [],
+  "sharedViaMail": false,
+  "emailSettings": null,
+  "openLogs": [],
+  "emailLogs": [],
+  "attachments": [],
+  "__v": 0,
+  "approvedmanually": null,
+  "chatway": null,
+  "clientPayableAmount": null,
+  "clientPayableCurrency": null,
+  "clientPayableLabel": null,
+  "clientPayableLink": null,
+  "creatorUserway": false,
+  "curr": null,
+  "dateFormat": "MM/DD/YYYY",
+  "disableSig": null,
+  "editEvent": null,
+  "edited": {
+    "$date": "2025-05-14T04:45:03.130Z"
+  },
+  "enablePayment": null,
+  "fromUserTemplate": null,
+  "isBasicTemplate": null,
+  "isEditing": null,
+  "isWixTemplate": null,
+  "lastSeen": null,
+  "payedfor": null,
+  "payment": null,
+  "prevState": null,
+  "proposalRedirectAfter": null,
+  "proposalRedirectTo": null,
+  "published": null,
+  "sawmilestones": true,
+  "sawyou": true,
+  "seenCount": null,
+  "seenTime": null,
+  "selectedOption": null,
+  "signature": null,
+  "state": "milestones",
+  "superPowers": null,
+  "userway": null,
+  "wixConnectedInstance": null,
+  "wixPricing": null,
+  "wixProposalId": null,
+  "proptext": null,
+  "isSecured": null,
+  "password": null,
+  "sharePasswordOverEmail": null,
+  "lexical": {
+    "variables": {
+      "client": {
+        "firstName": {
+          "count": 1,
+          "value": "Prospect"
+        },
+        "lastName": {
+          "count": 0,
+          "value": "Name"
+        },
+        "fullName": {
+          "count": 0,
+          "value": "Prospect Name"
+        },
+        "email": {
+          "count": 0,
+          "value": ""
+        },
+        "phone": {
+          "count": 0,
+          "value": ""
+        },
+        "company": {
+          "count": 0,
+          "value": ""
+        },
+        "VAT": {
+          "count": 0,
+          "value": ""
+        },
+        "streetAddress": {
+          "count": 0,
+          "value": ""
+        },
+        "city": {
+          "count": 0,
+          "value": ""
+        },
+        "postalCode": {
+          "count": 0,
+          "value": ""
+        },
+        "state": {
+          "count": 0,
+          "value": ""
+        },
+        "country": {
+          "count": 0,
+          "value": ""
+        }
+      },
+      "proposal": {
+        "name": {
+          "count": 1,
+          "value": "New Web Proposal"
+        },
+        "title": {
+          "count": 0,
+          "value": "New Web Proposal"
+        },
+        "number": {
+          "count": 0,
+          "value": "100069"
+        },
+        "quote": {
+          "count": 0,
+          "value": "$210.00"
+        },
+        "discount": {
+          "count": 0,
+          "value": 0
+        },
+        "subTotal": {
+          "count": 0,
+          "value": "210.00 $"
+        },
+        "tax": {
+          "count": 0,
+          "value": 0
+        },
+        "total": {
+          "count": 0,
+          "value": "210.00 $"
+        },
+        "sentDate": {
+          "count": 0,
+          "value": ""
+        },
+        "createdDate": {
+          "count": 0,
+          "value": "25-03-2025"
+        },
+        "expireDate": {
+          "count": 0,
+          "value": ""
+        }
+      },
+      "sender": {
+        "firstName": {
+          "count": 0,
+          "value": "Ashiq"
+        },
+        "lastName": {
+          "count": 0,
+          "value": ""
+        },
+        "fullName": {
+          "count": 0,
+          "value": "Ashiq"
+        },
+        "email": {
+          "count": 0,
+          "value": "ashiq@goprospero.com"
+        },
+        "phone": {
+          "count": 0,
+          "value": "7002859966"
+        },
+        "company": {
+          "count": 0,
+          "value": "Apple inc"
+        },
+        "VAT": {
+          "count": 0,
+          "value": "myvat123"
+        }
+      },
+      "sender2": {
+        "firstName": {
+          "count": 0,
+          "value": ""
+        },
+        "lastName": {
+          "count": 0,
+          "value": ""
+        },
+        "fullName": {
+          "count": 0,
+          "value": " "
+        },
+        "email": {
+          "count": 0,
+          "value": ""
+        },
+        "phone": {
+          "count": 0,
+          "value": ""
+        }
+      },
+      "custom": {}
+    },
+    "overview": {
+      "title": "<p>Overview</p>\n",
+      "rawtitle": {
+        "ty": "root",
+        "c": [
+          {
+            "c": [
+              {
+                "tx": "Overview"
+              }
+            ],
+            "ty": "paragraph"
+          }
+        ]
+      },
+      "subrawtitle": {
+        "ty": "root",
+        "c": [
+          {
+            "c": [
+              {
+                "tx": "This is overview subtitle"
+              }
+            ],
+            "ty": "paragraph"
+          }
+        ]
+      },
+      "text": "<div>I will provide the following services for you: [add services required here]</div><div>The aim of the project is to help drive business success by working together with your team in order to reach your goal by the deadline you set.</div>",
+      "raw": {
+        "ty": "root",
+        "c": [
+          {
+            "c": [
+              {
+                "tx": "I will provide "
+              },
+              {
+                "ty": "variable",
+                "tx": "{{client.firstName}}"
+              },
+              {
+                "tx": " the following services for you: [add services required here] The aim of the project is to help drive business success by working together with your team in order to reach your goal by the deadline you set."
+              }
+            ],
+            "ty": "paragraph"
+          },
+          {
+            "c": [
+              {
+                "tx": "Proposal : "
+              },
+              {
+                "ty": "variable",
+                "tx": "{{proposal.name}}"
+              }
+            ],
+            "ty": "paragraph"
+          }
+        ]
+      }
+    },
+    "pricing2": {
+      "title": "<p>Cost</p>\n",
+      "rawtitle": {
+        "ty": "root",
+        "c": [
+          {
+            "c": [
+              {
+                "tx": "Cost"
+              }
+            ],
+            "ty": "paragraph"
+          }
+        ]
+      },
+      "subrawtitle": {
+        "ty": "root",
+        "c": [
+          {
+            "c": [],
+            "ty": "paragraph"
+          }
+        ]
+      },
+      "raw": {
+        "ty": "root",
+        "c": [
+          {
+            "c": [
+              {
+                "tx": "Here's a breakdown of the deliverables we've discussed and their cost:"
+              }
+            ],
+            "ty": "paragraph"
+          },
+          {
+            "c": [],
+            "ty": "paragraph"
+          },
+          {
+            "ty": "prospero-element",
+            "elementType": "price",
+            "data": {
+              "deliverables": {
+                "chosen": {
+                  "OPTION 1": {
+                    "total": 0,
+                    "list": [
+                      {
+                        "name": "Design to HTML/CSS",
+                        "id": "867732fd-24da-4487-891f-85d2b944a5d0",
+                        "price": "10",
+                        "type": null,
+                        "chosen": false,
+                        "selected": false,
+                        "currentPrice": "10",
+                        "items": 1
+                      },
+                      {
+                        "name": "Content Management System (CMS)",
+                        "id": "231e4129-13c2-479d-bce7-bb49a79f0b3c",
+                        "price": "100",
+                        "type": null,
+                        "chosen": false,
+                        "selected": false,
+                        "currentPrice": "100",
+                        "items": 2
+                      }
+                    ],
+                    "quantity": true,
+                    "subtotal": true
+                  },
+                  "OPTION 2": {
+                    "total": "",
+                    "list": [
+                      {
+                        "id": "d986f373-d225-4edd-842f-1b2a4fe838da",
+                        "name": "Everything on option 1",
+                        "price": 0,
+                        "type": null
+                      }
+                    ]
+                  },
+                  "OPTION 3": {
+                    "total": "",
+                    "list": [
+                      {
+                        "id": "975f67cc-fa38-4a85-89f3-2d0af3d3a38d",
+                        "name": "Everything on option 2",
+                        "price": 0,
+                        "type": null
+                      }
+                    ]
+                  }
+                }
+              },
+              "curr": "$",
+              "pricing": {
+                "strategy": "table"
+              },
+              "roundTotal": false,
+              "priceSeperator": "none",
+              "decimalPrecision": 2,
+              "language": "english"
+            }
+          },
+          {
+            "ty": "horizontalrule"
+          },
+          {
+            "c": [
+              {
+                "tx": "Image element:"
+              }
+            ],
+            "ty": "paragraph"
+          },
+          {
+            "ty": "image",
+            "src": "https://dr08qaykn9isr.cloudfront.net/props/77616594564e7ab9a3dca0fd/section/67e3e50428bd7e1b869043be.png",
+            "config": {
+              "imageType": "png",
+              "width": 332,
+              "height": 188,
+              "ratio": 1.77
+            }
+          },
+          {
+            "c": [],
+            "ty": "paragraph"
+          }
+        ]
+      }
+    },
+    "milestones2": {},
+    "terms": {
+      "title": "<p>Terms</p>\n",
+      "rawtitle": {
+        "ty": "root",
+        "c": [
+          {
+            "c": [
+              {
+                "tx": "Terms"
+              }
+            ],
+            "ty": "paragraph"
+          }
+        ]
+      },
+      "subrawtitle": {
+        "ty": "root",
+        "c": [
+          {
+            "c": [],
+            "ty": "paragraph"
+          }
+        ]
+      },
+      "text": "<ol><li>Payment structure: 50% upfront, 50% after approval of the final work. Payment via Paypal or bank transfer.</li><li>Resources needed for the design, such as fonts, stock photos, and icons, are not included in the prices above. Those will be paid for by the client, and the right to use them shall be theirs.</li><li>Additional work for components that appear in the scope of work will be charged [termsrate] per hour (e.g. beyond the number of revisions described). </li><li>New components that are not described in the scope of work will be assessed in a new estimate.</li><li>Business day count starts only after the client provides all resources requested, such as images, contact details, etc.</li><li>Usage rights: After the work is completed and payment has been received, the client will own the rights to the design. </li><li>In the case of project cancellation after the work has started, the client will pay for the relative part of the work.</li></ol>",
+      "raw": {
+        "ty": "root",
+        "c": [
+          {
+            "ty": "list",
+            "listType": "number",
+            "start": 1,
+            "tag": "ol",
+            "c": [
+              {
+                "ty": "listitem",
+                "c": [
+                  {
+                    "tx": "Payment structure: 50% upfront, 50% after approval of the final work. Payment via Paypal or bank transfer."
+                  }
+                ],
+                "d": "rtl"
+              },
+              {
+                "ty": "listitem",
+                "c": [
+                  {
+                    "tx": "Resources needed for the design, such as fonts, stock photos, and icons, are not included in the prices above. Those will be paid for by the client, and the right to use them shall be theirs."
+                  }
+                ]
+              },
+              {
+                "ty": "listitem",
+                "c": [
+                  {
+                    "tx": "Additional work for components that appear in the scope of work will be charged [termsrate] per hour (e.g. beyond the number of revisions described)."
+                  }
+                ]
+              },
+              {
+                "ty": "listitem",
+                "c": [
+                  {
+                    "tx": "New components that are not described in the scope of work will be assessed in a new estimate."
+                  }
+                ]
+              },
+              {
+                "ty": "listitem",
+                "c": [
+                  {
+                    "tx": "Business day count starts only after the client provides all resources requested, such as images, contact details, etc."
+                  }
+                ]
+              },
+              {
+                "ty": "listitem",
+                "c": [
+                  {
+                    "tx": "Usage rights: After the work is completed and payment has been received, the client will own the rights to the design."
+                  }
+                ]
+              },
+              {
+                "ty": "listitem",
+                "c": [
+                  {
+                    "tx": "In the case of project cancellation after the work has started, the client will pay for the relative part of the work."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "whatsnext": {
+      "title": "<p>What&#39;s Next</p>\n",
+      "rawtitle": {
+        "ty": "root",
+        "c": [
+          {
+            "c": [
+              {
+                "tx": "What's Next"
+              }
+            ],
+            "ty": "paragraph"
+          }
+        ]
+      },
+      "subrawtitle": {
+        "ty": "root",
+        "c": [
+          {
+            "c": [],
+            "ty": "paragraph"
+          }
+        ]
+      },
+      "text": "<p>I will be happy to answer any question regarding this proposal. You can reach me at my phone or at ashiq@goprospero.com.<br>Once you approve this proposal, we will set up a meeting to further discuss details, dates and milestones.<br>Once the first payment is in, and the resources needed arrive, we can start the actual work. </p>\n",
+      "raw": {
+        "ty": "root",
+        "c": [
+          {
+            "c": [
+              {
+                "tx": "I will be happy to answer any question regarding this proposal. You can reach me at my phone or at ashiq@goprospero.com."
+              }
+            ],
+            "ty": "paragraph"
+          },
+          {
+            "c": [],
+            "ty": "paragraph"
+          },
+          {
+            "ty": "prospero-element",
+            "elementType": "gallery",
+            "data": [
+              {
+                "i": "1",
+                "x": 0,
+                "y": 0,
+                "w": 5,
+                "h": 8,
+                "image": "https://dr08qaykn9isr.cloudfront.net/props/77616594564e7ab9a3dca0fd/section/68241dc935921b762984badd.png"
+              },
+              {
+                "i": "2",
+                "x": 5,
+                "y": 0,
+                "w": 3,
+                "h": 6,
+                "image": "https://dr08qaykn9isr.cloudfront.net/props/77616594564e7ab9a3dca0fd/section/68241dc966a939dfb6d35d6c.png"
+              },
+              {
+                "i": "3",
+                "x": 0,
+                "y": 6,
+                "w": 5,
+                "h": 7,
+                "image": "https://dr08qaykn9isr.cloudfront.net/props/77616594564e7ab9a3dca0fd/section/68241dc95e81afac4e620e4b.png"
+              },
+              {
+                "i": "4",
+                "x": 8,
+                "y": 0,
+                "w": 4,
+                "h": 6,
+                "image": "https://dr08qaykn9isr.cloudfront.net/props/77616594564e7ab9a3dca0fd/section/68241dc9f9dfaaa25d8483cd.png"
+              },
+              {
+                "i": "5",
+                "x": 5,
+                "y": 6,
+                "w": 7,
+                "h": 9,
+                "image": "https://dr08qaykn9isr.cloudfront.net/props/77616594564e7ab9a3dca0fd/section/68241dc9a51903b2ee50aaa1.png"
+              }
+            ],
+            "config": {}
+          },
+          {
+            "c": [
+              {
+                "tx": "\nVideo"
+              }
+            ],
+            "ty": "paragraph"
+          },
+          {
+            "ty": "video",
+            "url": "https://www.youtube-nocookie.com/embed/O77cTDoD5Uo",
+            "config": {}
+          },
+          {
+            "c": [
+              {
+                "tx": "\ntable"
+              }
+            ],
+            "ty": "paragraph"
+          },
+          {
+            "c": [],
+            "ty": "paragraph"
+          },
+          {
+            "ty": "table",
+            "colWidths": [
+              30,
+              30,
+              30
+            ],
+            "c": [
+              {
+                "ty": "tablerow",
+                "d": null,
+                "c": [
+                  {
+                    "ty": "tablecell",
+                    "colSpan": 1,
+                    "rowSpan": 1,
+                    "backgroundColor": "#c4c5ff",
+                    "headerState": 3,
+                    "c": [
+                      {
+                        "tx": "Name"
+                      }
+                    ]
+                  },
+                  {
+                    "ty": "tablecell",
+                    "colSpan": 1,
+                    "rowSpan": 1,
+                    "backgroundColor": "#c4c5ff",
+                    "headerState": 3,
+                    "c": [
+                      {
+                        "tx": "Mark"
+                      }
+                    ]
+                  },
+                  {
+                    "ty": "tablecell",
+                    "colSpan": 1,
+                    "rowSpan": 1,
+                    "backgroundColor": "#c4c5ff",
+                    "headerState": 3,
+                    "c": [
+                      {
+                        "tx": "Status"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ty": "tablerow",
+                "d": null,
+                "c": [
+                  {
+                    "ty": "tablecell",
+                    "colSpan": 1,
+                    "rowSpan": 1,
+                    "backgroundColor": "#fcf0e7",
+                    "headerState": 0,
+                    "c": [
+                      {
+                        "tx": "Jhon"
+                      }
+                    ]
+                  },
+                  {
+                    "ty": "tablecell",
+                    "colSpan": 1,
+                    "rowSpan": 1,
+                    "backgroundColor": "#fcf0e7",
+                    "headerState": 0,
+                    "c": [
+                      {
+                        "tx": "78"
+                      }
+                    ]
+                  },
+                  {
+                    "ty": "tablecell",
+                    "colSpan": 1,
+                    "rowSpan": 1,
+                    "backgroundColor": "#fcf0e7",
+                    "headerState": 0,
+                    "c": [
+                      {
+                        "tx": "Passed"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "ty": "tablerow",
+                "d": null,
+                "c": [
+                  {
+                    "ty": "tablecell",
+                    "colSpan": 1,
+                    "rowSpan": 1,
+                    "backgroundColor": "#fcf0e7",
+                    "headerState": 0,
+                    "c": [
+                      {
+                        "tx": "Raju"
+                      }
+                    ]
+                  },
+                  {
+                    "ty": "tablecell",
+                    "colSpan": 1,
+                    "rowSpan": 1,
+                    "backgroundColor": "#fcf0e7",
+                    "headerState": 0,
+                    "c": [
+                      {
+                        "tx": "35"
+                      }
+                    ]
+                  },
+                  {
+                    "ty": "tablecell",
+                    "colSpan": 1,
+                    "rowSpan": 1,
+                    "backgroundColor": "#fcf0e7",
+                    "headerState": 0,
+                    "c": [
+                      {
+                        "tx": "Failed"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "c": [],
+            "ty": "paragraph"
+          }
+        ]
+      }
+    },
+    "signature": {
+      "title": "<p>Signature</p>\n",
+      "rawtitle": {
+        "ty": "root",
+        "c": [
+          {
+            "c": [
+              {
+                "tx": "Signature"
+              }
+            ],
+            "ty": "paragraph"
+          }
+        ]
+      },
+      "myname": "Ashiq",
+      "rawmyname": {
+        "ty": "root",
+        "c": [
+          {
+            "c": [
+              {
+                "tx": "Ashiq"
+              }
+            ],
+            "ty": "paragraph"
+          }
+        ]
+      },
+      "name": "Prospect Name",
+      "rawname": {
+        "ty": "root",
+        "c": [
+          {
+            "c": [
+              {
+                "tx": "Prospect Name"
+              }
+            ],
+            "ty": "paragraph"
+          }
+        ]
+      },
+      "signature": "ashiq",
+      "signatureBackgroundColor": "rgba(0,90,255,undefined)"
+    },
+    "sectionorder": [
+      "overview",
+      "pricing2",
+      "milestones2",
+      "whatsnext",
+      "68aab088-4b7c-4ea6-9806-9c9033648a9b",
+      "b2903091-8588-49b8-b971-666e301ec2d7",
+      "terms"
+    ],
+    "bodyFont": {
+      "title": "Poppins",
+      "family": "Poppins",
+      "weight": 400,
+      "weights": [
+        400,
+        700
+      ],
+      "color1": "white",
+      "color2": "#4a4a4a",
+      "color3": "black",
+      "fontSize": "20px"
+    },
+    "titleFont": {
+      "title": "Poppins",
+      "family": "Poppins",
+      "weight": 400,
+      "weights": [
+        400,
+        700
+      ],
+      "color1": "white",
+      "color2": "#d2d2d2",
+      "color3": "black",
+      "fontSize": "36px"
+    },
+    "subTitleFont": {
+      "title": "Poppins",
+      "family": "Poppins",
+      "weight": 400,
+      "weights": [
+        400,
+        700
+      ],
+      "color1": "gray",
+      "fontSize": "18px"
+    },
+    "68aab088-4b7c-4ea6-9806-9c9033648a9b": {
+      "title": "<div></div>",
+      "text": "<div></div>",
+      "subtitle": "<div></div>",
+      "titlePosition": "normal",
+      "raw": {
+        "ty": "root",
+        "c": [
+          {
+            "c": [],
+            "ty": "paragraph"
+          },
+          {
+            "ty": "prospero-element",
+            "elementType": "html",
+            "data": "<html><head></head><body>\n\n<h1 style=\"background-color:Tomato;\">Tomato</h1>\n<h1 style=\"background-color:Orange;\">Orange</h1>\n<h1 style=\"background-color:DodgerBlue;\">DodgerBlue</h1>\n<h1 style=\"background-color:MediumSeaGreen;\">MediumSeaGreen</h1>\n<h1 style=\"background-color:Gray;\">Gray</h1>\n\n\n</body></html>",
+            "config": {
+              "editable": true,
+              "size": {
+                "width": 439,
+                "height": 356
+              }
+            }
+          },
+          {
+            "c": [],
+            "ty": "paragraph"
+          },
+          {
+            "ty": "prospero-element",
+            "elementType": "milestone",
+            "data": {
+              "milestones": {
+                "chosen": {
+                  "OPTION 1": {
+                    "total": "",
+                    "list": [
+                      {
+                        "name": "Kickoff Meeting",
+                        "id": "6ea4b229-b56a-44aa-989d-b4677d8d899f",
+                        "price": 0,
+                        "type": null,
+                        "chosen": false,
+                        "selected": false,
+                        "time": "1",
+                        "description": "Kickoff Meeting description"
+                      },
+                      {
+                        "name": "Research",
+                        "id": "c7324880-9e4c-4ad5-8471-a34f7f38d95b",
+                        "price": 0,
+                        "type": null,
+                        "chosen": false,
+                        "selected": false,
+                        "time": "2"
+                      }
+                    ]
+                  },
+                  "OPTION 2": {
+                    "total": "",
+                    "list": [
+                      {
+                        "id": "f4d9737b-c5d5-4169-8068-1c0dba931415",
+                        "name": "Everything on option 1",
+                        "price": 0,
+                        "type": null
+                      }
+                    ]
+                  },
+                  "OPTION 3": {
+                    "total": "",
+                    "list": [
+                      {
+                        "id": "ebeae895-3e00-438d-bc44-0c70a2e85370",
+                        "name": "Everything on option 2",
+                        "price": 0,
+                        "type": null
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          {
+            "c": [],
+            "ty": "paragraph"
+          },
+          {
+            "ty": "prospero-element",
+            "elementType": "testimonial",
+            "data": [
+              {
+                "name": "Jhon",
+                "text": "HTML colors are specified with predefined color names.",
+                "avatar": "https://dr08qaykn9isr.cloudfront.net/props/77616594564e7ab9a3dca0fd/testimonials/68241f2c7dd21501d4834915.webp"
+              },
+              {
+                "name": "Mark",
+                "text": "HTML colors are specified with predefined color names"
+              },
+              {
+                "name": "",
+                "text": ""
+              }
+            ],
+            "config": {
+              "backgroundColor": "#5353e1",
+              "count": 3,
+              "horizontal": false,
+              "color": "#fef00e"
+            }
+          },
+          {
+            "c": [],
+            "ty": "paragraph"
+          }
+        ]
+      },
+      "rawtitle": {
+        "ty": "root",
+        "c": [
+          {
+            "c": [
+              {
+                "tx": "html"
+              }
+            ],
+            "ty": "paragraph"
+          }
+        ]
+      }
+    },
+    "b2903091-8588-49b8-b971-666e301ec2d7": {
+      "title": "<div></div>",
+      "text": "<div></div>",
+      "subtitle": "<div></div>",
+      "titlePosition": "normal",
+      "raw": {
+        "ty": "root",
+        "c": [
+          {
+            "c": [],
+            "ty": "paragraph"
+          },
+          {
+            "ty": "prospero-element",
+            "elementType": "form",
+            "data": [
+              {
+                "key": "First Name",
+                "value": "",
+                "selected": true,
+                "saved": true,
+                "required": true
+              },
+              {
+                "key": "Last Name",
+                "value": "",
+                "selected": true,
+                "saved": true
+              },
+              {
+                "key": "Date",
+                "value": "",
+                "selected": true,
+                "saved": true
+              },
+              {
+                "key": "Location",
+                "value": "",
+                "editable": true,
+                "saved": true,
+                "selected": true
+              },
+              {
+                "key": "Rank",
+                "value": "",
+                "editable": true,
+                "saved": true,
+                "selected": true
+              },
+              {
+                "key": "Please fill the form below",
+                "custom": false,
+                "head": true,
+                "saved": false
+              },
+              {
+                "key": "ID Number",
+                "value": "",
+                "saved": false
+              },
+              {
+                "key": "Birthday",
+                "value": "",
+                "saved": false
+              },
+              {
+                "key": "Company Name",
+                "value": "",
+                "saved": false
+              },
+              {
+                "key": "URL",
+                "value": "",
+                "saved": false
+              },
+              {
+                "key": "Phone Number",
+                "value": "",
+                "saved": false
+              },
+              {
+                "key": "Email",
+                "value": "",
+                "saved": false
+              },
+              {
+                "key": "Note",
+                "value": "",
+                "saved": false
+              }
+            ],
+            "config": {
+              "editable": false,
+              "columns": 1
+            }
+          },
+          {
+            "c": [],
+            "ty": "paragraph"
+          }
+        ]
+      }
+    }
+  }
+}
