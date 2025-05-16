@@ -5,7 +5,7 @@ const {
   convertListToLexical,
 } = require("./entityConverter");
 const {
-  convertDraftToLexical,
+  convertRaw,
   shortenKeys,
   expandKeys,
   mapBlockTypeToLexical,
@@ -29,7 +29,7 @@ try {
 
 
 // convert and output the result
-let jsonData = convertDraftToLexical(draftContentJSON, true);
+let jsonData = convertRaw(draftContentJSON, true);
 // jsonData = shortenKeys(jsonData);
 // jsonData = expandKeys(jsonData);
 // console.log("Lexical JSON Output:", JSON.stringify(lexicalJSON));

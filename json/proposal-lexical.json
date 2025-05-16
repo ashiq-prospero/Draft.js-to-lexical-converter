@@ -1,36 +1,86 @@
 {
   "_id": "77616594564e7ab9a3dca0fd",
-  "date": {
-    "$date": "2025-03-25T11:17:08.700Z"
+  "pid": "20074cbf-5048-48e1-bf63-588c8a0f7162",
+  "uid": "6371de67722cbe07546120fe",
+  "auid": "",
+  "pnum": "100069",
+  "name": "Ashiq",
+  "state": "milestones",
+  "channel": "6371de67722cbe07546120fe",
+  "email": "ashiq@goprospero.com",
+  "edited": "2025-05-16T14:10:32.181Z",
+  "isSecured": null,
+  "sharePasswordOverEmail": null,
+  "password": null,
+  "client": {
+    "contact": "Prospect Name",
+    "name": null,
+    "desc": null,
+    "address": null,
+    "text": null,
+    "email": null
   },
+  "seenTime": null,
+  "seenCount": null,
+  "lastSeen": null,
+  "emailLogs": [],
+  "openLogs": [],
+  "date": "2025-03-25T11:17:08.700Z",
+  "project": {
+    "name": "New Web Proposal bnm",
+    "type": "web ",
+    "othertype": "",
+    "desc": "I will provide the following services for you: [add services required here]",
+    "goals": "The aim of the project is to help drive business success by working together with your team in order to reach your goal by the deadline you set."
+  },
+  "approvedmanually": null,
+  "version": 16,
+  "sawyou": true,
+  "pricing": {
+    "strategy": "table"
+  },
+  "sawmilestones": true,
+  "superPowers": null,
+  "curr": null,
+  "priceSeperator": "none",
+  "decimalPrecision": 2,
+  "language": "english",
+  "expiryDate": null,
+  "expiryMessage": "",
+  "currency": "$",
+  "callButton": "block",
+  "contactButton": "block",
+  "contactnumber": "7002859966",
+  "enablePayment": null,
+  "clientPayableAmount": null,
+  "clientPayableLabel": null,
+  "clientPayableCurrency": null,
+  "clientPayableLink": null,
+  "editEvent": null,
+  "enableAITool": false,
+  "userway": null,
+  "creatorUserway": false,
+  "scripts": [],
+  "chatway": null,
+  "chatwayScripts": [],
+  "stripe": "",
+  "payment": null,
+  "published": null,
+  "disableSig": null,
+  "signatureEmails": [],
+  "selectedOption": null,
+  "prevState": null,
+  "payedfor": null,
+  "dateFormat": "MM/DD/YYYY",
+  "redirectTo": "https://secure.cardcom.solutions/EA/EA5/uAi26RMwAkChohOjfviJaw/Order",
+  "redirectAfter": 5,
+  "proposalRedirectAfter": null,
+  "proposalRedirectTo": null,
   "sigOptions": [
     "type",
     "upload",
     "draw"
   ],
-  "signatureEmails": [],
-  "scripts": [],
-  "returnOutput": [],
-  "tags": [],
-  "pid": "20074cbf-5048-48e1-bf63-588c8a0f7162",
-  "pnum": "100069",
-  "uid": "6371de67722cbe07546120fe",
-  "auid": "",
-  "name": "Ashiq",
-  "email": "ashiq@goprospero.com",
-  "version": 16,
-  "pricing": {
-    "strategy": "table"
-  },
-  "language": "english",
-  "priceSeperator": "none",
-  "decimalPrecision": 2,
-  "contactButton": "block",
-  "stripe": "",
-  "currency": "$",
-  "spamUrls": [],
-  "redirectTo": "https://secure.cardcom.solutions/EA/EA5/uAi26RMwAkChohOjfviJaw/Order",
-  "redirectAfter": 5,
   "contactOptions": [
     {
       "option": "email",
@@ -49,77 +99,20 @@
     }
   ],
   "sigtype": "sigtext",
-  "contactnumber": "7002859966",
-  "callButton": "block",
+  "signature": null,
+  "attachments": [],
+  "isEditing": null,
   "importedProposal": false,
-  "client": {
-    "contact": "Prospect Name",
-    "name": null,
-    "desc": null,
-    "address": null,
-    "text": null,
-    "email": null
-  },
-  "project": {
-    "name": "New Web Proposal bnm",
-    "desc": "I will provide the following services for you: [add services required here]",
-    "goals": "The aim of the project is to help drive business success by working together with your team in order to reach your goal by the deadline you set.",
-    "type": "web ",
-    "othertype": ""
-  },
-  "mondayBoardId": null,
-  "expiryDate": null,
-  "expiryMessage": "",
-  "enableAITool": false,
+  "spamUrls": [],
+  "wixConnectedInstance": null,
+  "fromUserTemplate": null,
+  "isBasicTemplate": null,
+  "wixProposalId": null,
+  "wixPricing": null,
+  "isWixTemplate": null,
   "fonts": [],
   "sharedViaMail": false,
   "emailSettings": null,
-  "openLogs": [],
-  "emailLogs": [],
-  "attachments": [],
-  "__v": 0,
-  "approvedmanually": null,
-  "chatway": null,
-  "clientPayableAmount": null,
-  "clientPayableCurrency": null,
-  "clientPayableLabel": null,
-  "clientPayableLink": null,
-  "creatorUserway": false,
-  "curr": null,
-  "dateFormat": "MM/DD/YYYY",
-  "disableSig": null,
-  "editEvent": null,
-  "edited": {
-    "$date": "2025-05-14T04:45:03.130Z"
-  },
-  "enablePayment": null,
-  "fromUserTemplate": null,
-  "isBasicTemplate": null,
-  "isEditing": null,
-  "isWixTemplate": null,
-  "lastSeen": null,
-  "payedfor": null,
-  "payment": null,
-  "prevState": null,
-  "proposalRedirectAfter": null,
-  "proposalRedirectTo": null,
-  "published": null,
-  "sawmilestones": true,
-  "sawyou": true,
-  "seenCount": null,
-  "seenTime": null,
-  "selectedOption": null,
-  "signature": null,
-  "state": "milestones",
-  "superPowers": null,
-  "userway": null,
-  "wixConnectedInstance": null,
-  "wixPricing": null,
-  "wixProposalId": null,
-  "proptext": null,
-  "isSecured": null,
-  "password": null,
-  "sharePasswordOverEmail": null,
   "lexical": {
     "variables": {
       "client": {
@@ -232,7 +225,7 @@
           "value": "Ashiq"
         },
         "email": {
-          "count": 0,
+          "count": 1,
           "value": "ashiq@goprospero.com"
         },
         "phone": {
@@ -278,12 +271,12 @@
         "ty": "root",
         "c": [
           {
+            "ty": "paragraph",
             "c": [
               {
                 "tx": "Overview"
               }
-            ],
-            "ty": "paragraph"
+            ]
           }
         ]
       },
@@ -291,12 +284,12 @@
         "ty": "root",
         "c": [
           {
+            "ty": "paragraph",
             "c": [
               {
                 "tx": "This is overview subtitle"
               }
-            ],
-            "ty": "paragraph"
+            ]
           }
         ]
       },
@@ -305,31 +298,527 @@
         "ty": "root",
         "c": [
           {
+            "ty": "paragraph",
             "c": [
               {
-                "tx": "I will provide "
+                "tx": "Client name : "
               },
               {
-                "ty": "variable",
-                "tx": "{{client.firstName}}"
+                "tx": "{{client.firstName}}",
+                "ty": "variable"
               },
               {
-                "tx": " the following services for you: [add services required here] The aim of the project is to help drive business success by working together with your team in order to reach your goal by the deadline you set."
+                "tx": " the following services for you: [add services required here] The aim of the project is to help"
+              },
+              {
+                "c": [
+                  {
+                    "tx": " drive busin"
+                  }
+                ],
+                "ty": "link",
+                "url": "https://github.com/Prospero-Proposals/prospero-react/pull/5139/files"
+              },
+              {
+                "tx": "ess success by working together with your team in order to reach your goal by the deadline you set. this is "
+              },
+              {
+                "tx": "b",
+                "f": 1
+              },
+              {
+                "c": [
+                  {
+                    "tx": "old",
+                    "f": 1
+                  }
+                ],
+                "ty": "link",
+                "url": "https://github.com/Prospero-Proposals/prospero-react/actions"
+              },
+              {
+                "c": [
+                  {
+                    "tx": " "
+                  }
+                ],
+                "ty": "link",
+                "url": "https://github.com/Prospero-Proposals/prospero-react/actions"
+              },
+              {
+                "c": [
+                  {
+                    "tx": "italic",
+                    "f": 2
+                  }
+                ],
+                "ty": "link",
+                "url": "https://github.com/Prospero-Proposals/prospero-react/actions"
+              },
+              {
+                "c": [
+                  {
+                    "tx": " "
+                  }
+                ],
+                "ty": "link",
+                "url": "https://github.com/Prospero-Proposals/prospero-react/actions"
+              },
+              {
+                "c": [
+                  {
+                    "tx": "bi-color",
+                    "s": "color: rgba(27, 236, 52, 1);",
+                    "f": 3
+                  }
+                ],
+                "ty": "link",
+                "url": "https://github.com/Prospero-Proposals/prospero-react/actions"
+              },
+              {
+                "tx": "ed",
+                "s": "color: rgba(27, 236, 52, 1);",
+                "f": 3
               }
-            ],
-            "ty": "paragraph"
+            ]
           },
           {
+            "ty": "paragraph",
             "c": [
               {
                 "tx": "Proposal : "
               },
               {
-                "ty": "variable",
-                "tx": "{{proposal.name}}"
+                "tx": "{{proposal.name}}",
+                "ty": "variable"
+              },
+              {
+                "tx": " "
+              },
+              {
+                "tx": "bold ",
+                "f": 1
+              },
+              {
+                "tx": "italic ",
+                "f": 2
+              },
+              {
+                "tx": "underline ",
+                "f": 8
+              },
+              {
+                "tx": "strike",
+                "f": 4
+              },
+              {
+                "tx": " "
+              },
+              {
+                "tx": "bold-italic ",
+                "f": 3
+              },
+              {
+                "tx": "bd-it-un",
+                "f": 11
+              },
+              {
+                "tx": " "
+              },
+              {
+                "tx": "italic-un",
+                "f": 10
+              },
+              {
+                "tx": " "
+              },
+              {
+                "tx": "bold-strike",
+                "f": 5
+              },
+              {
+                "tx": " "
+              },
+              {
+                "tx": "bold-uline",
+                "f": 9
+              },
+              {
+                "tx": " "
+              },
+              {
+                "tx": "color",
+                "s": "color: rgba(251, 167, 26, 1);"
+              },
+              {
+                "tx": " "
+              },
+              {
+                "tx": "background",
+                "s": "background-color: rgba(255, 242, 137, 1);"
+              },
+              {
+                "tx": " "
+              },
+              {
+                "tx": "col-bg",
+                "s": "background-color: rgba(98, 14, 248, 1);color: rgba(251, 38, 226, 1);"
+              },
+              {
+                "tx": " "
+              },
+              {
+                "tx": "col-bg-bold",
+                "s": "background-color: rgba(246, 22, 22, 1);color: rgba(254, 253, 253, 1);",
+                "f": 1
+              },
+              {
+                "tx": " "
+              },
+              {
+                "tx": "col-bg-italic",
+                "s": "background-color: rgba(23, 114, 244, 1);color: rgba(42, 246, 238, 1);",
+                "f": 2
+              },
+              {
+                "tx": " "
+              },
+              {
+                "tx": "fontsize-12",
+                "s": "font-size: 12px;"
+              },
+              {
+                "tx": " "
+              },
+              {
+                "tx": "fontfamily-aton",
+                "s": "font-weight: 400;font-family: anton;"
+              },
+              {
+                "tx": " "
+              },
+              {
+                "tx": "fontweight-200",
+                "s": "font-family: poppins;font-weight: 200;"
+              },
+              {
+                "tx": " "
+              },
+              {
+                "tx": "fontsize-fam",
+                "s": "font-size: 14px;font-weight: 400;font-family: architects daughter;"
+              },
+              {
+                "tx": " "
+              },
+              {
+                "tx": "fontsize-fam-color-bg",
+                "s": "color: rgba(244, 51, 51, 1);font-size: 14px;font-family: crafty girls;font-weight: 400;background-color: rgba(251, 239, 40, 1);"
+              },
+              {
+                "tx": " "
+              },
+              {
+                "c": [
+                  {
+                    "tx": "link1"
+                  }
+                ],
+                "ty": "link",
+                "url": "https://playground.lexical.dev/"
+              },
+              {
+                "tx": " "
+              },
+              {
+                "c": [
+                  {
+                    "tx": "link-bold",
+                    "f": 1
+                  }
+                ],
+                "ty": "link",
+                "url": "https://playground.lexical"
+              },
+              {
+                "tx": " "
+              },
+              {
+                "c": [
+                  {
+                    "tx": "link-color",
+                    "s": "color: rgba(46, 251, 29, 1);"
+                  }
+                ],
+                "ty": "link",
+                "url": "https://lexical.dev"
+              }
+            ]
+          },
+          {
+            "ty": "paragraph",
+            "c": []
+          },
+          {
+            "ty": "quote",
+            "c": [
+              {
+                "tx": "this is a quote"
+              }
+            ]
+          },
+          {
+            "ty": "paragraph",
+            "c": [
+              {
+                "tx": "This is a paragraph, left align"
               }
             ],
-            "ty": "paragraph"
+            "f": "left"
+          },
+          {
+            "ty": "paragraph",
+            "c": [
+              {
+                "tx": "This is a paragraph, center align"
+              }
+            ],
+            "f": "center"
+          },
+          {
+            "ty": "paragraph",
+            "c": [
+              {
+                "tx": "This is a paragraph, right align"
+              }
+            ],
+            "f": "right"
+          },
+          {
+            "ty": "paragraph",
+            "c": []
+          },
+          {
+            "ty": "paragraph",
+            "c": [
+              {
+                "tx": "This is a para graph, justify align This is a para graph, justify alignThis is a para graph, justify align. This is a para graph, justify alignThis is a para graph, justify align."
+              }
+            ],
+            "f": "justify"
+          },
+          {
+            "ty": "paragraph",
+            "c": [],
+            "f": "justify"
+          },
+          {
+            "ty": "list",
+            "listType": "bullet",
+            "start": 1,
+            "tag": "ul",
+            "c": [
+              {
+                "ty": "listitem",
+                "c": [
+                  {
+                    "tx": "List item level 1"
+                  }
+                ]
+              },
+              {
+                "ty": "listitem",
+                "c": [
+                  {
+                    "tx": "List item level 1 2 "
+                  },
+                  {
+                    "tx": "{{sender.email}}",
+                    "ty": "variable"
+                  }
+                ]
+              },
+              {
+                "ty": "list",
+                "listType": "bullet",
+                "start": 1,
+                "tag": "ul",
+                "c": [
+                  {
+                    "ty": "listitem",
+                    "c": [
+                      {
+                        "tx": "level 1.1"
+                      }
+                    ]
+                  },
+                  {
+                    "ty": "list",
+                    "listType": "bullet",
+                    "start": 1,
+                    "tag": "ul",
+                    "c": [
+                      {
+                        "ty": "listitem",
+                        "c": [
+                          {
+                            "tx": "level 1.2"
+                          }
+                        ]
+                      },
+                      {
+                        "ty": "list",
+                        "listType": "bullet",
+                        "start": 1,
+                        "tag": "ul",
+                        "c": [
+                          {
+                            "ty": "listitem",
+                            "c": [
+                              {
+                                "tx": "level 1.3"
+                              }
+                            ]
+                          },
+                          {
+                            "ty": "list",
+                            "listType": "bullet",
+                            "start": 1,
+                            "tag": "ul",
+                            "c": [
+                              {
+                                "ty": "listitem",
+                                "c": [
+                                  {
+                                    "tx": "level 1.4"
+                                  }
+                                ]
+                              },
+                              {
+                                "ty": "listitem",
+                                "c": [
+                                  {
+                                    "tx": "level 1.4 2"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "ty": "paragraph",
+            "c": []
+          },
+          {
+            "ty": "list",
+            "listType": "number",
+            "start": 1,
+            "tag": "ol",
+            "c": [
+              {
+                "ty": "listitem",
+                "c": [
+                  {
+                    "tx": "num List item level 1, "
+                  },
+                  {
+                    "tx": "bold",
+                    "f": 1
+                  }
+                ]
+              },
+              {
+                "ty": "listitem",
+                "c": [
+                  {
+                    "tx": "num List item level 1 2, "
+                  },
+                  {
+                    "tx": "color",
+                    "s": "color: rgba(239, 32, 32, 1);"
+                  }
+                ]
+              },
+              {
+                "ty": "list",
+                "listType": "number",
+                "start": 1,
+                "tag": "ol",
+                "c": [
+                  {
+                    "ty": "listitem",
+                    "c": [
+                      {
+                        "tx": "num level 1.1"
+                      }
+                    ]
+                  },
+                  {
+                    "ty": "list",
+                    "listType": "number",
+                    "start": 1,
+                    "tag": "ol",
+                    "c": [
+                      {
+                        "ty": "listitem",
+                        "c": [
+                          {
+                            "tx": "num level 1.2"
+                          }
+                        ]
+                      },
+                      {
+                        "ty": "list",
+                        "listType": "number",
+                        "start": 1,
+                        "tag": "ol",
+                        "c": [
+                          {
+                            "ty": "listitem",
+                            "c": [
+                              {
+                                "tx": "num level 1.3"
+                              }
+                            ]
+                          },
+                          {
+                            "ty": "list",
+                            "listType": "number",
+                            "start": 1,
+                            "tag": "ol",
+                            "c": [
+                              {
+                                "ty": "listitem",
+                                "c": [
+                                  {
+                                    "tx": "numlevel 1.4"
+                                  }
+                                ]
+                              },
+                              {
+                                "ty": "listitem",
+                                "c": [
+                                  {
+                                    "tx": "num level 1.4.4 2"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
@@ -340,12 +829,12 @@
         "ty": "root",
         "c": [
           {
+            "ty": "paragraph",
             "c": [
               {
                 "tx": "Cost"
               }
-            ],
-            "ty": "paragraph"
+            ]
           }
         ]
       },
@@ -353,8 +842,8 @@
         "ty": "root",
         "c": [
           {
-            "c": [],
-            "ty": "paragraph"
+            "ty": "paragraph",
+            "c": []
           }
         ]
       },
@@ -362,16 +851,16 @@
         "ty": "root",
         "c": [
           {
+            "ty": "paragraph",
             "c": [
               {
                 "tx": "Here's a breakdown of the deliverables we've discussed and their cost:"
               }
-            ],
-            "ty": "paragraph"
+            ]
           },
           {
-            "c": [],
-            "ty": "paragraph"
+            "ty": "paragraph",
+            "c": []
           },
           {
             "ty": "prospero-element",
@@ -444,26 +933,31 @@
             "ty": "horizontalrule"
           },
           {
+            "ty": "paragraph",
             "c": [
               {
                 "tx": "Image element:"
               }
-            ],
-            "ty": "paragraph"
+            ]
           },
           {
             "ty": "image",
             "src": "https://dr08qaykn9isr.cloudfront.net/props/77616594564e7ab9a3dca0fd/section/67e3e50428bd7e1b869043be.png",
             "config": {
+              "opacity": 1,
+              "editable": true,
+              "alignment": "left",
+              "border": {},
+              "shadow": {},
               "imageType": "png",
-              "width": 332,
-              "height": 188,
+              "width": 341.69999999999885,
+              "height": 193.05084745762647,
               "ratio": 1.77
             }
           },
           {
-            "c": [],
-            "ty": "paragraph"
+            "ty": "paragraph",
+            "c": []
           }
         ]
       }
@@ -475,12 +969,12 @@
         "ty": "root",
         "c": [
           {
+            "ty": "paragraph",
             "c": [
               {
                 "tx": "Terms"
               }
-            ],
-            "ty": "paragraph"
+            ]
           }
         ]
       },
@@ -488,8 +982,8 @@
         "ty": "root",
         "c": [
           {
-            "c": [],
-            "ty": "paragraph"
+            "ty": "paragraph",
+            "c": []
           }
         ]
       },
@@ -571,12 +1065,12 @@
         "ty": "root",
         "c": [
           {
+            "ty": "paragraph",
             "c": [
               {
                 "tx": "What's Next"
               }
-            ],
-            "ty": "paragraph"
+            ]
           }
         ]
       },
@@ -584,8 +1078,8 @@
         "ty": "root",
         "c": [
           {
-            "c": [],
-            "ty": "paragraph"
+            "ty": "paragraph",
+            "c": []
           }
         ]
       },
@@ -594,16 +1088,16 @@
         "ty": "root",
         "c": [
           {
+            "ty": "paragraph",
             "c": [
               {
                 "tx": "I will be happy to answer any question regarding this proposal. You can reach me at my phone or at ashiq@goprospero.com."
               }
-            ],
-            "ty": "paragraph"
+            ]
           },
           {
-            "c": [],
-            "ty": "paragraph"
+            "ty": "paragraph",
+            "c": []
           },
           {
             "ty": "prospero-element",
@@ -653,12 +1147,12 @@
             "config": {}
           },
           {
+            "ty": "paragraph",
             "c": [
               {
                 "tx": "\nVideo"
               }
-            ],
-            "ty": "paragraph"
+            ]
           },
           {
             "ty": "video",
@@ -666,16 +1160,16 @@
             "config": {}
           },
           {
+            "ty": "paragraph",
             "c": [
               {
                 "tx": "\ntable"
               }
-            ],
-            "ty": "paragraph"
+            ]
           },
           {
-            "c": [],
-            "ty": "paragraph"
+            "ty": "paragraph",
+            "c": []
           },
           {
             "ty": "table",
@@ -814,8 +1308,8 @@
             ]
           },
           {
-            "c": [],
-            "ty": "paragraph"
+            "ty": "paragraph",
+            "c": []
           }
         ]
       }
@@ -826,12 +1320,12 @@
         "ty": "root",
         "c": [
           {
+            "ty": "paragraph",
             "c": [
               {
                 "tx": "Signature"
               }
-            ],
-            "ty": "paragraph"
+            ]
           }
         ]
       },
@@ -840,12 +1334,12 @@
         "ty": "root",
         "c": [
           {
+            "ty": "paragraph",
             "c": [
               {
                 "tx": "Ashiq"
               }
-            ],
-            "ty": "paragraph"
+            ]
           }
         ]
       },
@@ -854,12 +1348,12 @@
         "ty": "root",
         "c": [
           {
+            "ty": "paragraph",
             "c": [
               {
                 "tx": "Prospect Name"
               }
-            ],
-            "ty": "paragraph"
+            ]
           }
         ]
       },
@@ -868,6 +1362,7 @@
     },
     "sectionorder": [
       "overview",
+      "5e52a565-e7a4-4088-8540-3b4b073f740b",
       "pricing2",
       "milestones2",
       "whatsnext",
@@ -921,8 +1416,8 @@
         "ty": "root",
         "c": [
           {
-            "c": [],
-            "ty": "paragraph"
+            "ty": "paragraph",
+            "c": []
           },
           {
             "ty": "prospero-element",
@@ -937,8 +1432,8 @@
             }
           },
           {
-            "c": [],
-            "ty": "paragraph"
+            "ty": "paragraph",
+            "c": []
           },
           {
             "ty": "prospero-element",
@@ -997,8 +1492,8 @@
             }
           },
           {
-            "c": [],
-            "ty": "paragraph"
+            "ty": "paragraph",
+            "c": []
           },
           {
             "ty": "prospero-element",
@@ -1026,8 +1521,8 @@
             }
           },
           {
-            "c": [],
-            "ty": "paragraph"
+            "ty": "paragraph",
+            "c": []
           }
         ]
       },
@@ -1035,12 +1530,12 @@
         "ty": "root",
         "c": [
           {
+            "ty": "paragraph",
             "c": [
               {
                 "tx": "html"
               }
-            ],
-            "ty": "paragraph"
+            ]
           }
         ]
       }
@@ -1054,8 +1549,8 @@
         "ty": "root",
         "c": [
           {
-            "c": [],
-            "ty": "paragraph"
+            "ty": "paragraph",
+            "c": []
           },
           {
             "ty": "prospero-element",
@@ -1142,8 +1637,28 @@
             }
           },
           {
-            "c": [],
-            "ty": "paragraph"
+            "ty": "paragraph",
+            "c": []
+          }
+        ]
+      }
+    },
+    "5e52a565-e7a4-4088-8540-3b4b073f740b": {
+      "title": "<div></div>",
+      "text": "<div></div>",
+      "subtitle": "<div></div>",
+      "titlePosition": "normal",
+      "raw": {
+        "ty": "root",
+        "c": [
+          {
+            "ty": "styled-paragraph",
+            "c": [
+              {
+                "tx": "Line height's a breakdown of the deliverablesLine height's a breakdown of the deliverablesLine height's a breakdown of the deliverablesLine height's a breakdown of the deliverablesLine height's a breakdown of the deliverables"
+              }
+            ],
+            "s": "line-height: 2.0;"
           }
         ]
       }

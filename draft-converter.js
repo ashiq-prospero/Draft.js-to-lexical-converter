@@ -28,5 +28,5 @@ fs.writeFileSync(lexicalProposal, JSON.stringify(proposal, null, 2), "utf-8");
 
 
 // convert and output the result
-// let jsonData = convertDraftToLexical(proposalJson);
+// let jsonData = convertRaw(proposalJson);
 console.log("output: done");

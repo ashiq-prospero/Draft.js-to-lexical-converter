@@ -81,9 +81,7 @@ To optimize the JSON:
 TODO
 -----------
     handle \n
-    convert price, mile, html and all other elements
-    handle variable -> variable node 
-    
+    handle variable -> variable node  ✅
     divider - ✅
     form - ✅
     image ✅
@@ -94,24 +92,9 @@ TODO
     html - ✅
     goal - ✅
     testimonial - ✅
+    quote - ✅
+    all basic text format- ✅
+    link - ✅
+    color and bg - ✅
 
-    quote
 
-
-
-
-
-const COMPONENT_REGISTRY = {
-  form: Form,
-  gallery: Gallery,
-  price: Price,
-  html: Html,
-  goal: Goal,
-  testimonial: Testimonial,
-};
-
-"type": "prospero-element",
-"version": 1,
-"format": "",
-"elementType": "price",
-"data": {}

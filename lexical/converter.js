@@ -63,17 +63,25 @@ const STYLE_BITMASK = {
   code: 16,
 };
 
-
-
+/**
+ * Converts a proposal object by removing unnecessary fields and converting the draft to Lexical format.
+ * @param {Object} proposal - The proposal object containing a draft and other fields.
+ * @returns {Object} - The converted proposal object with Lexical format.
+ */
 const convertProposal = (proposal) => {
   let _proposal = { ...proposal };
   const draft = _proposal.draft;
   _proposal = deleteFields(_proposal);
-  _proposal.lexical = draftToLexical(draft);
+  _proposal.lexical = draftToLexical(draft, true);
 
   return _proposal;
 };
 
+/**
+ * Deletes unnecessary fields from the proposal object.
+ * @param {Object} proposal - The proposal object.
+ * @returns {Object} - The proposal object with specific fields removed.
+ */
 const deleteFields = (proposal) => {
   delete proposal.draft;
   delete proposal.deliverables;
@@ -83,7 +91,13 @@ const deleteFields = (proposal) => {
   return proposal;
 };
 
-const draftToLexical = (draft) => {
+/**
+ * Converts a proposal.draft object to Lexical JSON format.
+ * @param {Object} draft - The proposal.draft object.
+ * @param {boolean} [shorten=true] - Whether to shorten the keys in the Lexical JSON.
+ * @returns {Object} - The Lexical JSON representation of the draft.
+ */
+const draftToLexical = (draft, shorten = true) => {
   // removed the delete sections from draft
   const keepSection = [...draft.sectionorder, ...draftNonSection, "signature"];
 
@@ -93,12 +107,18 @@ const draftToLexical = (draft) => {
     }
   });
 
-  lexical = findRawAndConvert(draft);
+  lexical = findRawAndConvert(draft, shorten);
 
   return lexical;
 };
 
-function findRawAndConvert(obj) {
+/**
+ * Recursively finds and converts raw fields in an object to Lexical format.
+ * @param {Object} obj - The object containing raw fields.
+ * @param {boolean} [shorten=true] - Whether to shorten the keys in the Lexical JSON.
+ * @returns {Object} - The object with raw fields converted to Lexical format.
+ */
+function findRawAndConvert(obj, shorten = true) {
   if (!obj) {
     return obj;
   }
@@ -111,11 +131,11 @@ function findRawAndConvert(obj) {
     if (!draftNonSection.includes(key) || typeof obj[key] === "object") {
       if (raws.includes(key)) {
         // if raw then convert to lexical
-        obj[key] = convertDraftToLexical({ ...obj[key] }, true);
+        obj[key] = convertRaw({ ...obj[key] }, shorten);
       }
       // recursively call findRawAndConvert
       else {
-        obj[key] = findRawAndConvert({ ...obj[key] });
+        obj[key] = findRawAndConvert({ ...obj[key] }, shorten);
       }
     }
   });
@@ -123,8 +143,15 @@ function findRawAndConvert(obj) {
   return obj;
 }
 
-// main function to convert Draft.js JSON to Lexical JSON and wrap in `editorState`
-function convertDraftToLexical(obj, shorten = true) {
+/**
+ * main function to convert Draft.js JSON to Lexical JSON and wrap in `editorState`
+ *
+ * Converts a raw Draft.js object to Lexical JSON format.
+ * @param {Object} obj - The raw Draft.js object.
+ * @param {boolean} [shorten=true] - Whether to shorten the keys in the Lexical JSON.
+ * @returns {Object} - The Lexical JSON representation of the raw object.
+ */
+function convertRaw(obj, shorten = true) {
   let root = {
     type: "root",
     // defaults: {
@@ -219,26 +246,16 @@ function convertDraftToLexical(obj, shorten = true) {
   return root;
 }
 
-
-/*
-1. if a node contains children
-2. check if the node.text is having variable in this format {{client.name}}
-3. if yes then split the text into multiple nodes, the variable node would be of type variable, the rest of the text would be of type text in right order
-4. if the node contains node.children then continue step 2,3
-
-input:
-{"type":"root","children":[{"children":[{"text":"I will provide {{client.firstName}} the following services for you","type":"text"}],"type":"paragraph","direction":"ltr"},{"children":[{"text":"Proposal : {{proposal.name}}","type":"text"}],"type":"paragraph","direction":"ltr"}]}
-output:
-{"type":"root","children":[{"children":[{"text":"I will provide ","type":"text"},{"text":"{{client.firstName}}","type":"variable"},{"text":" the following services for you","type":"text"}],"type":"paragraph","direction":"ltr"},{"children":[{"text":"Proposal : ","type":"text"},{"text":"{{proposal.name}}","type":"variable"}],"type":"paragraph","direction":"ltr"}]}
-*/
-// function convertToVariableNodes(root) {
-//   console.log('loger')
-//   console.log(JSON.stringify(root));
-// }
+/**
+ * Converts text containing variables (e.g., {{variableName}}) into separate nodes.
+ * @param {Object} root - The root Lexical JSON object.
+ * @returns {Object} - The updated Lexical JSON object with variable nodes.
+ */
 function convertToVariableNodes(root) {
   const variableRegex = /{{(.*?)}}/g;
 
-  function processTextNode(text) {
+  function processTextNode(child) {
+    const text = child.text;
     const matches = [...text.matchAll(variableRegex)];
     const nodes = [];
     let lastIndex = 0;
@@ -249,18 +266,18 @@ function convertToVariableNodes(root) {
 
       // Add plain text before the variable
       if (startIndex > lastIndex) {
-        nodes.push({ type: "text", text: text.slice(lastIndex, startIndex) });
+        nodes.push({ ...child, text: text.slice(lastIndex, startIndex) });
       }
 
       // Add the variable node
-      nodes.push({ type: "variable", text: fullMatch });
+      nodes.push({ ...child, type: "variable", text: fullMatch });
 
       lastIndex = startIndex + fullMatch.length;
     });
 
     // Add remaining plain text after the last variable
     if (lastIndex < text.length) {
-      nodes.push({ type: "text", text: text.slice(lastIndex) });
+      nodes.push({ ...child, type: "text", text: text.slice(lastIndex) });
     }
 
     return nodes;
@@ -270,7 +287,8 @@ function convertToVariableNodes(root) {
     return children.flatMap((child) => {
       if (child.text) {
         // Process text nodes to split into text and variable nodes
-        return processTextNode(child.text);
+        const _childs = processTextNode(child);
+        return _childs;
       } else if (child.children) {
         // Recursively process child nodes
         return { ...child, children: processChildren(child.children) };
@@ -284,7 +302,6 @@ function convertToVariableNodes(root) {
     children: processChildren(root.children),
   };
 }
-
 
 // Convert Draft.js styles to a format bitmask
 const calculateFormatBitmask = (styles) =>
@@ -612,6 +629,7 @@ function convertBlockToLexical(block, entityMap) {
   }
 
   const data = {
+    type: type,
     children: mergeInlineStyles(
       block.text,
       block.inlineStyleRanges,
@@ -620,9 +638,6 @@ function convertBlockToLexical(block, entityMap) {
     ),
   };
 
-  if (type) {
-    data.type = type;
-  }
   if (format) {
     data.format = format;
   }
@@ -636,6 +651,11 @@ function convertBlockToLexical(block, entityMap) {
   const lineHeight = extractLineHeight(block.type);
   if (lineHeight) {
     data.style = `line-height: ${lineHeight};`;
+
+    // for styled paragraph change node type
+    if (data.type === "paragraph") {
+      data.type = "styled-paragraph";
+    }
   }
 
   return data;
@@ -739,6 +759,6 @@ module.exports = {
   shortenKeys,
   expandKeys,
   extractLineHeight,
-  convertDraftToLexical,
+  convertRaw,
   convertToVariableNodes,
 };
